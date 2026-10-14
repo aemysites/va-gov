@@ -1,0 +1,37 @@
+{
+  "runtime": "vanilla-eds",
+  "blockWrapperClass": "block",
+  "buttonClasses": "a.button.primary / .secondary / .accent in p.button-wrapper; painted as .btn-primary / .btn-outline",
+  "buttonization": "formatted-only (strong = primary, em = secondary, both = accent)",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": true,
+  "breakpoints": [481, 640, 768, 880, 1024],
+  "breakpointRule": "min-width media queries written as (width >= N); chrome switches mobile/desktop at 768; crisis tab floats at 1024",
+  "container": "--va-container 1024px; --va-container-pad 16px (<768) / 32px (>=768); default content capped, block wrappers full-bleed — each block owns its container",
+  "tokens": "--va-* in styles/styles.css :root (ink, link, navy, primary-dark, gray-lightest(-2), border(-dark), rule, crisis, info-bg, info-accent, gold, font-sans, font-serif)",
+  "fonts": {
+    "files": [
+      "fonts/sourcesanspro-regular-webfont-TJXUUIWO.woff2",
+      "fonts/sourcesanspro-bold-webfont-SCSOYK7L.woff2",
+      "fonts/sourcesanspro-italic-webfont-X2X3YPXD.woff2",
+      "fonts/sourcesanspro-bolditalic-webfont-4ZT7N24T.woff2",
+      "fonts/bitter-regular-6ETIX3HM.woff2",
+      "fonts/bitter-bold-GMUGIFN6.woff2"
+    ],
+    "faces": "styles/fonts.css (Source Sans Pro Web 400/700 + italics, Bitter 400/700, OFL)",
+    "fallbacks": "styles/styles.css source-sans-pro-web-fallback (Arial), bitter-fallback (Times New Roman)"
+  },
+  "navHeight": "127px (<768) / 212px (768-1023) / 178px (>=1024), measured on the prototype",
+  "chromeDocuments": {
+    "/nav": "sections classified by content: banner | crisis (+modal) | tools (logo, Search, Contact us, Sign in, Menu) | mega panels (h2 title; h3 hub + h4/ul columns, or h3 + ul columns) | links (ul)",
+    "/footer": "sections: crisis line | 4 columns (h2 + ul parts) | language (last h2 section) | logo (home link) | bottom links (ul)",
+    "robots": "Robots | noindex metadata row on both"
+  },
+  "chromeIcons": "decorative chrome images served from /icons/ (flag, dot-gov, https, VCL icon, arrows, plus/minus, header-logo.png, va-logo-white.png, stars.png)",
+  "sharedClasses": ".btn-primary, .btn-outline, .last-updated (.last-updated-row, .last-updated-date, .fb), .stars, .stars-wrap, .portraits, .sr-only, ul.unstyled",
+  "crisisModal": "owned by the header block; any element with class crisis-open (any block) opens it via a delegated document click listener",
+  "dynamicTiers": "Sign in = link to https://www.va.gov/sign-in (interim); search submits GET https://www.va.gov/search/?query= (interim)",
+  "blockNaming": "page blocks: kebab-case, one block per prototype section (blocks/<name>/<name>.{js,css}); CSS scoped under .<name>; class names kebab-case (no BEM __); no <header> elements inside blocks; reuse --va-* tokens only",
+  "internalLinks": "the 5 in-scope pages are root-relative extensionless without trailing slash (/, /health-care, /housing-assistance, /life-insurance, /family-and-caregiver-benefits); every other va.gov URL stays absolute https://www.va.gov/…",
+  "editability": "chrome is template-slotted: authored elements are MOVED (EW1); mobile copies are instrumentation-stripped clones (EW4)"
+}

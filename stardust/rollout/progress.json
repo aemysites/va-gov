@@ -1,0 +1,143 @@
+{
+ "units": {
+  "foundation": {
+   "status": "done",
+   "kind": "foundation",
+   "templates": [
+    "landing",
+    "program"
+   ],
+   "pages": 0,
+   "startedAt": "2026-10-13T17:13:57.570Z",
+   "endedAt": "2026-10-13T18:36:09.689Z",
+   "blocks": 2,
+   "gates": {
+    "360": {
+     "headerBand": "1.22%",
+     "footerBand": "1.05%"
+    },
+    "1440": {
+     "headerBand": "0.14%",
+     "footerBand": "1.40%"
+    },
+    "crop": "header 0.14%/1.22%, footer 1.40%/1.05% (bar 2%)",
+    "chrome": "header contract 0 errors / 7 warnings (exit 0) vs re-explored live contract",
+    "overflow768": "0px"
+   },
+   "verdict": "foundation: files 37 (styles, fonts, header, footer, head), nav+footer live yes, lint ok, code synced yes; header contract 0/7 exit 0; bands header 0.14%/1.22%, footer 1.40%/1.05%"
+  },
+  "archetype-landing": {
+   "status": "done",
+   "kind": "archetype",
+   "templates": [
+    "landing"
+   ],
+   "pages": 1,
+   "startedAt": "2026-10-13T19:08:30Z",
+   "endedAt": "2026-10-13T19:30:12Z",
+   "blocks": 8,
+   "gates": {
+    "360": {
+     "index": "10.64% Δh -27 FAIL (headed origin vs headless preview) → documented override; same-browser 2.79% Δh -2 PASS",
+     "headerBand": "1.29%",
+     "footerBand": "1.04%"
+    },
+    "1440": {
+     "index": "4.95% Δh -12 PASS",
+     "headerBand": "0.77%",
+     "footerBand": "0.26%"
+    },
+    "clip": 0,
+    "presence": "MISSING 0 / HIDDEN 0",
+    "chromeParity": "9 deltas 1440 / 13 at 360"
+   },
+   "verdict": "archetype-landing: index live yes, blocks 8 (new 6, reused 2), gate 1440 4.95% Δh -12 / 360 10.64% Δh -27 [override: same-browser 2.79% Δh -2], clip 0, presence MISSING 0 / HIDDEN 0, bands header 0.77/1.29% footer 0.26/1.04%, requests 0"
+  },
+  "archetype-program": {
+   "status": "done",
+   "kind": "archetype",
+   "templates": [
+    "program"
+   ],
+   "pages": 1,
+   "startedAt": "2026-10-13T18:37:16Z",
+   "endedAt": "2026-10-13T19:08:06Z",
+   "blocks": 9,
+   "gates": {
+    "360": {
+     "health-care": "12.44% Δh -106 FAIL (headed origin vs headless preview) → documented override; same-browser 4.95% Δh -5 PASS",
+     "headerBand": "1.21%",
+     "footerBand": "0.64%"
+    },
+    "1440": {
+     "health-care": "3.62% Δh -1 PASS",
+     "headerBand": "0.14%",
+     "footerBand": "0.50%"
+    },
+    "clip": 0,
+    "presence": "MISSING 0 / HIDDEN 0"
+   },
+   "verdict": "archetype-program: health-care live yes, blocks 9, gate 1440 3.62% Δh -1 / 360 4.95% Δh -5 same-browser (official 12.44% browser-tier asymmetry, override in all-360/overrides.json), clip 0, presence 0, bands header 0.14/1.21% footer 0.50/0.64%, requests 1"
+  },
+  "program": {
+   "status": "done",
+   "kind": "cluster",
+   "templates": [
+    "program"
+   ],
+   "pages": 3,
+   "startedAt": "2026-10-13T19:17:15Z",
+   "endedAt": "2026-10-13T19:50:24Z",
+   "blocks": 9,
+   "gates": {
+    "360": {
+     "housing-assistance": "11.95% → override, same-browser 4.79%",
+     "life-insurance": "12.65% → override, same-browser 8.4%",
+     "family-and-caregiver-benefits": "13.89% → override, same-browser 2.79%",
+     "health-care": "12.44% (existing override)"
+    },
+    "1440": {
+     "housing-assistance": "3.77%",
+     "life-insurance": "3.48%",
+     "family-and-caregiver-benefits": "5.87%",
+     "health-care": "3.62% (re-gate)"
+    },
+    "bands": "family same-browser header 0.68/1.30% footer 0.49/0.69%",
+    "chromeParity": "10 / 27 deltas, frozen chrome only",
+    "clip": 0,
+    "presence": "MISSING 0 / HIDDEN 0"
+   },
+   "verdict": "program: pages 3/3 live, blocks 9 (2 changed: alert, rail-card), gate 1440 housing 3.77% / life 3.48% / family 5.87% / 360 housing 11.95% / life 12.65% / family 13.89% [3 overrides; same-browser rows 4.79% / 8.4% / 2.79%], health-care re-gate 1440 3.62% / 360 12.44% (its existing override), clip 0, presence MISSING 0 / HIDDEN 0, requests 0"
+  },
+  "gate-all": {
+   "status": "done",
+   "kind": "final",
+   "templates": [
+    "landing",
+    "program"
+   ],
+   "pages": 5,
+   "startedAt": "2026-10-13T19:56:34Z",
+   "endedAt": "2026-10-13T20:03:09Z",
+   "gates": {
+    "360": "0/5 PASS + 5 documented overrides → 5 delivered (headed-origin vs headless-EDS tier; same-browser rows 2.79–8.4%)",
+    "1440": "5/5 PASS — index 4.95 Δh-12, housing 3.77 Δh-1, life 3.48 Δh-1, family 5.87 Δh-24, health-care 3.62 Δh-1",
+    "clip": 0,
+    "presence": "MISSING 0 / HIDDEN 0"
+   },
+   "verdict": "gate-all: published origin aem.live, 1440 5/5 PASS (≤5.87%), 360 5/5 delivered with documented same-browser overrides, clip 0, presence 0; coverage --gate 0 flips"
+  },
+  "final": {
+   "status": "done",
+   "kind": "final",
+   "templates": [
+    "landing",
+    "program"
+   ],
+   "pages": 5,
+   "startedAt": "2026-10-13T20:03:21Z",
+   "endedAt": "2026-10-13T20:03:21Z",
+   "verdict": "final: freeze check ok (18 files, re-frozen after 1 applied request), requests 1/1 applied, gate-all done, 5/5 pages live on aem.live"
+  }
+ }
+}

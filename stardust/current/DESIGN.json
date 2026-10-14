@@ -1,0 +1,438 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:extract",
+  "writtenAt": "2026-10-13T16:14:09.526Z",
+  "stardustVersion": "0.32.1",
+  "mode": "prep"
+ },
+ "name": "VA.gov",
+ "description": "U.S. Department of Veterans Affairs — benefits and health care for Veterans and families",
+ "colors": {
+  "white": "#ffffff",
+  "ink": "#212121",
+  "link-blue": "#005ea2",
+  "navy-darkest": "#162e51",
+  "primary-dark": "#1a4480",
+  "gray-lightest": "#f1f1f1",
+  "border-gray": "#a9aeb1",
+  "ink-muted": "#3d4551",
+  "crisis-red": "#8b0a03",
+  "info-tint": "#e1f3f8",
+  "gray-medium": "#757575"
+ },
+ "typography": {
+  "heading-h1": {
+   "fontFamily": "Bitter, Georgia, Cambria, \"Times New Roman\", Times, serif",
+   "fontSize": "40px",
+   "fontWeight": 700,
+   "lineHeight": 1.1
+  },
+  "heading-h2": {
+   "fontFamily": "Bitter, Georgia, serif",
+   "fontSize": "32px",
+   "fontWeight": 700,
+   "lineHeight": 1.2
+  },
+  "heading-h3": {
+   "fontFamily": "Bitter, Georgia, serif",
+   "fontSize": "17px",
+   "fontWeight": 700
+  },
+  "body": {
+   "fontFamily": "\"Source Sans Pro Web\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+   "fontSize": "20px",
+   "fontWeight": 400,
+   "lineHeight": 1.5
+  }
+ },
+ "rounded": {
+  "sm": "4px",
+  "md": "5px",
+  "pill": "50%"
+ },
+ "spacing": {
+  "1": "8px",
+  "2": "16px",
+  "3": "24px",
+  "4": "32px"
+ },
+ "components": {
+  "button-primary": {
+   "backgroundColor": "{colors.link-blue}",
+   "textColor": "{colors.white}",
+   "rounded": "{rounded.md}",
+   "padding": "12px 20px"
+  },
+  "button-primary-hover": {
+   "backgroundColor": "{colors.primary-dark}"
+  },
+  "footer": {
+   "backgroundColor": "{colors.navy-darkest}",
+   "textColor": "{colors.white}"
+  }
+ },
+ "extensions": {
+  "componentStyle": [],
+  "motifs": {
+   "radius": "5px buttons; 4px cards/alerts",
+   "shadows": [
+    "rgb(27,27,27) 0 2px 5px 0 (dropdowns)"
+   ],
+   "dividers": "gold star dividers between hub sections"
+  },
+  "voice": {
+   "register": "product",
+   "tone": "plain-language, task-first government service"
+  },
+  "modules": [
+   {
+    "id": "gov-banner",
+    "status": "candidate",
+    "instances": "all 5",
+    "slots": [
+     {
+      "name": "text",
+      "type": "text"
+     }
+    ]
+   },
+   {
+    "id": "crisis-line-strip",
+    "status": "candidate",
+    "instances": "all 5"
+   },
+   {
+    "id": "site-header-megamenu",
+    "status": "candidate",
+    "instances": "all 5"
+   },
+   {
+    "id": "site-footer",
+    "status": "candidate",
+    "instances": "all 5"
+   },
+   {
+    "id": "breadcrumbs",
+    "status": "candidate",
+    "instances": [
+     "housing-assistance",
+     "life-insurance",
+     "family-and-caregiver-benefits",
+     "health-care"
+    ]
+   },
+   {
+    "id": "hub-intro",
+    "status": "candidate",
+    "slots": [
+     {
+      "name": "title",
+      "type": "text"
+     },
+     {
+      "name": "lede",
+      "type": "text"
+     },
+     {
+      "name": "on-this-page",
+      "type": "link[]"
+     }
+    ],
+    "instances": [
+     "housing-assistance",
+     "life-insurance",
+     "family-and-caregiver-benefits",
+     "health-care"
+    ]
+   },
+   {
+    "id": "hub-link-teaser-list",
+    "status": "candidate",
+    "slots": [
+     {
+      "name": "heading",
+      "type": "text"
+     },
+     {
+      "name": "items",
+      "type": "link+text[]"
+     }
+    ],
+    "instances": [
+     "housing-assistance",
+     "life-insurance",
+     "family-and-caregiver-benefits",
+     "health-care"
+    ]
+   },
+   {
+    "id": "hub-promo-sidebar",
+    "status": "candidate",
+    "slots": [
+     {
+      "name": "image",
+      "type": "image"
+     },
+     {
+      "name": "link",
+      "type": "link"
+     },
+     {
+      "name": "text",
+      "type": "text"
+     }
+    ],
+    "instances": [
+     "housing-assistance",
+     "life-insurance",
+     "family-and-caregiver-benefits",
+     "health-care"
+    ]
+   },
+   {
+    "id": "ask-questions-sidebar",
+    "status": "candidate",
+    "instances": [
+     "housing-assistance",
+     "life-insurance",
+     "family-and-caregiver-benefits",
+     "health-care"
+    ]
+   },
+   {
+    "id": "other-benefits-box",
+    "status": "candidate",
+    "instances": [
+     "housing-assistance",
+     "life-insurance",
+     "family-and-caregiver-benefits",
+     "health-care"
+    ]
+   },
+   {
+    "id": "last-updated-feedback",
+    "status": "candidate",
+    "instances": "all 5"
+   },
+   {
+    "id": "home-hero",
+    "status": "candidate",
+    "instances": [
+     "index"
+    ]
+   },
+   {
+    "id": "home-search-top-pages",
+    "status": "candidate",
+    "instances": [
+     "index"
+    ]
+   },
+   {
+    "id": "home-news-promo",
+    "status": "candidate",
+    "instances": [
+     "index"
+    ]
+   },
+   {
+    "id": "home-benefit-hubs-grid",
+    "status": "candidate",
+    "instances": [
+     "index"
+    ]
+   },
+   {
+    "id": "email-signup",
+    "status": "candidate",
+    "instances": [
+     "index"
+    ]
+   }
+  ],
+  "breakpoints": {
+   "source": [
+    {
+     "px": 320
+    },
+    {
+     "px": 481,
+     "name": "mobile-lg"
+    },
+    {
+     "px": 640,
+     "name": "tablet-sm"
+    },
+    {
+     "px": 768,
+     "name": "tablet"
+    },
+    {
+     "px": 1024,
+     "name": "desktop"
+    }
+   ],
+   "note": "min-width:768 is the dominant step (65 rules in style.css)",
+   "containerMaxWidth": "1024px",
+   "probeWidth": 2560,
+   "shellMaxWidth": "1024px",
+   "caps": [
+    {
+     "kind": "shell",
+     "px": 1024,
+     "via": "max-width",
+     "selector": "#content > div.vads-grid-container",
+     "pages": [
+      "https://www.va.gov/health-care/"
+     ]
+    },
+    {
+     "kind": "module",
+     "px": 1280,
+     "via": "max-width",
+     "selector": "#vets-banner-1 > div.vads-u-margin-y--0.vads-u-margin-x--auto",
+     "pages": [
+      "https://www.va.gov/",
+      "https://www.va.gov/health-care/"
+     ]
+    },
+    {
+     "kind": "module",
+     "px": 1024,
+     "via": "max-width",
+     "selector": "#content > div.homepage-hero__wrapper > div.vads-grid-container",
+     "pages": [
+      "https://www.va.gov/"
+     ]
+    },
+    {
+     "kind": "module",
+     "px": 683,
+     "via": "fixed",
+     "selector": "div > div.vads-grid-container.vads-u-padding-x--0 > div.vads-grid-row > div.vads-grid-col-12",
+     "pages": [
+      "https://www.va.gov/"
+     ]
+    },
+    {
+     "kind": "module",
+     "px": 640,
+     "via": "fixed",
+     "selector": "#content > div.vads-grid-container > div.vads-grid-row.vads-u-margin-bottom--4 > article.vads-grid-col-12.vads-u-margin-bottom--3",
+     "pages": [
+      "https://www.va.gov/health-care/"
+     ]
+    },
+    {
+     "kind": "module",
+     "px": 504,
+     "via": "fixed",
+     "selector": "div.homepage-hero__wrapper > div.vads-grid-container > div.vads-grid-row.vads-grid-gap-6 > div.vads-grid-col-12",
+     "pages": [
+      "https://www.va.gov/",
+      "https://www.va.gov/health-care/"
+     ]
+    },
+    {
+     "kind": "module",
+     "px": 341,
+     "via": "fixed",
+     "selector": "div > div.vads-grid-container.vads-u-padding-x--0 > div.vads-grid-row > div.vads-grid-col-12.vads-u-display--none",
+     "pages": [
+      "https://www.va.gov/"
+     ]
+    },
+    {
+     "kind": "module",
+     "px": 320,
+     "via": "fixed",
+     "selector": "#hub-rail",
+     "pages": [
+      "https://www.va.gov/health-care/"
+     ]
+    },
+    {
+     "kind": "module",
+     "px": 298,
+     "via": "fixed",
+     "selector": "div.vads-grid-row.vads-u-margin-bottom--4 > article.vads-grid-col-12.vads-u-margin-bottom--3 > div.vads-u-margin-y--1.vads-u-align-items--flex-start > h1.vads-u-margin-top--1",
+     "pages": [
+      "https://www.va.gov/health-care/"
+     ]
+    },
+    {
+     "kind": "module",
+     "px": 272,
+     "via": "fixed",
+     "selector": "#ask-questions > section",
+     "pages": [
+      "https://www.va.gov/health-care/"
+     ]
+    }
+   ],
+   "modules": [
+    {
+     "url": "https://www.va.gov/",
+     "section": 0,
+     "selector": "#content > div.homepage-hero__wrapper",
+     "px": 1024
+    },
+    {
+     "url": "https://www.va.gov/",
+     "section": 1,
+     "selector": "#content > div",
+     "px": 1024
+    },
+    {
+     "url": "https://www.va.gov/",
+     "section": 2,
+     "selector": "#content > div",
+     "px": 1024
+    },
+    {
+     "url": "https://www.va.gov/",
+     "section": 3,
+     "selector": "#content > section.vads-grid-container.vads-u-padding--2p5",
+     "px": 1024
+    },
+    {
+     "url": "https://www.va.gov/",
+     "section": 4,
+     "selector": "#content > div.vads-grid-container",
+     "px": null
+    },
+    {
+     "url": "https://www.va.gov/",
+     "section": 5,
+     "selector": "#content > div.homepage-email-update-wrapper.vads-u-padding-x--2p5",
+     "px": 1280
+    },
+    {
+     "url": "https://www.va.gov/health-care/",
+     "section": 0,
+     "selector": "#content > div.vads-grid-container",
+     "px": 640
+    },
+    {
+     "url": "https://www.va.gov/health-care/",
+     "section": 1,
+     "selector": "#content > div.vads-u-margin-y--0.vads-u-margin-x--auto",
+     "px": 1280
+    }
+   ],
+   "capRegister": [
+    "shellMaxWidth differs between archetypes: fluid (https://www.va.gov/), 1024 (https://www.va.gov/health-care/)",
+    "module cap 640px on a single section (#content > div.vads-grid-container > div.vads-grid-row.vads-u-margin-bottom--4 > article.vads-grid-col-12.vads-u-margin-bottom--3, https://www.va.gov/health-care/) — intent or mistake? register it"
+   ],
+   "capProvenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-10-13T16:14:16.967Z",
+    "baseWidth": 1440,
+    "urls": [
+     "https://www.va.gov/",
+     "https://www.va.gov/health-care/"
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,7 @@
+slug                           status    branch  tier       gates  variants  deviations  broken  outputPath                              
+index                          deployed  A       archetype  0      0         0           70      index.html                              
+housing-assistance             deployed  A'      sibling    7      1         0           67      housing-assistance/index.html           
+life-insurance                 deployed  A'      sibling    7      2         0           54      life-insurance/index.html               
+family-and-caregiver-benefits  deployed  A'      sibling    7      2         1           53      family-and-caregiver-benefits/index.html
+health-care                    deployed  A       archetype  0      0         0           78      health-care/index.html                  
+5 of 5 pages have a sidecar under stardust/migrated/

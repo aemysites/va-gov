@@ -1,0 +1,64 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-13T19:50:10.203Z",
+    "readArtifacts": [
+      "stardust/migrated"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-13T20:15:04.090Z",
+  "templates": [
+    {
+      "id": "health-care",
+      "representativeSlug": "health-care",
+      "pages": [
+        "family-and-caregiver-benefits",
+        "health-care",
+        "housing-assistance",
+        "life-insurance"
+      ],
+      "pageCount": 4,
+      "blocks": [
+        "accordion",
+        "alert",
+        "breadcrumbs",
+        "feedback",
+        "hub-title",
+        "link-list",
+        "on-this-page",
+        "portraits",
+        "rail-card"
+      ],
+      "delivery": {
+        "verified": 4,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "index",
+      "representativeSlug": "index",
+      "pages": [
+        "index"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "email-signup",
+        "feedback",
+        "home-hero",
+        "home-tasks",
+        "hub-grid",
+        "news-promo",
+        "site-alert"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    }
+  ]
+}

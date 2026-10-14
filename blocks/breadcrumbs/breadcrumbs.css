@@ -1,0 +1,81 @@
+/* Breadcrumbs — values lifted from the gated prototype canon (.breadcrumbs). */
+.breadcrumbs {
+  display: flex;
+  max-width: var(--va-container);
+  margin: 0 auto;
+  padding: 0 var(--va-container-pad);
+}
+
+.breadcrumbs nav {
+  padding: 20px 0 32px;
+  background: #fff;
+  font-size: 16.96px;
+  line-height: 22.048px;
+}
+
+.breadcrumbs :is(ol, ul) {
+  list-style: none;
+  margin: 0 -4px;
+  padding: 4px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.breadcrumbs li {
+  display: inline;
+}
+
+.breadcrumbs li + li::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin: 0 6px 0 8px;
+  border-right: 1.5px solid #565c65;
+  border-top: 1.5px solid #565c65;
+  transform: rotate(45deg) translateY(-2px);
+}
+
+.breadcrumbs a {
+  color: var(--va-link);
+}
+
+.breadcrumbs a[aria-current="page"] {
+  font-weight: 700;
+}
+
+.breadcrumbs li.mobile-back {
+  display: none;
+}
+
+@media (width <= 767px) {
+  .breadcrumbs li {
+    display: none;
+  }
+
+  .breadcrumbs li.mobile-back {
+    display: inline-block;
+    position: relative;
+    padding-left: 16.4754px;
+  }
+
+  .breadcrumbs li.mobile-back::before {
+    content: "";
+    position: absolute;
+    left: 1px;
+    top: 6px;
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    border: 0;
+    transform: none;
+    background: no-repeat center / 12px url("../../icons/va-arrow-back.svg");
+  }
+}
+
+@media (width >= 768px) {
+  .breadcrumbs nav {
+    padding: 20px 0 48px;
+    line-height: 23.744px;
+  }
+}

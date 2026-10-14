@@ -1,0 +1,35 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-13T19:50:10.203Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.va.gov/",
+    "da": {
+      "org": "aemcoder",
+      "site": "cd6de7e5",
+      "ref": "main"
+    },
+    "liveHost": "main--cd6de7e5--aemcoder.aem.live"
+  },
+  "lastRun": {
+    "at": "2026-10-13T20:15:04.090Z",
+    "pages": {
+      "total": 5,
+      "verified": 5,
+      "deployed": 0,
+      "pending": 0,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 15,
+      "converted": 15,
+      "pending": 0
+    },
+    "verifyFailures": 0
+  }
+}

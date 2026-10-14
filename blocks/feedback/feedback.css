@@ -1,0 +1,31 @@
+/* Last updated + feedback — foundation .last-updated paint; row margin from the gated
+   prototype (hub.css .last-updated__row). */
+.feedback .last-updated-row {
+  margin: 0 0 25px;
+}
+
+.feedback .fb .btn-outline p {
+  margin: 0;
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* action-only variant (home page) — gated prototype home.css .home-feedback: the row sits
+   in the 1024 shell, 24px below the band above, with the button right-aligned. */
+.feedback.action-only {
+  max-width: var(--va-container);
+  margin: 0 auto;
+  padding: 0 var(--va-container-pad);
+}
+
+.feedback.action-only .last-updated {
+  margin-top: 24px;
+  padding: 16px 0;
+}
+
+.feedback.action-only .last-updated-row {
+  display: block;
+  margin: 0 0 25px;
+  text-align: right;
+}

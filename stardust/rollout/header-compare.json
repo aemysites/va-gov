@@ -1,0 +1,80 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-10-13T18:36:00.913Z",
+ "source": "https://www.va.gov/health-care/",
+ "build": "https://main--cd6de7e5--aemcoder.aem.page/nav",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  390,
+  1440
+ ],
+ "counts": {
+  "error": 0,
+  "warn": 7,
+  "decided": 0
+ },
+ "findings": [
+  {
+   "key": "state-extra@390 Talk to the Veterans Crisis Line now [click]",
+   "width": 390,
+   "path": "Talk to the Veterans Crisis Line now",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "state-extra@390 Talk to the Veterans Crisis Line now [key]",
+   "width": 390,
+   "path": "Talk to the Veterans Crisis Line now",
+   "action": "key",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on key on the build only"
+  },
+  {
+   "key": "state-extra@390 Menu [click]",
+   "width": 390,
+   "path": "Menu",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "budget-truncated@390 (source)",
+   "width": 390,
+   "path": "(source)",
+   "id": "budget-truncated",
+   "severity": "warn",
+   "detail": "the source record stopped at depth 4 at Menu > VA Benefits and Health Care > Health care > Back to menu: raise --max-states/--max-depth for full coverage"
+  },
+  {
+   "key": "budget-truncated@390 (build)",
+   "width": 390,
+   "path": "(build)",
+   "id": "budget-truncated",
+   "severity": "warn",
+   "detail": "the build record stopped at depth 4 at Menu > VA Benefits and Health Care > Health care > Back to menu"
+  },
+  {
+   "key": "state-extra@1440 Talk to the Veterans Crisis Line now [click]",
+   "width": 1440,
+   "path": "Talk to the Veterans Crisis Line now",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "state-extra@1440 Talk to the Veterans Crisis Line now [key]",
+   "width": 1440,
+   "path": "Talk to the Veterans Crisis Line now",
+   "action": "key",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on key on the build only"
+  }
+ ]
+}

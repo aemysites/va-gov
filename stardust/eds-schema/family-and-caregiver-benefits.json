@@ -1,0 +1,486 @@
+{
+ "source": "file:///workspace/cd6de7e5/stardust/migrated/family-and-caregiver-benefits/index.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "1",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "VA benefits for family and caregivers"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "As the spouse or dependent child of a Veteran or service member, you may qualify for certain benefits, including healthcare, life insurance, or money for school. As the survivor of a Veteran or service member, you may qualify for added benefits, including help with burial costs and survivor compensation. If you’re caring for a Veteran, you may also be eligible for support to help you better care for the Veteran—and for yourself. Find out which benefits you may qualify for and how to get them."
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "How do I get help for a Veteran who’s in crisis?"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Information Alert"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Find out how to get support anytime, day or night"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "If you’re concerned about a Veteran in crisis, connect with our caring, qualified Veterans Crisis Line responders for confidential help. Many of them are Veterans themselves. This service is private, free, and available 24/7."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "To connect with a Veterans Crisis Line responder anytime, day or night:"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Call"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "988",
+     "href": "tel:988"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Text"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "838255",
+     "href": "sms:838255"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Start a confidential chat",
+     "href": "https://www.veteranscrisisline.net/ChatTermsOfService.aspx?account=Veterans%20Chat"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "For TTY, call then"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "711",
+     "href": "tel:988"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "988",
+     "href": "tel:988"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "If you’re concerned about a Veteran who’s homeless or at risk of becoming homeless"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Call the National Call Center for Homeless Veterans at for help 24 hours a day, 7 days a week. You or the Veteran can talk privately with a trained VA counselor for free."
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "877-424-3838",
+     "href": "tel:+18774243838"
+    },
+    {
+     "role": "heading",
+     "order": 18,
+     "text": "Benefits for spouses, dependents, survivors, and caregivers"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Health and disability benefits for family and caregivers",
+     "href": "../family-and-caregiver-benefits/health-and-disability/index.html"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Find out if you’re eligible for healthcare or related benefits through CHAMPVA or other programs. And learn about our support for caregivers, including training, counseling, and payments."
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "For spouse, dependent child, surviving spouse, surviving child, caregiver"
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "Survivors Pension and Dependency and Indemnity Compensation",
+     "href": "../family-and-caregiver-benefits/survivor-compensation/index.html"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Find out if you’re eligible for Dependency and Indemnity Compensation (D.I.C.) or a VA Survivors Pension. If you need help with daily activities or you’re housebound, you may also be eligible for VA Aid and Attendance or Housebound benefits."
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "For surviving spouse, surviving child, surviving parent"
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "Education and career benefits for family members",
+     "href": "../family-and-caregiver-benefits/education-and-careers/index.html"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Find out if you’re eligible for money for school or to help you cover expenses while you’re training for a job through our Survivors’ and Dependents’ Education Assistance Program (also called Chapter 35) or the Fry Scholarship. And learn about how a Veteran may transfer their unused Post-9/11 GI Bill benefits to you."
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "For spouse, dependent child, surviving spouse, surviving child"
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "Housing assistance for surviving spouses",
+     "href": "../family-and-caregiver-benefits/housing-assistance/index.html"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Find out if you’re eligible for a VA-backed loan to buy, build, improve, or refinance a home. And learn how to manage your loan benefits and avoid foreclosure."
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "For surviving spouse"
+    },
+    {
+     "role": "cta",
+     "order": 31,
+     "text": "Life insurance for family members",
+     "href": "../family-and-caregiver-benefits/life-insurance/index.html"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Find out if you’re eligible for Family Servicemembers’ Group Life Insurance (FSGLI) coverage or manage an existing policy. If you’re the beneficiary of a Veteran’s or service member’s policy, find out how to get free financial advice and will preparation services."
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "For spouse, dependent child, surviving spouse, surviving child"
+    },
+    {
+     "role": "cta",
+     "order": 34,
+     "text": "Burial and memorial benefits for family members",
+     "href": "../family-and-caregiver-benefits/burials-and-memorials/index.html"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Find out if you’re eligible to be buried in a VA national cemetery, or learn how to plan a burial for a Veteran. You can also apply for help paying for burial costs, request memorial items, and learn about bereavement counseling."
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "For spouse, dependent child, surviving spouse, surviving child, surviving parent"
+    },
+    {
+     "role": "heading",
+     "order": 37,
+     "text": "Help a Veteran find benefits"
+    },
+    {
+     "role": "cta",
+     "order": 38,
+     "text": "VA healthcare for Veterans",
+     "href": "../health-care/index.html"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "Healthcare benefits and online health management tools for Veterans with service-connected disabilities or who meet other eligibility requirements."
+    },
+    {
+     "role": "cta",
+     "order": 40,
+     "text": "Disability compensation",
+     "href": "../disability/index.html"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Monthly payments and online benefit management tools for conditions related to military service."
+    },
+    {
+     "role": "cta",
+     "order": 42,
+     "text": "Veterans Pension",
+     "href": "../pension/how-to-apply/index.html"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "Monthly payments for wartime Veterans with limited or no income who meet certain age and disability requirements."
+    },
+    {
+     "role": "cta",
+     "order": 44,
+     "text": "Housing assistance for Veterans and service members",
+     "href": "../housing-assistance/index.html"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "Home loan programs for Veterans and service members, and disability housing grants to help Veterans with service-connected disabilities make changes to their home so they can live as independently as possible."
+    },
+    {
+     "role": "cta",
+     "order": 46,
+     "text": "Life insurance",
+     "href": "../life-insurance/index.html"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Life insurance options and online policy management tools for Veterans and their families."
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Last updated:"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "September 22, 2026"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "Feedback"
+    },
+    {
+     "role": "cta",
+     "order": 51,
+     "text": "VA Caregiver Support Program",
+     "href": "https://www.caregiver.va.gov/"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "Find out how to get the support you need to care for a Veteran."
+    },
+    {
+     "role": "eyebrow",
+     "order": 53,
+     "text": "Expand all"
+    },
+    {
+     "role": "eyebrow",
+     "order": 54,
+     "text": "Collapse all"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "Ask questions"
+    },
+    {
+     "role": "heading",
+     "order": 56,
+     "text": "Message us"
+    },
+    {
+     "role": "cta",
+     "order": 57,
+     "text": "Contact us online through Ask VA",
+     "href": "../contact-us/ask-va/index.html"
+    },
+    {
+     "role": "heading",
+     "order": 58,
+     "text": "Call us"
+    },
+    {
+     "role": "cta",
+     "order": 59,
+     "text": "VA benefits hotline:800-827-1000",
+     "href": "tel:1-800-827-1000"
+    },
+    {
+     "role": "cta",
+     "order": 60,
+     "text": "Caregiver support line:855-260-3274",
+     "href": "tel:1-855-260-3274"
+    },
+    {
+     "role": "cta",
+     "order": 61,
+     "text": "VA.gov technical support: 866-279-3677",
+     "href": "tel:1- 866-279-3677"
+    },
+    {
+     "role": "cta",
+     "order": 62,
+     "text": "MyVA411 main information line:800-698-2411",
+     "href": "tel:1-800-698-2411"
+    },
+    {
+     "role": "cta",
+     "order": 63,
+     "text": "Telecommunications Relay Services (using TTY):711",
+     "href": "tel:1+711"
+    },
+    {
+     "role": "body",
+     "order": 64,
+     "text": "Connect with us"
+    },
+    {
+     "role": "heading",
+     "order": 65,
+     "text": "Get updates"
+    },
+    {
+     "role": "cta",
+     "order": 66,
+     "text": "Veterans Affairs Email Updates",
+     "href": "https://public.govdelivery.com/accounts/USVA/subscriber/new/"
+    },
+    {
+     "role": "heading",
+     "order": 67,
+     "text": "Follow us"
+    },
+    {
+     "role": "cta",
+     "order": 68,
+     "text": "Veterans Affairs X (formerly Twitter)",
+     "href": "https://www.twitter.com/DeptVetAffairs"
+    },
+    {
+     "role": "cta",
+     "order": 69,
+     "text": "Veterans Affairs Facebook",
+     "href": "https://www.facebook.com/VeteransAffairs"
+    },
+    {
+     "role": "cta",
+     "order": 70,
+     "text": "Veterans Affairs YouTube",
+     "href": "https://www.youtube.com/DeptVetAffairs"
+    },
+    {
+     "role": "cta",
+     "order": 71,
+     "text": "Veterans Affairs Instagram",
+     "href": "https://www.instagram.com/deptvetaffairs"
+    },
+    {
+     "role": "body",
+     "order": 72,
+     "text": "Last updated:"
+    },
+    {
+     "role": "body",
+     "order": 73,
+     "text": "September 22, 2026"
+    },
+    {
+     "role": "body",
+     "order": 74,
+     "text": "Feedback"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 26,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.acc-item",
+     "count": 2,
+     "unit": {
+      "headings": 3,
+      "ctas": 6,
+      "imgs": 0,
+      "textRuns": 9
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+/* Portraits banner — foundation .portraits paint; art-direction breakpoints from the
+   gated prototype <picture> (mobile <= 767, tablet <= 1008, desktop above). */
+.portraits .portraits-art picture {
+  display: block;
+}
+
+.portraits .portraits-tablet,
+.portraits .portraits-desktop {
+  display: none;
+}
+
+@media (width >= 768px) {
+  .portraits .portraits-mobile {
+    display: none;
+  }
+
+  .portraits .portraits-tablet {
+    display: block;
+  }
+}
+
+@media (width >= 1009px) {
+  .portraits .portraits-tablet {
+    display: none;
+  }
+
+  .portraits .portraits-desktop {
+    display: block;
+  }
+}

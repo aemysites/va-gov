@@ -1,0 +1,104 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-10-13T17:12:39.619Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-13T17:12:39.619Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "health-care",
+    "index"
+  ],
+  "steps": [
+    {
+      "slug": "health-care",
+      "path": "/health-care",
+      "templateId": "health-care",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "breadcrumbs",
+          "edsBlockName": "breadcrumbs"
+        },
+        {
+          "id": "hub-title",
+          "edsBlockName": "hub-title"
+        },
+        {
+          "id": "on-this-page",
+          "edsBlockName": "on-this-page"
+        },
+        {
+          "id": "alert",
+          "edsBlockName": "alert"
+        },
+        {
+          "id": "link-list",
+          "edsBlockName": "link-list"
+        },
+        {
+          "id": "rail-card",
+          "edsBlockName": "rail-card"
+        },
+        {
+          "id": "accordion",
+          "edsBlockName": "accordion"
+        },
+        {
+          "id": "feedback",
+          "edsBlockName": "feedback"
+        },
+        {
+          "id": "portraits",
+          "edsBlockName": "portraits"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "templateId": "index",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "site-alert",
+          "edsBlockName": "site-alert"
+        },
+        {
+          "id": "home-hero",
+          "edsBlockName": "home-hero"
+        },
+        {
+          "id": "home-tasks",
+          "edsBlockName": "home-tasks"
+        },
+        {
+          "id": "news-promo",
+          "edsBlockName": "news-promo"
+        },
+        {
+          "id": "hub-grid",
+          "edsBlockName": "hub-grid"
+        },
+        {
+          "id": "email-signup",
+          "edsBlockName": "email-signup"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "feedback",
+          "edsBlockName": "feedback",
+          "convertedBy": "health-care"
+        }
+      ]
+    }
+  ]
+}

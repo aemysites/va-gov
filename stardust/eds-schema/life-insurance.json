@@ -1,0 +1,490 @@
+{
+ "source": "file:///workspace/cd6de7e5/stardust/migrated/life-insurance/index.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "1",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "VA life insurance"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "VA life insurance can offer financial security for Veterans, service members, and their spouses and dependent children. Explore your options, manage your policy, and file claims to get the insurance benefits you’ve earned."
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "On this page"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Get VA life insurance",
+     "href": "#get-va-life-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Manage your life insurance policy and benefits",
+     "href": "#manage-your-life-insurance-policy-and-benefits"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "More information and resources",
+     "href": "#more-information-and-resources"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Other VA benefits and services",
+     "href": "#other-va-benefits-and-services"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Get VA life insurance"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "About VA insurance options and eligibility",
+     "href": "../life-insurance/options-eligibility/index.html"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Find out which life insurance plans you may qualify for—and the benefits you’ll receive with each plan."
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Benefits for totally disabled or terminally ill policyholders",
+     "href": "../life-insurance/totally-disabled-or-terminally-ill/index.html"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Find out if you can get your insurance premium waived or receive your benefits early in certain situations."
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Beneficiary financial counseling and online will preparation",
+     "href": "https://benefits.va.gov/insurance/bfcs.asp"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "If you’re the beneficiary of a Veteran or service member enrolled in a VA life insurance plan, find out if you can get free financial planning and online will preparation services."
+    },
+    {
+     "role": "heading",
+     "order": 14,
+     "text": "Manage your life insurance policy and benefits"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Access your policy online",
+     "href": "../life-insurance/manage-your-policy/index.html"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Update your beneficiaries",
+     "href": "https://benefits.va.gov/INSURANCE/updatebene.asp"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "File a claim for life insurance benefits",
+     "href": "https://www.benefits.va.gov/INSURANCE/file_death_claim.asp"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Convert to a commercial policy",
+     "href": "https://www.benefits.va.gov/INSURANCE/converting.asp"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "File a TSGLI appeal (VA Form SGLV 8600A)",
+     "href": "../life-insurance/file-appeal-for-tsgli/index.html"
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "Enroll in Veterans’ Group Life Insurance (VGLI) Auto Pay",
+     "href": "https://www.benefits.va.gov/INSURANCE/vgli_auto_pay.asp"
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "Search for unclaimed insurance funds",
+     "href": "https://www.insurance.va.gov/UnclaimedFunds/Search"
+    },
+    {
+     "role": "heading",
+     "order": 22,
+     "text": "More information and resources"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "Deciding how much life insurance to get",
+     "href": "../resources/deciding-how-much-life-insurance-to-get/index.html"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Use our life insurance needs calculator to help decide how much life insurance you need."
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "Myths and rumors about SGLI/VGLI insurance",
+     "href": "https://www.benefits.va.gov/INSURANCE/sgli_myths_rumors.asp"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Get the facts on common myths, rumors, and misconceptions about SGLI and VGLI insurance."
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "About the SGLI Online Enrollment System (SOES)",
+     "href": "https://www.benefits.va.gov/INSURANCE/SOES.asp"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Learn about our new online process for enrolling in Servicemembers’ Group Life Insurance."
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "Contact us",
+     "href": "https://www.benefits.va.gov/INSURANCE/resources-contact.asp"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Find out how to reach out to ask a question about your policy or file a claim for benefits."
+    },
+    {
+     "role": "cta",
+     "order": 31,
+     "text": "VA life insurance forms",
+     "href": "https://www.benefits.va.gov/INSURANCE/resources-forms.asp"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Find and download the forms you need to apply for and manage your life insurance benefits."
+    },
+    {
+     "role": "cta",
+     "order": 33,
+     "text": "Publications and handbooks",
+     "href": "https://www.benefits.va.gov/INSURANCE/ins_publications.asp"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Download life insurance handbooks, guides, and newsletters."
+    },
+    {
+     "role": "cta",
+     "order": 35,
+     "text": "Mandatory electronic payments",
+     "href": "https://www.benefits.va.gov/INSURANCE/payments-eft.asp"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Learn about the law requiring us to pay all benefits by electronic funds transfer."
+    },
+    {
+     "role": "cta",
+     "order": 37,
+     "text": "Life insurance if you have preexisting conditions",
+     "href": "../resources/life-insurance-if-you-have-preexisting-conditions/index.html"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "You have 4 options to get life insurance as you transition out of service, but they have time limits. Learn about your options if you have preexisting conditions."
+    },
+    {
+     "role": "cta",
+     "order": 39,
+     "text": "Special dividend rumors",
+     "href": "https://www.benefits.va.gov/insurance/dividends_special.asp"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "Learn the truth about the rumors that there are special dividends for Veterans who don’t have an active government life insurance policy."
+    },
+    {
+     "role": "heading",
+     "order": 41,
+     "text": "Other VA benefits and services"
+    },
+    {
+     "role": "cta",
+     "order": 42,
+     "text": "Burial benefits and and memorial items",
+     "href": "../burials-memorials/index.html"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "Get help planning a burial, order a headstone or other memorial item, and apply for survivor and dependent benefits."
+    },
+    {
+     "role": "cta",
+     "order": 44,
+     "text": "Pension benefits",
+     "href": "../pension/index.html"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "Find out if you’re eligible for tax-free monthly payments as a wartime Veteran or surviving spouse or child."
+    },
+    {
+     "role": "cta",
+     "order": 46,
+     "text": "VA health care",
+     "href": "../health-care/index.html"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Find out how to apply for and manage your VA health care benefits."
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Last updated:"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "June 23, 2025"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "Feedback"
+    },
+    {
+     "role": "cta",
+     "order": 51,
+     "text": "Learn how to apply for Veterans Affairs Life Insurance (VALife)",
+     "href": "../life-insurance/options-eligibility/valife/index.html"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "VALife is a life insurance program for Veterans with service-connected disabilities."
+    },
+    {
+     "role": "eyebrow",
+     "order": 53,
+     "text": "Expand all"
+    },
+    {
+     "role": "eyebrow",
+     "order": 54,
+     "text": "Collapse all"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "Ask questions"
+    },
+    {
+     "role": "heading",
+     "order": 56,
+     "text": "Message us"
+    },
+    {
+     "role": "cta",
+     "order": 57,
+     "text": "Contact us online through Ask VA",
+     "href": "../contact-us/ask-va/index.html"
+    },
+    {
+     "role": "heading",
+     "order": 58,
+     "text": "Call us"
+    },
+    {
+     "role": "cta",
+     "order": 59,
+     "text": "Support for VALife, S-DVI, and VMLI:800-669-8477",
+     "href": "tel:+1-800-669-8477"
+    },
+    {
+     "role": "cta",
+     "order": 60,
+     "text": "Support for WWI, WWII, and Korean War era programs:800-669-8477",
+     "href": "tel:+1-800-669-8477"
+    },
+    {
+     "role": "cta",
+     "order": 61,
+     "text": "Support for the VGLI program, SGLI claims, and FSGLI claims:800-419-1473",
+     "href": "tel:+1-800-419-1473"
+    },
+    {
+     "role": "cta",
+     "order": 62,
+     "text": "VA.gov technical support:866-279-3677",
+     "href": "tel:1-866-279-3677"
+    },
+    {
+     "role": "cta",
+     "order": 63,
+     "text": "MyVA411 main information line:800-698-2411",
+     "href": "tel:1-800-698-2411"
+    },
+    {
+     "role": "cta",
+     "order": 64,
+     "text": "Telecommunications Relay Services (using TTY):711",
+     "href": "tel:1+711"
+    },
+    {
+     "role": "body",
+     "order": 65,
+     "text": "Connect with us"
+    },
+    {
+     "role": "heading",
+     "order": 66,
+     "text": "Get updates"
+    },
+    {
+     "role": "cta",
+     "order": 67,
+     "text": "Veterans Affairs Email Updates",
+     "href": "https://public.govdelivery.com/accounts/USVA/subscriber/new/"
+    },
+    {
+     "role": "heading",
+     "order": 68,
+     "text": "Follow us"
+    },
+    {
+     "role": "cta",
+     "order": 69,
+     "text": "Veterans Affairs X (formerly Twitter)",
+     "href": "https://www.twitter.com/DeptVetAffairs"
+    },
+    {
+     "role": "cta",
+     "order": 70,
+     "text": "Veterans Affairs Facebook",
+     "href": "https://www.facebook.com/VeteransAffairs"
+    },
+    {
+     "role": "cta",
+     "order": 71,
+     "text": "Veterans Affairs YouTube",
+     "href": "https://www.youtube.com/DeptVetAffairs"
+    },
+    {
+     "role": "cta",
+     "order": 72,
+     "text": "Veterans Affairs Instagram",
+     "href": "https://www.instagram.com/deptvetaffairs"
+    },
+    {
+     "role": "body",
+     "order": 73,
+     "text": "Last updated:"
+    },
+    {
+     "role": "body",
+     "order": 74,
+     "text": "June 23, 2025"
+    },
+    {
+     "role": "body",
+     "order": 75,
+     "text": "Feedback"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 26,
+   "repeats": [
+    {
+     "unitSelector": "DIV.hub-section",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 3,
+      "imgs": 0,
+      "textRuns": 7
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.acc-item",
+     "count": 2,
+     "unit": {
+      "headings": 3,
+      "ctas": 7,
+      "imgs": 0,
+      "textRuns": 10
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

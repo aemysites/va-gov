@@ -1,0 +1,752 @@
+{
+ "source": "http://localhost:3000/stardust/.work/rollout/archetype-program/hc-annotated.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "breadcrumbs-1",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "VA.gov home",
+     "href": "/"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "VA health care",
+     "href": "#content"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "VA.gov home",
+     "href": "/"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "hub-title-1",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "VA health care"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "on-this-page-1",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "On this page"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Help for Veterans who are homeless or at risk of becoming homeless",
+     "href": "#help-for-veterans-who-are-home"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Get VA health care",
+     "href": "#get-va-health-care"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Manage your health and benefits",
+     "href": "#manage-your-health-and-benefits"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "More information and resources",
+     "href": "#more-information-and-resources"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Other VA benefits and services",
+     "href": "#other-va-benefits-and-services"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "alert-1",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Help for Veterans who are homeless or at risk of becoming homeless"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Information Alert"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "We can help you find safe shelter, support, and long-term housing."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Get help if you’re homeless or at risk of becoming homeless",
+     "href": "/resources/homeless-help"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "link-list-1",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Get VA health care"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "About VA health benefits",
+     "href": "/health-care/about-va-health-benefits/"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Learn how VA health care works and which Veterans health care services we cover."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Eligibility",
+     "href": "/health-care/eligibility/"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Find out if you’re eligible for Veterans health care benefits and how priority groups work."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "How to apply",
+     "href": "/health-care/how-to-apply/"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Learn how to prepare and apply for VA health care online, by phone, by mail, or in person."
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Apply online (VA Form 10-10EZ)",
+     "href": "https://www.va.gov/health-care/apply-for-health-care-form-10-10ez/"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Start your Veterans health care application now."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "After you apply",
+     "href": "/health-care/after-you-apply/"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Find out when to expect a decision on your application, and what to do next."
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Foreign Medical Program (FMP)",
+     "href": "/health-care/foreign-medical-program/"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Are you getting medical care outside the U.S. for a service-connected condition? Find out how the Foreign Medical Program works and how to register."
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Family and caregiver health benefits",
+     "href": "/health-care/family-caregiver-benefits/"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Find out if you qualify for VA medical benefits as a spouse, surviving spouse, dependent child, or caregiver."
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "VA Dental Insurance Program (VADIP)",
+     "href": "/health-care/about-va-health-benefits/dental-care/dental-insurance/"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Find out if you’re eligible for discounted private dental insurance for Veterans and family members. And learn how to enroll in a plan that best meets your needs."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 8,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "link-list-2",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Manage your health and benefits"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Manage your health care with My HealtheVet",
+     "href": "/health-care/manage-health/"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Manage health appointments",
+     "href": "/health-care/manage-appointments/"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Refill prescriptions and manage medications",
+     "href": "/health-care/manage-prescriptions-medications/"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Review medical records online",
+     "href": "/health-care/review-medical-records/"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Send and receive secure messages",
+     "href": "/health-care/send-receive-messages/"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "File for travel pay reimbursement",
+     "href": "/health-care/file-travel-pay-reimbursement/"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Order medical supplies",
+     "href": "/health-care/order-medical-supplies/"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Get a Veteran Health Identification Card (VHIC)",
+     "href": "/health-care/get-health-id-card/"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Review and pay copay bill",
+     "href": "/health-care/pay-copay-bill/"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Update health benefits information",
+     "href": "/health-care/update-health-information/"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 10,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "link-list-3",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "More information and resources"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "VA health care copay rates",
+     "href": "/health-care/copay-rates/"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "View our current copay rates for different types of care, tests, and medications."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "VA mental health services",
+     "href": "/health-care/health-needs-conditions/mental-health/"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Find out how to access VA mental health services for posttraumatic stress disorder (PTSD), psychological effects of military sexual trauma (MST), depression, grief, anxiety, and other needs."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Specific health needs and conditions",
+     "href": "/health-care/health-needs-conditions/"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Find out how to get care for specific needs (like women’s health), and learn about service-related health concerns you should be aware of (like Agent Orange-related diseases or Camp Lejeune water contamination)."
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Chemical or hazardous material exposure",
+     "href": "/health-care/health-needs-conditions/chemical-hazardous-materials-exposure/"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Learn about health concerns linked to exposures during military service. Learn about the special VA health registries you can join that document Veterans’ exposure to Agent Orange, depleted uranium, ionizing radiation, airborne hazards, and other hazardous materials."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Veterans programs for health and wellness",
+     "href": "/health-care/wellness-programs/"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Explore VA programs to help you get and stay healthy in both body and mind."
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Community care",
+     "href": "https://www.va.gov/COMMUNITYCARE/programs/veterans/index.asp"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "If you’re enrolled in VA health care, find out how you may be able to receive care from a provider in your local community through community care."
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Income limits and your VA health care",
+     "href": "https://www.va.gov/health-care/income-limits/"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Learn how your income affects your VA health care eligibility and costs. And find out if you may be eligible for free or reduced cost health care based on your income."
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "The Affordable Care Act (ACA) and your VA health care coverage",
+     "href": "/resources/the-affordable-care-act-aca-and-your-va-health-care-coverage/"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Find out what you need to know about the Affordable Care Act and what it means for Veterans."
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "The Million Veteran Program",
+     "href": "https://www.research.va.gov/mvp/"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Check if you can be a part of this voluntary research study to better understand the role genes play in our health."
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Access and quality in VA health care",
+     "href": "https://www.accesstocare.va.gov/"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Get information about your VA facility, like how quickly you can be seen and what other Veterans say about their experiences."
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "Patient rights and responsibilities",
+     "href": "https://department.va.gov/vha/patient-rights/"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Review your basic rights and responsibilities when you receive care at a VA health facility or live in a VA community living center."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 11,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "link-list-4",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Other VA benefits and services"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Disability compensation (pay)",
+     "href": "/disability/"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Learn how to file a claim for disability compensation and manage your disability benefits."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Life insurance",
+     "href": "/life-insurance/"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Explore your life insurance options and find out how to apply as a service member, Veteran, or family member."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Aid and attendance benefits and housebound allowance",
+     "href": "/pension/aid-attendance-housebound/"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Find out if you can get increased pension pay as a Veteran or surviving spouse who has disabilities."
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Burial benefits and memorial items",
+     "href": "/burials-memorials/"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Learn about Veterans burial benefits, how to plan a burial service, and how to get compensation as a survivor."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Education and training",
+     "href": "/education/"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Apply for and manage GI Bill and other education benefits to help pay for college and training programs."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "rail-card-1",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Healthcare options for Veterans turning 65",
+     "href": "/resources/veterans-turning-65-va-healthcare-medicare-and-tricare-for-life/"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Turning 65? Learn how VA healthcare, Medicare, and TRICARE for Life can work together. And review important enrollment deadlines."
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "accordion-1",
+   "items": [
+    {
+     "role": "eyebrow",
+     "order": 0,
+     "text": "Expand all"
+    },
+    {
+     "role": "eyebrow",
+     "order": 1,
+     "text": "Collapse all"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Ask questions"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Message us"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Contact us online through Ask VA",
+     "href": "/contact-us/ask-va"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Call us"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Health benefits hotline:877-222-VETS (8387)",
+     "href": "tel:1-877-222-VETS(8387)"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "My HealtheVet help desk:877-327-0022",
+     "href": "tel:1-877-327-0022"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "VA.gov technical support:866-279-3677",
+     "href": "tel:1-866-279-3677"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "MyVA411 main information line:800-698-2411",
+     "href": "tel:1-800-698-2411"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Telecommunications Relay Services (using TTY):711",
+     "href": "tel:1+711"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Connect with us"
+    },
+    {
+     "role": "heading",
+     "order": 12,
+     "text": "Get updates"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Veterans Affairs Email Updates",
+     "href": "https://public.govdelivery.com/accounts/USVA/subscriber/new/"
+    },
+    {
+     "role": "heading",
+     "order": 14,
+     "text": "Follow us"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Veterans Affairs X (formerly Twitter)",
+     "href": "https://www.twitter.com/DeptVetAffairs"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Veterans Affairs Facebook",
+     "href": "https://www.facebook.com/VeteransAffairs"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Veterans Affairs YouTube",
+     "href": "https://www.youtube.com/DeptVetAffairs"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Veterans Affairs Instagram",
+     "href": "https://www.instagram.com/deptvetaffairs"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 10,
+   "repeats": [
+    {
+     "unitSelector": "DIV.acc-item",
+     "count": 2,
+     "unit": {
+      "headings": 3,
+      "ctas": 6,
+      "imgs": 0,
+      "textRuns": 9
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "feedback-1",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Last updated:"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "June 25, 2026"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Feedback"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "portraits-1",
+   "items": [],
+   "imgCount": 1,
+   "editableTexts": 0,
+   "repeats": []
+  }
+ ]
+}

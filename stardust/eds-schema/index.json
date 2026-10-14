@@ -1,0 +1,502 @@
+{
+ "source": "file:///workspace/cd6de7e5/stardust/.work/rollout/archetype-landing/index-annotated.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "site-alert",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "VA facility and status updates"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Information Alert"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Severe weather affecting your area? Use the to check the operating status and hours of your local VA facility."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "find VA locations tool",
+     "href": "https://www.va.gov/find-locations"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "home-hero",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Welcome to VA.gov"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Let us help you get started"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Whether you’re a Veteran, service member, or family member, we’re here to help you get the care and benefits you deserve."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Get started with VA",
+     "href": "/resources/getting-started-with-va/"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Create an account to manage your VA benefits and care in one place — any time, from anywhere."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Create account",
+     "href": "https://www.va.gov/sign-in"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Learn how an account helps you",
+     "href": "/resources/creating-an-account-for-vagov/"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.home-col",
+     "count": 2,
+     "unit": {
+      "headings": 2,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 4
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "home-tasks",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Search"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Search VA.gov"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Search"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Other search tools"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Find a VA location",
+     "href": "https://www.va.gov/find-locations/"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Find a VA form",
+     "href": "https://www.va.gov/forms/"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Find an accredited rep or VSO",
+     "href": "https://www.va.gov/get-help-from-accredited-representative/find-rep/"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Find an outreach event",
+     "href": "https://www.va.gov/outreach-and-events/events/"
+    },
+    {
+     "role": "heading",
+     "order": 8,
+     "text": "Top pages"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Check your claim, decision review, or appeal status",
+     "href": "/claim-or-appeal-status"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Manage your health care with My HealtheVet",
+     "href": "/health-care/manage-health"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "File and manage travel reimbursement claims",
+     "href": "/health-care/file-travel-pay-reimbursement"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Review your payment history",
+     "href": "https://www.va.gov/va-payment-history/"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Download your benefit letters",
+     "href": "/records/download-va-letters"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "View your disability rating",
+     "href": "/disability/view-disability-rating"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Manage health appointments",
+     "href": "/health-care/manage-appointments"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Verify your school enrollment",
+     "href": "/education/verify-school-enrollment"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Manage your dependents",
+     "href": "/manage-dependents"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 5,
+   "repeats": [
+    {
+     "unitSelector": "DIV.home-col",
+     "count": 2,
+     "unit": {
+      "headings": 2,
+      "ctas": 4,
+      "imgs": 0,
+      "textRuns": 8
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "news-promo",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "VA NEWS"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Download the VA Health and Benefits App"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "With the VA Health and Benefits App, you can refill prescriptions, message your care team or check your VA benefits using your smartphone."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Read the full article",
+     "href": "https://news.va.gov/138519/download-the-va-health-and-benefits-app/"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "More VA news",
+     "href": "https://news.va.gov/"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 4,
+   "repeats": []
+  },
+  {
+   "section": "hub-grid",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Explore VA benefits and health care"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Health care",
+     "href": "/health-care"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Apply for VA health care, find out how to access services, and manage your health and benefits online."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Disability",
+     "href": "/disability"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "File a claim for disability compensation for conditions related to your military service, and manage your benefits over time."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Education and training",
+     "href": "/education"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Apply for and manage your GI Bill and other education benefits to help pay for college and training programs."
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Careers and employment",
+     "href": "/careers-employment"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Apply for vocational rehabilitation services, get support for your Veteran-owned small business, and access other career resources."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Pension",
+     "href": "/pension"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Apply for monthly payments for wartime Veterans and survivors with limited or no income who meet certain age and disability requirements."
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Housing assistance",
+     "href": "/housing-assistance"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Find out if you're eligible for a VA-backed home loan. If you have a service-connected disability, see if you qualify for a housing grant to help you live more independently."
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Life insurance",
+     "href": "/life-insurance"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Explore VA life insurance options for Veterans, service members, and families. Manage your policy online, file claims for benefits, and access helpful resources."
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Burials and memorials",
+     "href": "/burials-memorials"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Get help planning a burial in a VA national cemetery, order a headstone or other memorial item to honor a Veteran's service, and apply for survivor and dependent benefits."
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Records",
+     "href": "/records"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Apply for a printed Veteran ID card, get your VA benefit letters and medical records, and learn how to apply for a discharge upgrade."
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Service members",
+     "href": "/service-member-benefits"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Find out what benefits you may be eligible for during service and which time-sensitive benefits to consider when separating or retiring."
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "Family and caregivers",
+     "href": "/family-and-caregiver-benefits"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Learn about the benefits you may be eligible for as the spouse, dependent, survivor, or caregiver of a Veteran."
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "VA department information",
+     "href": "https://department.va.gov/"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Learn more about the VA departments that manage our benefit and health care programs."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 25,
+   "repeats": [
+    {
+     "unitSelector": "DIV.home-explore__row",
+     "count": 4,
+     "unit": {
+      "headings": 3,
+      "ctas": 3,
+      "imgs": 0,
+      "textRuns": 6
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.home-explore__col",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.home-explore__col",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.home-explore__col",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.home-explore__col",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "feedback",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Feedback"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "email-signup",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Sign up to get the latest VA updates"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Email address"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "(*Required)"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Sign up",
+     "href": "https://public.govdelivery.com/accounts/USVACHOOSE/subscribers/qualify"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "portraits",
+   "items": [],
+   "imgCount": 1,
+   "editableTexts": 0,
+   "repeats": []
+  }
+ ]
+}

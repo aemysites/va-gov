@@ -1,0 +1,729 @@
+{
+ "_provenance": {
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-13T16:09:28.792Z",
+  "waitMode": "medium",
+  "waitMs": 2500,
+  "httpStatus": 200
+ },
+ "slug": "life-insurance",
+ "url": "https://www.va.gov/life-insurance/",
+ "renderedBy": "playwright",
+ "fetchedAt": "2026-10-13T16:09:28.792Z",
+ "finalUrl": "https://www.va.gov/life-insurance/",
+ "title": "VA Life Insurance | Veterans Affairs",
+ "description": "VA life insurance can offer financial security for Veterans, service members, and their spouses and dependent children. Explore your options, manage your policy, and file claims to get the insurance benefits you’ve earned.",
+ "og": {
+  "title": "VA life insurance | Veterans Affairs",
+  "description": "VA life insurance can offer financial security for Veterans, service members, and their spouses and dependent children. Explore your options, manage your policy, and file claims to get the insurance benefits you’ve earned.",
+  "image": "https://dsva-vagov-prod-cms-files.s3.us-gov-west-1.amazonaws.com/hub_promos/life-insurance.png",
+  "type": "website"
+ },
+ "headings": [
+  {
+   "tag": "h1",
+   "text": "VA life insurance"
+  },
+  {
+   "tag": "h2",
+   "text": "Get VA life insurance"
+  },
+  {
+   "tag": "h2",
+   "text": "Manage your life insurance policy and benefits"
+  },
+  {
+   "tag": "h2",
+   "text": "More information and resources"
+  },
+  {
+   "tag": "h2",
+   "text": "Other VA benefits and services"
+  },
+  {
+   "tag": "h3",
+   "text": "Message us"
+  },
+  {
+   "tag": "h3",
+   "text": "Call us"
+  },
+  {
+   "tag": "h3",
+   "text": "Get updates"
+  },
+  {
+   "tag": "h3",
+   "text": "Follow us"
+  },
+  {
+   "tag": "h2",
+   "text": "Veteran programs and services"
+  },
+  {
+   "tag": "h2",
+   "text": "More VA resources"
+  },
+  {
+   "tag": "h2",
+   "text": "Get VA updates"
+  },
+  {
+   "tag": "h2",
+   "text": "In crisis? Talk to someone now"
+  },
+  {
+   "tag": "h2",
+   "text": "Get answers"
+  },
+  {
+   "tag": "h2",
+   "text": "Call us"
+  },
+  {
+   "tag": "h2",
+   "text": "Visit a medical center or regional office"
+  },
+  {
+   "tag": "h2",
+   "text": "Language assistance"
+  }
+ ],
+ "body": [
+  "VA life insurance can offer financial security for Veterans, service members, and their spouses and dependent children. Explore your options, manage your policy, and file claims to get the insurance benefits you’ve earned.",
+  "Find out which life insurance plans you may qualify for—and the benefits you’ll receive with each plan.",
+  "Find out which life insurance plans you may qualify for—and the benefits you’ll receive with each plan.",
+  "Find out if you can get your insurance premium waived or receive your benefits early in certain situations.",
+  "Find out if you can get your insurance premium waived or receive your benefits early in certain situations.",
+  "If you’re the beneficiary of a Veteran or service member enrolled in a VA life insurance plan, find out if you can get free financial planning and online will preparation services.",
+  "If you’re the beneficiary of a Veteran or service member enrolled in a VA life insurance plan, find out if you can get free financial planning and online will preparation services.",
+  "Use our life insurance needs calculator to help decide how much life insurance you need.",
+  "Use our life insurance needs calculator to help decide how much life insurance you need.",
+  "Get the facts on common myths, rumors, and misconceptions about SGLI and VGLI insurance.",
+  "Get the facts on common myths, rumors, and misconceptions about SGLI and VGLI insurance.",
+  "Learn about our new online process for enrolling in Servicemembers’ Group Life Insurance.",
+  "Learn about our new online process for enrolling in Servicemembers’ Group Life Insurance.",
+  "Find out how to reach out to ask a question about your policy or file a claim for benefits.",
+  "Find out how to reach out to ask a question about your policy or file a claim for benefits.",
+  "Find and download the forms you need to apply for and manage your life insurance benefits.",
+  "Find and download the forms you need to apply for and manage your life insurance benefits.",
+  "Download life insurance handbooks, guides, and newsletters.",
+  "Download life insurance handbooks, guides, and newsletters.",
+  "Learn about the law requiring us to pay all benefits by electronic funds transfer.",
+  "Learn about the law requiring us to pay all benefits by electronic funds transfer.",
+  "You have 4 options to get life insurance as you transition out of service, but they have time limits. Learn about your options if you have preexisting conditions.",
+  "You have 4 options to get life insurance as you transition out of service, but they have time limits. Learn about your options if you have preexisting conditions.",
+  "Learn the truth about the rumors that there are special dividends for Veterans who don’t have an active government life insurance policy.",
+  "Learn the truth about the rumors that there are special dividends for Veterans who don’t have an active government life insurance policy.",
+  "Get help planning a burial, order a headstone or other memorial item, and apply for survivor and dependent benefits.",
+  "Get help planning a burial, order a headstone or other memorial item, and apply for survivor and dependent benefits.",
+  "Find out if you’re eligible for tax-free monthly payments as a wartime Veteran or surviving spouse or child.",
+  "Find out if you’re eligible for tax-free monthly payments as a wartime Veteran or surviving spouse or child.",
+  "Find out how to apply for and manage your VA health care benefits.",
+  "Find out how to apply for and manage your VA health care benefits.",
+  "Last updated: June 23, 2025",
+  "VALife is a life insurance program for Veterans with service-connected disabilities.",
+  "Contact us online through Ask VA",
+  "Support for VALife, S-DVI, and VMLI:800-669-8477",
+  "Support for WWI, WWII, and Korean War era programs:800-669-8477",
+  "Support for the VGLI program, SGLI claims, and FSGLI claims:800-419-1473",
+  "VA.gov technical support:866-279-3677",
+  "MyVA411 main information line:800-698-2411",
+  "Telecommunications Relay Services (using TTY):711"
+ ],
+ "codeBlocks": [],
+ "ctas": [
+  {
+   "label": "Skip to Content",
+   "href": "#content"
+  },
+  {
+   "label": "Here’s how you know",
+   "href": null
+  },
+  {
+   "label": "Talk to the Veterans Crisis Line now",
+   "href": null
+  },
+  {
+   "label": "Search",
+   "href": null
+  },
+  {
+   "label": "Contact us",
+   "href": "https://www.va.gov/contact-us/"
+  },
+  {
+   "label": "VA Benefits and Health Care",
+   "href": null
+  },
+  {
+   "label": "About VA",
+   "href": null
+  },
+  {
+   "label": "Find a VA Location",
+   "href": "https://www.va.gov/find-locations/"
+  },
+  {
+   "label": "My VA",
+   "href": "/my-va/"
+  },
+  {
+   "label": "My HealtheVet",
+   "href": "/my-health/"
+  },
+  {
+   "label": "Contact us online through Ask VA",
+   "href": "/contact-us/ask-va"
+  },
+  {
+   "label": "Support for VALife, S-DVI, and VMLI:800-669-8477",
+   "href": "tel:+1-800-669-8477"
+  },
+  {
+   "label": "Support for WWI, WWII, and Korean War era programs:800-669-8477",
+   "href": "tel:+1-800-669-8477"
+  },
+  {
+   "label": "Support for the VGLI program, SGLI claims, and FSGLI claims:800-419-1473",
+   "href": "tel:+1-800-419-1473"
+  },
+  {
+   "label": "VA.gov technical support:866-279-3677",
+   "href": "tel:1-866-279-3677"
+  },
+  {
+   "label": "MyVA411 main information line:800-698-2411",
+   "href": "tel:1-800-698-2411"
+  },
+  {
+   "label": "Telecommunications Relay Services (using TTY):711",
+   "href": "tel:1+711"
+  },
+  {
+   "label": "Homeless Veterans",
+   "href": "https://department.va.gov/homeless/"
+  },
+  {
+   "label": "Women Veterans",
+   "href": "https://www.va.gov/womenvet/"
+  },
+  {
+   "label": "Minority Veterans",
+   "href": "https://www.va.gov/centerforminorityveterans/"
+  },
+  {
+   "label": "PTSD",
+   "href": "https://www.ptsd.va.gov/"
+  },
+  {
+   "label": "Mental health",
+   "href": "https://www.mentalhealth.va.gov/"
+  },
+  {
+   "label": "Adaptive sports and special events",
+   "href": "https://department.va.gov/veteran-sports/"
+  },
+  {
+   "label": "Small business programs",
+   "href": "https://www.va.gov/osdbu/"
+  },
+  {
+   "label": "VA outreach events",
+   "href": "https://www.va.gov/outreach-and-events/events/"
+  },
+  {
+   "label": "National Resource Directory",
+   "href": "https://www.nrd.gov/"
+  },
+  {
+   "label": "VA forms",
+   "href": "https://www.va.gov/forms/"
+  },
+  {
+   "label": "VA health care access and quality",
+   "href": "https://www.accesstocare.va.gov/"
+  },
+  {
+   "label": "Get help from an accredited representative or VSO",
+   "href": "https://www.va.gov/get-help-from-accredited-representative"
+  },
+  {
+   "label": "VA mobile apps",
+   "href": "https://www.mobile.va.gov/appstore/"
+  },
+  {
+   "label": "State Veterans Affairs offices",
+   "href": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+  },
+  {
+   "label": "Doing business with VA",
+   "href": "https://www.va.gov/opal/fo/dbwva.asp"
+  },
+  {
+   "label": "Careers at VA",
+   "href": "https://vacareers.va.gov/"
+  },
+  {
+   "label": "VA outreach materials",
+   "href": "https://www.va.gov/outreach-and-events/outreach-materials"
+  },
+  {
+   "label": "Your VA welcome kit",
+   "href": "https://www.va.gov/welcome-kit/"
+  },
+  {
+   "label": "VA news",
+   "href": "https://news.va.gov/"
+  },
+  {
+   "label": "Press releases",
+   "href": "https://news.va.gov/va-press-room/"
+  },
+  {
+   "label": "Email updates",
+   "href": "https://public.govdelivery.com/accounts/USVA/subscriber/new/"
+  },
+  {
+   "label": "Facebook",
+   "href": "https://www.facebook.com/VeteransAffairs"
+  },
+  {
+   "label": "Instagram",
+   "href": "https://www.instagram.com/deptvetaffairs/"
+  },
+  {
+   "label": "X",
+   "href": "https://x.com/DeptVetAffairs/"
+  },
+  {
+   "label": "Flickr",
+   "href": "https://www.flickr.com/photos/VeteransAffairs/"
+  },
+  {
+   "label": "YouTube",
+   "href": "https://www.youtube.com/user/DeptVetAffairs"
+  },
+  {
+   "label": "All VA social media",
+   "href": "https://discover.va.gov/social-media/"
+  },
+  {
+   "label": "Veterans Crisis Line",
+   "href": null
+  },
+  {
+   "label": "Resources and support",
+   "href": "https://www.va.gov/resources/"
+  },
+  {
+   "label": "Contact us",
+   "href": "https://www.va.gov/contact-us/"
+  },
+  {
+   "label": "800-698-2411",
+   "href": "tel:18006982411"
+  },
+  {
+   "label": "TTY: 711",
+   "href": "tel:+1711"
+  },
+  {
+   "label": "Find a VA location",
+   "href": "https://www.va.gov/find-locations/"
+  },
+  {
+   "label": "Español",
+   "href": "https://www.va.gov/asistencia-y-recursos-en-espanol"
+  },
+  {
+   "label": "Tagalog",
+   "href": "https://www.va.gov/tagalog-wika-mapagkukunan-at-tulong"
+  },
+  {
+   "label": "Other languages",
+   "href": "https://www.va.gov/resources/how-to-get-free-language-assistance-from-va/"
+  },
+  {
+   "label": "Accessibility",
+   "href": "https://www.va.gov/accessibility-at-va"
+  },
+  {
+   "label": "Civil Rights",
+   "href": "https://www.va.gov/resources/your-civil-rights-and-how-to-file-a-discrimination-complaint/"
+  },
+  {
+   "label": "Freedom of Information Act (FOIA)",
+   "href": "https://department.va.gov/foia/"
+  },
+  {
+   "label": "Harassment",
+   "href": "https://www.va.gov/report-harassment/"
+  },
+  {
+   "label": "Office of Inspector General",
+   "href": "https://www.va.gov/oig/"
+  },
+  {
+   "label": "Plain language",
+   "href": "https://www.va.gov/opa/Plain_Language.asp"
+  },
+  {
+   "label": "Privacy, terms, policies, and legal information",
+   "href": "https://www.va.gov/privacy-policy/"
+  },
+  {
+   "label": "VA Privacy Service",
+   "href": "https://department.va.gov/privacy/"
+  },
+  {
+   "label": "No FEAR Act Data",
+   "href": "https://department.va.gov/resolution-management/reports/"
+  },
+  {
+   "label": "USA.gov",
+   "href": "https://www.usa.gov/"
+  },
+  {
+   "label": "VA performance dashboard",
+   "href": "https://www.va.gov/performance-dashboard/"
+  },
+  {
+   "label": "Veterans Portrait Project",
+   "href": "https://www.va.gov/veterans-portrait-project/"
+  }
+ ],
+ "links": [
+  "https://www.va.gov/life-insurance/#content",
+  "https://www.va.gov/",
+  "https://www.va.gov/contact-us/",
+  "https://www.va.gov/find-locations/",
+  "https://www.va.gov/my-va/",
+  "https://www.va.gov/my-health/",
+  "https://www.va.gov/contact-us/ask-va",
+  "tel:+1-800-669-8477",
+  "tel:+1-800-419-1473",
+  "tel:1-866-279-3677",
+  "tel:1-800-698-2411",
+  "tel:1+711",
+  "https://department.va.gov/homeless/",
+  "https://www.va.gov/womenvet/",
+  "https://www.va.gov/centerforminorityveterans/",
+  "https://www.ptsd.va.gov/",
+  "https://www.mentalhealth.va.gov/",
+  "https://department.va.gov/veteran-sports/",
+  "https://www.va.gov/osdbu/",
+  "https://www.va.gov/outreach-and-events/events/",
+  "https://www.nrd.gov/",
+  "https://www.va.gov/forms/",
+  "https://www.accesstocare.va.gov/",
+  "https://www.va.gov/get-help-from-accredited-representative",
+  "https://www.mobile.va.gov/appstore/",
+  "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office",
+  "https://www.va.gov/opal/fo/dbwva.asp",
+  "https://vacareers.va.gov/",
+  "https://www.va.gov/outreach-and-events/outreach-materials",
+  "https://www.va.gov/welcome-kit/",
+  "https://news.va.gov/",
+  "https://news.va.gov/va-press-room/",
+  "https://public.govdelivery.com/accounts/USVA/subscriber/new/",
+  "https://www.facebook.com/VeteransAffairs",
+  "https://www.instagram.com/deptvetaffairs/",
+  "https://x.com/DeptVetAffairs/",
+  "https://www.flickr.com/photos/VeteransAffairs/",
+  "https://www.youtube.com/user/DeptVetAffairs",
+  "https://discover.va.gov/social-media/",
+  "https://www.va.gov/resources/",
+  "tel:18006982411",
+  "tel:+1711",
+  "https://www.va.gov/asistencia-y-recursos-en-espanol",
+  "https://www.va.gov/tagalog-wika-mapagkukunan-at-tulong",
+  "https://www.va.gov/resources/how-to-get-free-language-assistance-from-va/",
+  "https://www.va.gov/accessibility-at-va",
+  "https://www.va.gov/resources/your-civil-rights-and-how-to-file-a-discrimination-complaint/",
+  "https://department.va.gov/foia/",
+  "https://www.va.gov/report-harassment/",
+  "https://www.va.gov/oig/",
+  "https://www.va.gov/opa/Plain_Language.asp",
+  "https://www.va.gov/privacy-policy/",
+  "https://department.va.gov/privacy/",
+  "https://department.va.gov/resolution-management/reports/",
+  "https://www.usa.gov/",
+  "https://www.va.gov/performance-dashboard/",
+  "https://www.va.gov/veterans-portrait-project/",
+  "tel:988",
+  "sms:838255",
+  "https://www.veteranscrisisline.net/get-help-now/chat/",
+  "tel:711",
+  "https://www.veteranscrisisline.net/"
+ ],
+ "media": {
+  "imgs": [
+   {
+    "src": "https://www.va.gov/img/tiny-usa-flag.png",
+    "alt": "U.S. flag",
+    "w": 57,
+    "h": 57
+   },
+   {
+    "src": "https://www.va.gov/img/arrow-right-white.svg",
+    "alt": "",
+    "w": 445,
+    "h": 445
+   },
+   {
+    "src": "https://www.va.gov/img/header-logo.png",
+    "alt": "VA logo and Seal, U.S. Department of Veterans Affairs",
+    "w": 512,
+    "h": 114
+   },
+   {
+    "src": "https://dsva-vagov-prod-cms-files.s3.us-gov-west-1.amazonaws.com/styles/3_2_medium_thumbnail/public/hub_promos/life-insurance.png",
+    "alt": "",
+    "w": 480,
+    "h": 320
+   },
+   {
+    "src": "https://s3-us-gov-west-1.amazonaws.com/content.www.va.gov/img/homepage/veterans-banner-desktop-2.png",
+    "alt": "Veteran portraits",
+    "w": 1440,
+    "h": 180
+   },
+   {
+    "src": "https://www.va.gov/img/homepage/va-logo-white.png",
+    "alt": "Go to VA.gov",
+    "w": 587,
+    "h": 145
+   }
+  ],
+  "allImgCount": 8,
+  "cssBackgrounds": [],
+  "modals": [],
+  "videos": [],
+  "iframes": []
+ },
+ "customProps": {},
+ "_signals": {
+  "filteredInterstitials": 0,
+  "distinctHeadings": 16,
+  "mainTextLen": 5645,
+  "realImageCount": 6,
+  "trackingOnlyMedia": false,
+  "spaShellSuspect": false,
+  "screenshotMode": "fullPage"
+ },
+ "dynamic": {
+  "endpoints": [
+   {
+    "method": "GET",
+    "host": "www.va.gov",
+    "path": "/img/sprite.svg",
+    "query": [],
+    "resourceType": "fetch",
+    "contentType": "image/svg+xml",
+    "status": 200,
+    "bytes": null,
+    "hits": 1,
+    "example": "https://www.va.gov/img/sprite.svg",
+    "sameSite": true
+   },
+   {
+    "method": "POST",
+    "host": "www.google-analytics.com",
+    "path": "/g/collect",
+    "query": [
+     "_ee",
+     "_fv",
+     "_nsi",
+     "_p",
+     "_s",
+     "_ss",
+     "_tu",
+     "cid",
+     "dl",
+     "dma",
+     "dr",
+     "dt",
+     "en",
+     "ep.agency",
+     "ep.hostname_dimension",
+     "ep.protocol",
+     "ep.script_source",
+     "ep.site_platform",
+     "ep.site_topic",
+     "ep.subagency",
+     "ep.using_parallel_tracker",
+     "ep.version",
+     "frm",
+     "gcd",
+     "gtm",
+     "ngs",
+     "npa",
+     "pscdl",
+     "rcb",
+     "sct",
+     "seg",
+     "sid",
+     "sr",
+     "tag_exp",
+     "tfd",
+     "tid",
+     "uaa",
+     "uab",
+     "uafvl",
+     "uam",
+     "uamb",
+     "uap",
+     "uapv",
+     "uaw",
+     "ul",
+     "v"
+    ],
+    "resourceType": "fetch",
+    "contentType": "text/plain",
+    "status": 204,
+    "bytes": null,
+    "hits": 2,
+    "example": "https://www.google-analytics.com/g/collect",
+    "sameSite": false
+   },
+   {
+    "method": "GET",
+    "host": "resource.digital.voice.va.gov",
+    "path": "/wdcvoice/{n}/onsite/onsiteData1791897796293.json",
+    "query": [],
+    "resourceType": "xhr",
+    "contentType": "application/json",
+    "status": 200,
+    "bytes": 72275,
+    "hits": 1,
+    "example": "https://resource.digital.voice.va.gov/wdcvoice/2/onsite/onsiteData1791897796293.json",
+    "sameSite": true
+   },
+   {
+    "method": "GET",
+    "host": "resource.digital.voice.va.gov",
+    "path": "/wdcvoice/{n}/forms/{n}/invitationData1791897793480_en.json",
+    "query": [],
+    "resourceType": "xhr",
+    "contentType": "application/json",
+    "status": 200,
+    "bytes": 2434,
+    "hits": 1,
+    "example": "https://resource.digital.voice.va.gov/wdcvoice/2/forms/78/invitationData1791897793480_en.json",
+    "sameSite": true
+   },
+   {
+    "method": "GET",
+    "host": "resource.digital.voice.va.gov",
+    "path": "/wdcvoice/{n}/onsite/domains-configuration.json",
+    "query": [],
+    "resourceType": "xhr",
+    "contentType": "application/json",
+    "status": 200,
+    "bytes": 70,
+    "hits": 1,
+    "example": "https://resource.digital.voice.va.gov/wdcvoice/2/onsite/domains-configuration.json",
+    "sameSite": true
+   },
+   {
+    "method": "GET",
+    "host": "api.va.gov",
+    "path": "/v0/feature_toggles",
+    "query": [
+     "cookie_id"
+    ],
+    "resourceType": "fetch",
+    "contentType": "application/json",
+    "status": 200,
+    "bytes": null,
+    "hits": 1,
+    "example": "https://api.va.gov/v0/feature_toggles",
+    "sameSite": true
+   }
+  ],
+  "thirdPartyScriptHosts": [
+   {
+    "host": "prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com",
+    "count": 22
+   },
+   {
+    "host": "www.googletagmanager.com",
+    "count": 4
+   },
+   {
+    "host": "dap.digitalgov.gov",
+    "count": 1
+   },
+   {
+    "host": "siteimproveanalytics.com",
+    "count": 1
+   }
+  ],
+  "truncated": false,
+  "inlineData": [
+   {
+    "id": "__NEXT_DATA__",
+    "type": "application/json",
+    "bytes": 36712,
+    "topLevelKeys": [
+     "props",
+     "page",
+     "query",
+     "buildId",
+     "isFallback",
+     "dynamicIds",
+     "gsp",
+     "scriptLoader"
+    ]
+   }
+  ],
+  "globalState": [
+   "__NEXT_DATA__",
+   "dataLayer"
+  ],
+  "frameworkHints": [
+   "next"
+  ],
+  "forms": [],
+  "ariaLiveRegions": 2,
+  "triggers": [
+   {
+    "marker": "aria-haspopup",
+    "href": null
+   },
+   {
+    "marker": "aria-haspopup",
+    "href": null
+   }
+  ],
+  "mediaIds": [],
+  "summary": {
+   "sameSiteEndpoints": 5,
+   "thirdPartyEndpoints": 1,
+   "thirdPartyScriptHosts": 4,
+   "inlineDataBlobs": 1,
+   "forms": 0,
+   "searchForms": 0,
+   "hydrated": true
+  }
+ },
+ "screenshot": "assets/screenshots/life-insurance.png",
+ "renderedHtml": "pages/life-insurance.html",
+ "slots": {
+  "type": "program",
+  "program-headline": "VA life insurance",
+  "summary": "VA life insurance can offer financial security for Veterans, service members, and their spouses and dependent children. Explore your options, manage your policy, and file claims to get the insurance benefits you’ve earned.",
+  "feature-grid": [
+   "Get VA life insurance",
+   "Manage your life insurance policy and benefits",
+   "More information and resources",
+   "Other VA benefits and services",
+   "Get updates",
+   "Get VA updates",
+   "Get answers"
+  ],
+  "cta-band": "Other VA benefits and services"
+ }
+}

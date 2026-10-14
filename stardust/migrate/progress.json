@@ -1,0 +1,51 @@
+{
+ "units": {
+  "plan": {
+   "status": "done",
+   "kind": "plan",
+   "templates": [
+    "landing",
+    "program"
+   ],
+   "pages": 5,
+   "startedAt": "2026-10-13T17:11:38Z",
+   "endedAt": "2026-10-13T17:11:45.143Z",
+   "verdict": "page map 5 entries, 0 collisions; archetypes index (landing) + health-care (program) render now; program siblings housing-assistance, life-insurance, family-and-caregiver-benefits render after the program archetype unit is done"
+  },
+  "archetypes": {
+   "status": "done",
+   "kind": "render",
+   "templates": [
+    "landing",
+    "program"
+   ],
+   "pages": 2,
+   "startedAt": "2026-10-13T17:11:45Z",
+   "endedAt": "2026-10-13T17:11:56.190Z",
+   "verdict": "rendered 2, unchanged 0, refused 0, passthrough 0"
+  },
+  "program": {
+   "status": "done",
+   "kind": "render",
+   "templates": [
+    "program"
+   ],
+   "pages": 3,
+   "startedAt": "2026-10-13T19:08:30Z",
+   "endedAt": "2026-10-13T19:17:05Z",
+   "verdict": "program render: rendered 3, unchanged 0, refused 0, variants 5, encoder gaps 4 (promo media not in DA ledger; family alert details flattened; rail-card background variant dropped; <b> dropped in link-list descriptions)"
+  },
+  "report": {
+   "status": "done",
+   "kind": "report",
+   "templates": [
+    "landing",
+    "program"
+   ],
+   "pages": 5,
+   "startedAt": "2026-10-13T20:03:54Z",
+   "endedAt": "2026-10-13T20:03:54Z",
+   "verdict": "report: 5/5 pages placed (2 archetype, 3 sibling), all deployed; summary in stardust/migrate/report.txt"
+  }
+ }
+}

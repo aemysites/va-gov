@@ -1,0 +1,144 @@
+/* Accordion — values lifted from the gated prototype (hub.css .acc*). */
+.accordion .acc-tools {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+.accordion .acc-tools li {
+  height: 45px;
+}
+
+.accordion .acc-tools button {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  height: 41px;
+  padding: 12px 8px;
+  margin: 0 0 4px;
+  border: 0;
+  border-radius: 4px;
+  background: #fff;
+  color: var(--va-link);
+  font-size: 16.96px;
+  line-height: 15.264px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.accordion .acc-tools svg {
+  width: 17px;
+  height: 17px;
+  fill: currentcolor;
+}
+
+.accordion .acc-item {
+  margin: 0 0 8px;
+}
+
+.accordion .acc-head {
+  position: relative;
+  padding: 16px 56px 16px 20px;
+  background: var(--va-gray-lightest-2) no-repeat right 20px center / 16px
+    url("../../icons/va-minus.svg");
+}
+
+.accordion .acc-item.is-closed .acc-head {
+  background-image: url("../../icons/va-plus.svg");
+}
+
+.accordion .acc-head :is(h2, h3, h4) {
+  margin: 0;
+  font-family: var(--va-font-sans);
+  font-size: 16.96px;
+  line-height: 20.352px;
+  font-weight: 700;
+  color: var(--va-ink);
+  text-align: left;
+}
+
+.accordion .acc-toggle {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.accordion .acc-panel {
+  padding: 16px 20px;
+  background: #fff;
+  border: 4px solid var(--va-gray-lightest-2);
+  border-top: 0;
+  font-size: 16.96px;
+  line-height: 25.44px;
+}
+
+.accordion .acc-panel[hidden] {
+  display: none;
+}
+
+.accordion .acc-panel :is(h3, h4) {
+  font-size: 17.008px;
+  line-height: 22.1104px;
+  margin: 25.512px 0 8.504px;
+}
+
+.accordion .acc-panel ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.accordion .acc-panel li {
+  margin: 16px 0 0;
+}
+
+/* social / email links: icon chosen by the authored link target */
+.accordion .acc-panel :is(p, li):has(a[href*="govdelivery.com"], a[href*="twitter.com"],
+  a[href*="x.com/"], a[href*="facebook.com"], a[href*="youtube.com"],
+  a[href*="instagram.com"]) {
+  display: flex;
+  align-items: center;
+}
+
+.accordion .acc-panel p:has(a[href*="govdelivery.com"]) {
+  margin: 0;
+}
+
+.accordion .acc-panel :is(p, li):has(a[href*="govdelivery.com"], a[href*="twitter.com"],
+  a[href*="x.com/"], a[href*="facebook.com"], a[href*="youtube.com"],
+  a[href*="instagram.com"])::before {
+  content: "";
+  flex: 0 0 24px;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  background-color: var(--va-link);
+  mask: var(--acc-icon) center / 24px no-repeat;
+}
+
+.accordion .acc-panel :is(p, li):has(a[href*="govdelivery.com"]) {
+  --acc-icon: url("../../icons/va-email.svg");
+}
+
+.accordion .acc-panel :is(p, li):has(a[href*="twitter.com"], a[href*="x.com/"]) {
+  --acc-icon: url("../../icons/va-x.svg");
+}
+
+.accordion .acc-panel :is(p, li):has(a[href*="facebook.com"]) {
+  --acc-icon: url("../../icons/va-facebook.svg");
+}
+
+.accordion .acc-panel :is(p, li):has(a[href*="youtube.com"]) {
+  --acc-icon: url("../../icons/va-youtube.svg");
+}
+
+.accordion .acc-panel :is(p, li):has(a[href*="instagram.com"]) {
+  --acc-icon: url("../../icons/va-instagram.svg");
+}

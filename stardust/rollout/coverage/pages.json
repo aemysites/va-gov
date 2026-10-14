@@ -1,0 +1,264 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-13T19:50:10.203Z",
+    "readArtifacts": [
+      "stardust/migrated"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-13T20:15:04.090Z",
+  "pages": [
+    {
+      "slug": "family-and-caregiver-benefits",
+      "path": "/family-and-caregiver-benefits",
+      "title": "VA Benefits For Family And Caregivers | Veterans Affairs",
+      "templateId": "health-care",
+      "source": {
+        "migratedHtml": "stardust/migrated/family-and-caregiver-benefits/index.html",
+        "metaJson": "stardust/migrated/family-and-caregiver-benefits/_meta.json",
+        "sourceHash": "sha256:b21b999032400d53813ed100d2e27b795c8fe5e61dbf506a9909385f58dd6dfc",
+        "sourceUrl": "https://www.va.gov/family-and-caregiver-benefits/"
+      },
+      "blocks": [
+        "breadcrumbs",
+        "hub-title",
+        "alert",
+        "link-list",
+        "rail-card",
+        "accordion",
+        "feedback",
+        "portraits"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--cd6de7e5--aemcoder.aem.page/family-and-caregiver-benefits",
+        "deployedAt": "2026-10-13T19:50:13.373Z",
+        "verifiedAt": "2026-10-13T20:15:04.090Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 13.89,
+          "heightDelta": -126,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 22,
+            "variable": []
+          },
+          "reasons": [
+            "pixel 13.89% > 10%"
+          ],
+          "override": "PASS (same-browser row)",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-13T20:11:27.392Z"
+        }
+      }
+    },
+    {
+      "slug": "health-care",
+      "path": "/health-care",
+      "title": "VA Health Care | Veterans Affairs",
+      "templateId": "health-care",
+      "source": {
+        "migratedHtml": "stardust/migrated/health-care/index.html",
+        "metaJson": "stardust/migrated/health-care/_meta.json",
+        "sourceHash": "sha256:668723df5062e7ac0a319ad9d7469e35b8d1f56e19d7496e176b4e05306b24ad",
+        "sourceUrl": "https://www.va.gov/health-care/"
+      },
+      "blocks": [
+        "breadcrumbs",
+        "hub-title",
+        "on-this-page",
+        "alert",
+        "link-list",
+        "rail-card",
+        "accordion",
+        "feedback",
+        "portraits"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--cd6de7e5--aemcoder.aem.page/health-care",
+        "deployedAt": "2026-10-13T18:58:04.530Z",
+        "verifiedAt": "2026-10-13T20:15:04.090Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 12.44,
+          "heightDelta": -106,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 51,
+            "variable": []
+          },
+          "reasons": [
+            "pixel 12.44% > 10%"
+          ],
+          "override": "PASS (same-browser row)",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-13T20:11:27.392Z"
+        }
+      }
+    },
+    {
+      "slug": "housing-assistance",
+      "path": "/housing-assistance",
+      "title": "VA Housing Assistance | Veterans Affairs",
+      "templateId": "health-care",
+      "source": {
+        "migratedHtml": "stardust/migrated/housing-assistance/index.html",
+        "metaJson": "stardust/migrated/housing-assistance/_meta.json",
+        "sourceHash": "sha256:6ceab7a1f8e94999de9f1ec2886f09269626fa01a0f3bf8b9f356eac0e6ba338",
+        "sourceUrl": "https://www.va.gov/housing-assistance/"
+      },
+      "blocks": [
+        "breadcrumbs",
+        "hub-title",
+        "on-this-page",
+        "alert",
+        "link-list",
+        "rail-card",
+        "accordion",
+        "feedback",
+        "portraits"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--cd6de7e5--aemcoder.aem.page/housing-assistance",
+        "deployedAt": "2026-10-13T19:50:13.272Z",
+        "verifiedAt": "2026-10-13T20:15:04.090Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 11.95,
+          "heightDelta": -86,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 44,
+            "variable": []
+          },
+          "reasons": [
+            "pixel 11.95% > 10%"
+          ],
+          "override": "PASS (same-browser row)",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-13T20:11:27.392Z"
+        }
+      }
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "VA.gov Home | Veterans Affairs",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/index.html",
+        "metaJson": "stardust/migrated/_meta.json",
+        "sourceHash": "sha256:27ac6e0673ea29905d860324688ccc6327ea617df0ebc502b6d9316891551fb0",
+        "sourceUrl": "https://www.va.gov/"
+      },
+      "blocks": [
+        "site-alert",
+        "home-hero",
+        "home-tasks",
+        "news-promo",
+        "hub-grid",
+        "feedback",
+        "email-signup"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--cd6de7e5--aemcoder.aem.live/",
+        "deployedAt": "2026-10-13T19:29:11.935Z",
+        "verifiedAt": "2026-10-13T20:15:04.090Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 10.64,
+          "heightDelta": -27,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 35,
+            "variable": []
+          },
+          "reasons": [
+            "pixel 10.64% > 10%"
+          ],
+          "override": "PASS (same-browser row)",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-13T20:11:27.392Z"
+        }
+      }
+    },
+    {
+      "slug": "life-insurance",
+      "path": "/life-insurance",
+      "title": "VA Life Insurance | Veterans Affairs",
+      "templateId": "health-care",
+      "source": {
+        "migratedHtml": "stardust/migrated/life-insurance/index.html",
+        "metaJson": "stardust/migrated/life-insurance/_meta.json",
+        "sourceHash": "sha256:ded58c24a44d24b217591d540a0492fb1b31cc54141feba0988963d3972267df",
+        "sourceUrl": "https://www.va.gov/life-insurance/"
+      },
+      "blocks": [
+        "breadcrumbs",
+        "hub-title",
+        "on-this-page",
+        "link-list",
+        "rail-card",
+        "accordion",
+        "feedback",
+        "portraits"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--cd6de7e5--aemcoder.aem.page/life-insurance",
+        "deployedAt": "2026-10-13T19:50:13.321Z",
+        "verifiedAt": "2026-10-13T20:15:04.090Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 12.65,
+          "heightDelta": -129,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 38,
+            "variable": []
+          },
+          "reasons": [
+            "pixel 12.65% > 10%"
+          ],
+          "override": "PASS (same-browser row)",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-13T20:11:27.392Z"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "stardust/prototypes/assets/hub.css"
+        ],
+        "createdAt": "2026-10-13T16:57:29.004Z",
+        "reason": "replica run (agent decision): the 8px left accent on .alert reproduces the live VA.gov usa-alert--info component measured at www.va.gov/health-care/; same-design migration forbids design changes outside the empty inconsistency register"
+      },
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "stardust/prototypes/assets/home.css"
+        ],
+        "createdAt": "2026-10-13T17:14:50.844Z",
+        "reason": "replica fidelity: live va.gov usa-site-alert measured with 8px left border rgb(0,189,227) (stardust/replica/lift/home-1440-tree.txt); same-design migration forbids changing it"
+      }
+    ]
+  }
+}

@@ -1,0 +1,137 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:replica"
+ },
+ "archetypes": {
+  "program": {
+   "slug": "health-care",
+   "liveUrl": "https://www.va.gov/health-care/",
+   "prototype": "stardust/prototypes/health-care-proposed.html",
+   "siblings": [
+    "housing-assistance",
+    "life-insurance",
+    "family-and-caregiver-benefits"
+   ],
+   "status": "passed",
+   "iterations": {
+    "360": 3,
+    "1440": 3
+   },
+   "gates": {
+    "360": {
+     "pixel": "5.10%",
+     "heightDelta": -6,
+     "structuralRed": 0,
+     "visualFlags": 0,
+     "clipped": 0,
+     "overflow": "ok",
+     "chromeCrop": {
+      "header": "1.22%",
+      "footer": "1.44%"
+     }
+    },
+    "1440": {
+     "pixel": "1.65%",
+     "heightDelta": -2,
+     "structuralRed": 0,
+     "visualFlags": 0,
+     "clipped": 0,
+     "overflow": "ok",
+     "chromeCrop": {
+      "header": "0.14%",
+      "footer": "1.89%"
+     }
+    },
+    "capProbe": "PASS at 2560 (0 of 3 rows failed)"
+   },
+   "residuals": [
+    "chrome-parity: footer link rows ±1–3px sub-pixel offsets (33.906 vs 33.891px row height); desktop bottom-link row wraps after Plain language at x+20px",
+    "content-diff 🟠 EXTRA: On this page / alert / link-list nodes live inside shadow DOM on the source (va-on-this-page, va-link) — the light-DOM probe cannot see them; content verified against the composed-tree capture (pages/health-care.flat.html)",
+    "Sign in: source renders a va-button (shadow) that opens the sign-in modal; build ships a link to VA.gov sign-in (interim tier, dynamic-features.md)"
+   ],
+   "motion": {
+    "observed": [
+     "hover main a: color #005ea2→#1b1b1b, background → rgba(0,0,0,.05), 300ms ease-in-out",
+     "hover gov banner toggle: color → #1a4480",
+     "transitions color/background-color 300ms"
+    ],
+    "implemented": [
+     "main a:hover + a transition (parity)",
+     "gov-toggle:hover",
+     "accordion expand/collapse (va-accordion)",
+     "crisis-line modal",
+     "mega menu click panels (header contract)",
+     "footer mobile accordions"
+    ],
+    "dead": [
+     "header scroll-morph (static on live)",
+     "gov banner toggle: no sampled frame change"
+    ]
+   },
+   "passedAt": "2026-10-13T16:56:49.000Z"
+  },
+  "landing": {
+   "slug": "index",
+   "liveUrl": "https://www.va.gov/",
+   "prototype": "stardust/prototypes/index-proposed.html",
+   "siblings": [],
+   "status": "passed",
+   "iterations": {
+    "360": 2,
+    "1440": 2
+   },
+   "gates": {
+    "360": {
+     "pixel": "2.80%",
+     "heightDelta": -1,
+     "structuralRed": 0,
+     "visualFlags": 0,
+     "clipped": 0,
+     "overflow": "ok",
+     "chromeCrop": {
+      "header": "1.22%",
+      "footer": "1.81%"
+     }
+    },
+    "1440": {
+     "pixel": "1.33%",
+     "heightDelta": -1,
+     "structuralRed": 0,
+     "visualFlags": 1,
+     "visualFlagsJustified": [
+      "STRETCHED IMAGE Health-and-benefits-distro-graphics_sq.jpg: intentional object-fit:cover crop, as on live (.homepage-blog__image img)"
+     ],
+     "clipped": 0,
+     "overflow": "ok",
+     "chromeCrop": {
+      "header": "0.23%",
+      "footer": "1.24%"
+     }
+    },
+    "capProbe": "FAIL at 2560 (1 of 7 rows) — instrument false-red: live module 5 (#content > div.vads-grid-container, feedback row) read as full-bleed because its only leaf is a shadow-DOM va-button; measured box at 2560 is identical on both sides (x 768, w 1024, max-width 1024) — stardust/replica/lift tree probe, no sizing delta"
+   },
+   "residuals": [
+    "iter1 fixes: site banner p bottom margin kept inside the alert (+17px), top-pages li padding removed (−36px at 360), row gutters clipped (overflow 368→360)",
+    "chrome-parity: Sign in EXTRA (va-button on live, link on build — interim tier) and footer sub-pixel row offsets, same as the hub archetype",
+    "content-diff 🟡 MISSING ICON ×12: live hub icons render inside va-icon shadow roots (empty 40×40 boxes to the probe); build carries the same 12 icons inline — pixel-verified",
+    "content-diff 🟡 EXTRA Search / Search VA.gov / Sign up: live strings live in va-search-input / va-text-input / va-button shadow roots"
+   ],
+   "motion": {
+    "observed": [
+     "hover gov banner toggle: color → #1a4480 (header contract)",
+     "alert close (va-banner) dismisses the banner — shadow DOM, unobserved by the sampler"
+    ],
+    "implemented": [
+     "gov-toggle:hover (canon, desktop toggle; the sampler hovered the hidden mobile toggle on build)",
+     "main a:hover + transition (canon)",
+     "site banner close (home.js)",
+     "crisis-line modal, mega menu, drawer, footer accordions (canon/chrome.js)"
+    ],
+    "dead": [
+     "header scroll-morph"
+    ]
+   },
+   "passedAt": "2026-10-13T17:08:50.212Z"
+  }
+ }
+}

@@ -1,0 +1,48 @@
+/* On this page — values lifted from the gated prototype (hub.css .otp). */
+.on-this-page .otp {
+  padding: 16px;
+  border: 1px solid var(--va-border);
+  border-radius: 4px;
+}
+
+.on-this-page .otp :is(h2, h3) {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  padding: 8px;
+  margin: 8px 0;
+}
+
+.on-this-page .otp ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 16.96px;
+  line-height: 25.44px;
+}
+
+.on-this-page .otp li {
+  padding: 8px;
+}
+
+.on-this-page .otp a {
+  display: flex;
+  text-decoration: none;
+}
+
+.on-this-page .otp a::before {
+  content: "";
+  flex: 0 0 17px;
+  width: 17px;
+  height: 17px;
+  margin: 4px 4px 0 0;
+  background-color: currentcolor;
+  mask: url("../../icons/va-arrow-downward.svg") center / 17px no-repeat;
+}
+
+@media (width >= 768px) {
+  .on-this-page .otp {
+    padding: 16px 16px 16px 0;
+    border: 0;
+  }
+}

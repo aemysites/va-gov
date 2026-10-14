@@ -1,0 +1,117 @@
+{
+  "generatedAt": "2026-10-13T20:26:19.240Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.va.gov/",
+    "liveHost": "main--cd6de7e5--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 5,
+    "prototyped": 5,
+    "deployed": 5,
+    "optimised": 4
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 0,
+    "deployed": 1,
+    "optimised": 4
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "stage": "deployed",
+      "templateId": "index",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "family-and-caregiver-benefits",
+      "path": "/family-and-caregiver-benefits",
+      "stage": "optimised",
+      "templateId": "health-care",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "health-care",
+      "path": "/health-care",
+      "stage": "optimised",
+      "templateId": "health-care",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "housing-assistance",
+      "path": "/housing-assistance",
+      "stage": "optimised",
+      "templateId": "health-care",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "life-insurance",
+      "path": "/life-insurance",
+      "stage": "optimised",
+      "templateId": "health-care",
+      "isTemplate": false,
+      "openFindings": 0
+    }
+  ],
+  "templates": [
+    {
+      "id": "health-care",
+      "archetype": "health-care",
+      "pageCount": 4,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 4
+      }
+    },
+    {
+      "id": "index",
+      "archetype": "index",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    }
+  ],
+  "blocks": {
+    "total": 15,
+    "converted": 15
+  },
+  "quality": {
+    "overall": 100,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": null,
+      "content-conversion": null,
+      "ai-search": 100,
+      "cross-page": null
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "history": [
+      60,
+      100
+    ]
+  },
+  "findings": {
+    "byFixability": {
+      "out-of-scope": 1
+    },
+    "byAutofix": {}
+  }
+}

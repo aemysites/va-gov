@@ -1,0 +1,90 @@
+/* VA.gov replica — benefit hub template (archetype: /health-care/). Lifted values:
+   stardust/replica/lift/hub-live.compact.txt, hub-main-{1440,360}-tree.txt. */
+
+.container { max-width: 1024px; margin: 0 auto; padding: 0 16px; }
+@media (min-width: 768px) { .container { padding: 0 32px; } }
+
+.hub-row { display: flex; flex-wrap: wrap; margin-bottom: 32px; }
+.hub-main { flex: 0 0 100%; max-width: 100%; padding: 0 0 48px; margin-bottom: 24px; }
+.hub-rail { flex: 0 0 100%; max-width: 100%; padding: 0 8px; }
+@media (min-width: 640px) {
+  .hub-main { flex: 0 0 66.6667%; max-width: 66.6667%; padding-right: 32px; }
+  .hub-rail { flex: 0 0 33.3333%; max-width: 33.3333%; padding: 100.8px 0 0; }
+}
+
+/* title row */
+.hub-title { margin: 8px 0; }
+.hub-title .hub-icon-wrap { display: block; margin-top: 8px; }
+.hub-icon { display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; color: #fff; }
+.hub-icon svg { width: 24px; height: 24px; fill: currentColor; }
+.hub-title h1 { font-size: 30px; line-height: 39px; margin: 8px 0 15px; }
+@media (min-width: 768px) {
+  .hub-title { display: flex; align-items: flex-start; }
+  .hub-title h1 { font-size: 40px; line-height: 52px; margin: 0 0 0 8px; }
+}
+.hub-icon--health-care { background: #3f57a6; }
+.hub-icon--housing { background: #8e704f; }
+.hub-icon--life-insurance { background: #6f7a41; }
+.hub-icon--family-member { background: #162e51; }
+
+.intro { font-family: var(--va-font-serif); font-weight: 400; font-size: 16px; line-height: 27.2px; max-width: 770px; margin: 16px 0; color: var(--va-ink); }
+@media (min-width: 768px) { .intro { font-size: 20px; line-height: 34px; margin: 20px 0; } }
+
+/* on this page */
+.otp { padding: 16px; border: 1px solid var(--va-border); border-radius: 4px; }
+.otp h2 { font-size: 20px; line-height: 30px; font-weight: 400; padding: 8px; margin: 8px 0; }
+.otp ul { list-style: none; margin: 0; padding: 0; font-size: 16.96px; line-height: 25.44px; }
+.otp li { padding: 8px; }
+.otp a { display: flex; text-decoration: none; }
+.otp a svg { flex: 0 0 17px; width: 17px; height: 17px; margin: 4px 4px 0 0; fill: currentColor; }
+@media (min-width: 768px) { .otp { padding: 16px 16px 16px 0; border: 0; } }
+
+/* alert */
+.alert { margin: 24px 0 0; background: var(--va-info-bg); border-left: 8px solid var(--va-info-accent); padding: 16px 20px; position: relative; font-size: 16.96px; line-height: 25.44px; }
+.alert svg { position: absolute; left: 16px; top: 13px; width: 32px; height: 32px; fill: var(--va-ink); }
+.alert__body { margin-left: 40px; }
+.alert h2 { font-size: 20px; line-height: 24px; margin: -2px 0 8px; }
+.alert p { margin: 16px 0; }
+
+/* link-teaser lists */
+.hub-section h2 { font-size: 24px; line-height: 31.2px; margin: 36px 0 12px; }
+@media (min-width: 768px) { .hub-section h2 { font-size: 32px; line-height: 41.6px; margin: 48px 0 16px; } }
+.link-list { list-style: none; margin: 0; padding: 0; font-size: 16.96px; line-height: 25.44px; }
+.link-list li { margin: 16px 0; }
+.link-list .lh { font-weight: 700; }
+.link-list .lh a svg { width: 17px; height: 17px; vertical-align: -3px; fill: currentColor; }
+.link-list p { margin: 0; color: var(--va-ink-2); }
+
+/* related box */
+.related { background: var(--va-gray-lightest); padding: 1px 16px; margin: 26px 0 0; }
+.related h2 { font-size: 24px; line-height: 31.2px; padding: 16px 0 4px; margin: 0; border-bottom: 1px solid #dfe1e2; }
+@media (min-width: 768px) { .related { margin: 26px 0 40px; } .related h2 { font-size: 32px; line-height: 41.6px; } }
+
+.last-updated.desk { display: none; }
+@media (min-width: 768px) { .last-updated.desk { display: block; } .last-updated.mob { display: none; } }
+.last-updated__row { margin: 0 0 25px; }
+
+/* rail */
+.rail-card { margin: 0 0 24px; border: 1px solid var(--va-border-dark); background: #fff; }
+.rail-card img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; }
+.rail-card__body { padding: 16px; }
+.rail-card h2 { font-size: 17.008px; line-height: 22.1104px; margin: 0 0 8.504px; }
+.rail-card p { font-size: 16.96px; line-height: 25.44px; margin: 16.96px 0; }
+.acc-tools { list-style: none; display: flex; justify-content: flex-end; margin: 0; padding: 0; }
+.acc-tools li { height: 45px; }
+.acc-tools button { display: inline-flex; align-items: center; gap: 4px; height: 41px; padding: 12px 8px; margin: 0 0 4px; border: 0; border-radius: 4px; background: #fff; color: var(--va-link); font-size: 16.96px; line-height: 15.264px; font-weight: 700; text-transform: uppercase; cursor: pointer; }
+.acc-tools svg { width: 17px; height: 17px; fill: currentColor; }
+.acc-item { margin: 0 0 8px; }
+.acc-item h2 { margin: 0; font-family: var(--va-font-sans); }
+.acc-btn { display: block; width: 100%; padding: 16px 56px 16px 20px; border: 0; background: var(--va-gray-lightest-2) no-repeat right 20px center / 16px url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M19 13H5v-2h14v2z'/%3E%3C/svg%3E"); color: var(--va-ink); font-size: 16.96px; line-height: 20.352px; font-weight: 700; text-align: left; cursor: pointer; }
+.acc-btn[aria-expanded="false"] { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z'/%3E%3C/svg%3E"); }
+.acc-panel { padding: 16px 20px; background: #fff; border: 4px solid var(--va-gray-lightest-2); border-top: 0; font-size: 16.96px; line-height: 25.44px; }
+.acc-panel[hidden] { display: none; }
+.acc-panel h3 { font-size: 17.008px; line-height: 22.1104px; margin: 25.512px 0 8.504px; }
+.acc-panel ul { list-style: none; margin: 0; padding: 0; }
+.acc-panel li { margin: 16px 0; }
+.acc-panel li:last-child { margin-bottom: 0; }
+.acc-panel .ico-link { display: flex; align-items: center; }
+.acc-panel .ico-link svg { width: 24px; height: 24px; padding-right: 8px; box-sizing: content-box; fill: var(--va-link); flex: 0 0 24px; }
+
+.portraits-wrap { margin: 0 auto; }

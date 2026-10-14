@@ -1,0 +1,77 @@
+/* Email sign-up — values lifted from the gated prototype (stardust/prototypes/assets/home.css,
+   .home-signup). The band paint sits on the section that holds this block; the portraits
+   banner in the same section shows from 640px, as on the source. */
+main > .section.email-signup-container {
+  background: #e1f3f8;
+  padding: 20px 20px 0;
+}
+
+main > .section.email-signup-container .portraits-wrapper {
+  display: none;
+}
+
+.email-signup .email-signup-form {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 0 0 20px;
+  font-size: 16.96px;
+  line-height: 25.44px;
+}
+
+.email-signup .email-signup-form::before {
+  content: "";
+  display: table;
+}
+
+.email-signup .email-signup-head :is(h2, h3) {
+  font-size: 20px;
+  line-height: 24px;
+  margin: 30px 0 16px;
+}
+
+.email-signup .email-signup-label {
+  max-width: 480px;
+  margin-top: 24px;
+}
+
+.email-signup .email-signup-label p {
+  margin: 0;
+  font-size: 16.96px;
+  line-height: 22.048px;
+  font-weight: 400;
+}
+
+.email-signup .email-signup-label em {
+  font-style: normal;
+  color: #b50909;
+}
+
+.email-signup .email-signup-field input {
+  display: block;
+  width: 100%;
+  max-width: 480px;
+  height: 40px;
+  margin: 8px 0 0;
+  padding: 8px;
+  border: 1px solid #565c65;
+  border-radius: 0;
+  font: 400 16.96px/22.048px var(--va-font-sans);
+}
+
+.email-signup .email-signup-action p {
+  margin: 20px 8px 0 0;
+  font-size: 16.96px;
+  line-height: 25.44px;
+}
+
+@media (width >= 640px) {
+  main > .section.email-signup-container .portraits-wrapper {
+    display: block;
+  }
+}
+
+@media (width >= 768px) {
+  .email-signup .email-signup-form {
+    max-width: 544px;
+  }
+}

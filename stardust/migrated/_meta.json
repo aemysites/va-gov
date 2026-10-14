@@ -1,0 +1,343 @@
+{
+  "slug": "index",
+  "type": "landing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "site-alert",
+    "home-hero",
+    "home-tasks",
+    "news-promo",
+    "hub-grid",
+    "feedback",
+    "email-signup"
+  ],
+  "slotsFilled": [
+    "home-hero",
+    "home-tasks",
+    "home-news",
+    "home-explore",
+    "home-container",
+    "home-signup"
+  ],
+  "canonShas": {
+    "header": "ad2f49f9d3f2",
+    "footer": "82ab3e70efd4",
+    "css": "178760ce5fdf"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "VA.gov Home | Veterans Affairs",
+    "description": "Welcome to the official website of the U.S. Department of Veterans Affairs. Discover, apply for, and manage your VA benefits and care.",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "VA.gov Home | Veterans Affairs",
+    "description": "Welcome to the official website of the U.S. Department of Veterans Affairs. Discover, apply for, and manage your VA benefits and care.",
+    "url": "https://www.va.gov/"
+  },
+  "migratedAt": "2026-10-13T17:11:45Z",
+  "designMdSha": "a8cac2c8e817",
+  "designJsonSha": "56588c04536c",
+  "sourceCurrentSha": "6d01a3a3f18e",
+  "sourceProposedSha": "4300cd462cda",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 30,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.va.gov/sign-in/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/contact-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/sign-in/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/find-locations/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/my-va/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/my-health/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/find-locations",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/resources/getting-started-with-va/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/resources/creating-an-account-for-vagov/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/find-locations/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/forms/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/get-help-from-accredited-representative/find-rep/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/outreach-and-events/events/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/claim-or-appeal-status",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-care/manage-health",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-care/file-travel-pay-reimbursement",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/va-payment-history/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/records/download-va-letters",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/disability/view-disability-rating",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-care/manage-appointments",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/education/verify-school-enrollment",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/manage-dependents",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/disability",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/education",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/careers-employment",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pension",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/housing-assistance",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/life-insurance",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/burials-memorials",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/records",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service-member-benefits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/family-and-caregiver-benefits",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.va.gov/womenvet/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/centerforminorityveterans/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/osdbu/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/outreach-and-events/events/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/forms/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/get-help-from-accredited-representative",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/opal/fo/dbwva.asp",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/outreach-and-events/outreach-materials",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/welcome-kit/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/resources/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/contact-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/find-locations/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/resources/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/contact-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/find-locations/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/womenvet/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/centerforminorityveterans/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/osdbu/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/outreach-and-events/events/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/forms/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/get-help-from-accredited-representative",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/opal/fo/dbwva.asp",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/outreach-and-events/outreach-materials",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/welcome-kit/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/asistencia-y-recursos-en-espanol",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/tagalog-wika-mapagkukunan-at-tulong",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/resources/how-to-get-free-language-assistance-from-va/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/asistencia-y-recursos-en-espanol",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/tagalog-wika-mapagkukunan-at-tulong",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/resources/how-to-get-free-language-assistance-from-va/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/accessibility-at-va",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/resources/your-civil-rights-and-how-to-file-a-discrimination-complaint/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/report-harassment/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/oig/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/opa/Plain_Language.asp",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/privacy-policy/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/performance-dashboard/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/veterans-portrait-project/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "index.html",
+  "outputPathDefault": null,
+  "sidecar": "_meta.json",
+  "driverVersion": "1"
+}
