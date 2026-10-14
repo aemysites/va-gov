@@ -1,0 +1,9 @@
+{
+  "sites": {
+    "va-gov": {
+      "previewOrg": "aemysites",
+      "previewSite": "va-gov",
+      "contentHostUrl": "https://content.da.live/aemysites/va-gov/"
+    }
+  }
+}

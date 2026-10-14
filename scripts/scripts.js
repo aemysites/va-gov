@@ -143,11 +143,41 @@ function decorateButtons(main) {
 }
 
 /**
+ * Converts any unprocessed `:icon-name:` shortcodes into icon spans. The content
+ * pipeline normally does this, but raw HTML (e.g. local content files) skips it.
+ * @param {Element} main The container element
+ */
+function decorateIconShortcodes(main) {
+  const pattern = /:([a-z][a-z0-9]*(?:-[a-z0-9]+)*):/;
+  const walker = document.createTreeWalker(main, NodeFilter.SHOW_TEXT, {
+    acceptNode: (node) => (
+      !node.parentElement.closest('code, pre, script, style') && pattern.test(node.nodeValue)
+        ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT),
+  });
+  const nodes = [];
+  while (walker.nextNode()) nodes.push(walker.currentNode);
+  nodes.forEach((node) => {
+    const frag = document.createDocumentFragment();
+    node.nodeValue.split(pattern).forEach((part, i) => {
+      if (i % 2) {
+        const span = document.createElement('span');
+        span.className = `icon icon-${part}`;
+        frag.append(span);
+      } else if (part) {
+        frag.append(part);
+      }
+    });
+    node.replaceWith(frag);
+  });
+}
+
+/**
  * Decorates the main element.
  * @param {Element} main The main element
  */
 // eslint-disable-next-line import/prefer-default-export
 export function decorateMain(main) {
+  decorateIconShortcodes(main);
   decorateIcons(main);
   buildAutoBlocks(main);
   decorateSections(main);
