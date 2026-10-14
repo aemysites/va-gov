@@ -1,0 +1,326 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:dynamics",
+    "writtenAt": "2026-10-13T20:08:38.800Z",
+    "phase": "rollout D2-dynamic"
+  },
+  "method": "Chrome features rebuilt natively in blocks/header; search + email signup pass through to the source endpoints (va.gov search, GovDelivery); API/CMS/framework state rendered as static snapshot; tags scaffolded off. Interactive flows replayed by stardust/.work/rollout/probes/d2-flows.mjs (crisis modal open/Escape at 1440+360, mega menu, drawer, gov banner, search navigation to va.gov/search?query=, email POST to GovDelivery intercepted and aborted).",
+  "features": [
+    {
+      "pages": 5,
+      "reproducibility": "self",
+      "id": "chrome-menu",
+      "feature": "header mega menu",
+      "class": "M",
+      "disposition": "rebuild-native",
+      "status": "done",
+      "verifiedBy": "click lvl1 at 1440 → 9 level-2 hubs visible (d2-flows)",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/health-care",
+          "selector": "header .lvl1",
+          "min": 1
+        },
+        {
+          "type": "dom-count",
+          "path": "/health-care",
+          "selector": "header .vetnav-level2",
+          "min": 9
+        }
+      ]
+    },
+    {
+      "pages": 5,
+      "reproducibility": "self",
+      "id": "chrome-drawer",
+      "feature": "mobile menu drawer",
+      "class": "M",
+      "disposition": "rebuild-native",
+      "status": "done",
+      "verifiedBy": "Menu at 360 → drawer accordions visible (d2-flows)",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/health-care",
+          "selector": "header .m-menu-btn",
+          "min": 1
+        },
+        {
+          "type": "dom-count",
+          "path": "/health-care",
+          "selector": "header .m-hub",
+          "min": 9
+        }
+      ]
+    },
+    {
+      "pages": 5,
+      "reproducibility": "self",
+      "id": "m-modal-trigger-va-overlay-trigger-chrome-only-button-conten",
+      "feature": "Veterans Crisis Line overlay",
+      "class": "M",
+      "disposition": "rebuild-native",
+      "status": "done",
+      "verifiedBy": "d2-flows: opens at 1440 (1440px) and 360, heading \"We’re here anytime, day or night – 24/7\", Escape closes. click-dialog not used: the modal stays in the DOM as role=dialog toggled by .is-open, so the generic Escape-removal assertion cannot observe the close",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "header .crisis-open",
+          "min": 2
+        },
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "#crisis-modal[role=dialog] #crisis-title",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "pages": 5,
+      "reproducibility": "self",
+      "id": "m-modal-trigger-aria-haspopup-chrome-only-div-content",
+      "feature": "gov banner \"Here’s how you know\" accordion",
+      "class": "M",
+      "disposition": "rebuild-native",
+      "status": "done",
+      "verifiedBy": "d2-flows: toggle → aria-expanded=true, content visible",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "header .gov-toggle[aria-controls]",
+          "min": 2
+        }
+      ]
+    },
+    {
+      "pages": 5,
+      "reproducibility": "self",
+      "id": "chrome-search",
+      "feature": "header search + home search box",
+      "class": "S",
+      "disposition": "embed-passthrough",
+      "status": "interim",
+      "owner": "search backend on the new host",
+      "verifiedBy": "d2-flows: header (/health-care) and home task search both navigate to https://www.va.gov/search/?query=health; that URL answers 200 — checked as a link to the source",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/health-care",
+          "selector": "form.d-search-form[action=\"https://www.va.gov/search/\"]",
+          "min": 1
+        },
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "form.home-tasks-search[action=\"https://www.va.gov/search/\"]",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "pages": 1,
+      "reproducibility": "self",
+      "id": "form-email-signup",
+      "feature": "home email signup (GovDelivery USVACHOOSE)",
+      "class": "F",
+      "disposition": "embed-passthrough",
+      "status": "done",
+      "verifiedBy": "d2-flows: empty submit refused (:invalid, no POST); filled submit POSTs utf8, category_id=USVACHOOSE_C1, email to public.govdelivery.com/accounts/USVACHOOSE/subscribers/qualify (intercepted and aborted — no production subscription). form-flow not used: it would send a real subscription",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "form.email-signup-form[action*=\"govdelivery.com/accounts/USVACHOOSE/subscribers/qualify\"][method=post] input[name=email][required]",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "pages": 5,
+      "reproducibility": "needs-backend",
+      "id": "x-sign-in-account-links",
+      "feature": "sign in / My VA",
+      "class": "X",
+      "disposition": "decided-out",
+      "status": "interim",
+      "owner": "authentication on the new host",
+      "verifiedBy": "link-out to https://www.va.gov/sign-in and /my-va/",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "a[href=\"https://www.va.gov/sign-in\"]",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "pages": 5,
+      "reproducibility": "needs-business-decision",
+      "id": "i18n-locale-variants-my-va",
+      "feature": "language assistance links",
+      "class": "I18N",
+      "disposition": "link-out",
+      "status": "interim",
+      "owner": "locale scope",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "a[href=\"https://www.va.gov/asistencia-y-recursos-en-espanol\"]",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "pages": 5,
+      "reproducibility": "needs-business-decision",
+      "id": "a-first-party-api-get-v0-banners",
+      "feature": "/v0/banners (site alert)",
+      "class": "A",
+      "disposition": "static-snapshot",
+      "status": "interim",
+      "owner": "API tier for the target host",
+      "snapshot": "2026-10-13",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".site-alert",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "pages": 5,
+      "reproducibility": "needs-business-decision",
+      "id": "a-first-party-api-get-v0-feature-toggles",
+      "feature": "/v0/feature_toggles",
+      "class": "A",
+      "disposition": "static-snapshot",
+      "status": "interim",
+      "owner": "API tier for the target host",
+      "snapshot": "2026-10-13",
+      "checks": []
+    },
+    {
+      "pages": 5,
+      "reproducibility": "self",
+      "id": "a-cms-app-settings-object-datalayer",
+      "feature": "dataLayer",
+      "class": "A",
+      "disposition": "static-snapshot",
+      "status": "done",
+      "checks": []
+    },
+    {
+      "pages": 5,
+      "reproducibility": "self",
+      "id": "a-cms-app-settings-object-next-data",
+      "feature": "__NEXT_DATA__",
+      "class": "A",
+      "disposition": "static-snapshot",
+      "status": "done",
+      "checks": []
+    },
+    {
+      "pages": 5,
+      "reproducibility": "self",
+      "id": "cr-client-framework-next",
+      "feature": "Next.js client framework",
+      "class": "CR",
+      "disposition": "static-snapshot",
+      "status": "done",
+      "checks": []
+    },
+    {
+      "pages": 5,
+      "reproducibility": "needs-business-decision",
+      "id": "d-first-party-data-file-get-wdcvoice-n-onsite-onsitedata1791",
+      "feature": "Medallia onsite feedback",
+      "class": "D",
+      "disposition": "embed-passthrough",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "feedback survey vendor on the new host",
+      "checks": []
+    },
+    {
+      "pages": 5,
+      "reproducibility": "needs-business-decision",
+      "id": "t-tags-analytics",
+      "feature": "tags + analytics (GTM, GA/Ads, DAP, Siteimprove, Datadog intake, tag-manager widget mount, S3 asset hosts — 10 detect rows)",
+      "class": "T",
+      "disposition": "embed-passthrough",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "which tags run on the new host",
+      "verifiedBy": "no request to any tag/third-party asset host on any page",
+      "checks": [
+        {
+          "type": "consent-gate",
+          "path": "/",
+          "forbiddenHosts": [
+            "www.googletagmanager.com",
+            "www.google-analytics.com",
+            "googleads.g.doubleclick.net",
+            "dap.digitalgov.gov",
+            "siteimproveanalytics.com",
+            "siteimproveanalytics.io",
+            "6319010.global.r2.siteimproveanalytics.io",
+            "browser-intake-ddog-gov.com",
+            "prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com",
+            "s3-us-gov-west-1.amazonaws.com",
+            "dsva-vagov-prod-cms-files.s3.us-gov-west-1.amazonaws.com",
+            "api.va.gov",
+            "nebula.wsimg.com",
+            "resource.digital.voice.va.gov"
+          ]
+        },
+        {
+          "type": "consent-gate",
+          "path": "/health-care",
+          "forbiddenHosts": [
+            "www.googletagmanager.com",
+            "www.google-analytics.com",
+            "googleads.g.doubleclick.net",
+            "dap.digitalgov.gov",
+            "siteimproveanalytics.com",
+            "siteimproveanalytics.io",
+            "6319010.global.r2.siteimproveanalytics.io",
+            "browser-intake-ddog-gov.com",
+            "prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com",
+            "s3-us-gov-west-1.amazonaws.com",
+            "dsva-vagov-prod-cms-files.s3.us-gov-west-1.amazonaws.com",
+            "api.va.gov",
+            "nebula.wsimg.com",
+            "resource.digital.voice.va.gov"
+          ]
+        }
+      ]
+    },
+    {
+      "pages": 5,
+      "reproducibility": "self",
+      "id": "no-page-errors",
+      "feature": "all 5 pages boot without uncaught exceptions",
+      "class": "CR",
+      "disposition": "rebuild-native",
+      "status": "done",
+      "checks": [
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/",
+            "/health-care",
+            "/housing-assistance",
+            "/life-insurance",
+            "/family-and-caregiver-benefits"
+          ]
+        }
+      ]
+    }
+  ]
+}

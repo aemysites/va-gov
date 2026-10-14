@@ -1,0 +1,682 @@
+{
+ "_provenance": {
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-13T16:09:34.405Z",
+  "waitMode": "medium",
+  "waitMs": 2500,
+  "httpStatus": 200
+ },
+ "slug": "family-and-caregiver-benefits",
+ "url": "https://www.va.gov/family-and-caregiver-benefits/",
+ "renderedBy": "playwright",
+ "fetchedAt": "2026-10-13T16:09:34.405Z",
+ "finalUrl": "https://www.va.gov/family-and-caregiver-benefits/",
+ "title": "VA Benefits For Family And Caregivers | Veterans Affairs",
+ "description": "As the spouse or dependent child of a Veteran or service member, you may qualify for certain benefits, including healthcare, life insurance, or money for school. As the survivor of a Veteran or service member, you may qualify for added benefits, including help with burial costs and survivor compensation. If you’re caring for a Veteran, you may also be eligible for support to help you better care for the Veteran—and for yourself. Find out which benefits you may qualify for and how to get them.",
+ "og": {
+  "title": "VA benefits for family and caregivers | Veterans Affairs",
+  "description": "As the spouse or dependent child of a Veteran or service member, you may qualify for certain benefits, including healthcare, life insurance, or money for school. As the survivor of a Veteran or service member, you may qualify for added benefits, including help with burial costs and survivor compensation. If you’re caring for a Veteran, you may also be eligible for support to help you better care for the Veteran—and for yourself. Find out which benefits you may qualify for and how to get them.",
+  "image": "https://dsva-vagov-prod-cms-files.s3.us-gov-west-1.amazonaws.com/2019-09/family-caregiver.png",
+  "type": "website"
+ },
+ "headings": [
+  {
+   "tag": "h1",
+   "text": "VA benefits for family and caregivers"
+  },
+  {
+   "tag": "h2",
+   "text": "Information Alert How do I get help for a Veteran who’s in crisis?"
+  },
+  {
+   "tag": "h2",
+   "text": "Benefits for spouses, dependents, survivors, and caregivers"
+  },
+  {
+   "tag": "h2",
+   "text": "Help a Veteran find benefits"
+  },
+  {
+   "tag": "h3",
+   "text": "Message us"
+  },
+  {
+   "tag": "h3",
+   "text": "Call us"
+  },
+  {
+   "tag": "h3",
+   "text": "Get updates"
+  },
+  {
+   "tag": "h3",
+   "text": "Follow us"
+  },
+  {
+   "tag": "h2",
+   "text": "Veteran programs and services"
+  },
+  {
+   "tag": "h2",
+   "text": "More VA resources"
+  },
+  {
+   "tag": "h2",
+   "text": "Get VA updates"
+  },
+  {
+   "tag": "h2",
+   "text": "In crisis? Talk to someone now"
+  },
+  {
+   "tag": "h2",
+   "text": "Get answers"
+  },
+  {
+   "tag": "h2",
+   "text": "Call us"
+  },
+  {
+   "tag": "h2",
+   "text": "Visit a medical center or regional office"
+  },
+  {
+   "tag": "h2",
+   "text": "Language assistance"
+  }
+ ],
+ "body": [
+  "As the spouse or dependent child of a Veteran or service member, you may qualify for certain benefits, including healthcare, life insurance, or money for school. As the survivor of a Veteran or service member, you may qualify for added benefits, including help with burial costs and survivor compensation.If you’re caring for a Veteran, you may also be eligible for support to help you better care for the Veteran—and for yourself. Find out which benefits you may qualify for and how to get them.",
+  "For spouse, dependent child, surviving spouse, surviving child, caregiver Find out if you’re eligible for healthcare or related benefits through CHAMPVA or other programs. And learn about our support for caregivers, including training, counseling, and payments.",
+  "For spouse, dependent child, surviving spouse, surviving child, caregiver Find out if you’re eligible for healthcare or related benefits through CHAMPVA or other programs. And learn about our support for caregivers, including training, counseling, and payments.",
+  "For surviving spouse, surviving child, surviving parentFind out if you’re eligible for Dependency and Indemnity Compensation (D.I.C.) or a VA Survivors Pension. If you need help with daily activities or you’re housebound, you may also be eligible for VA Aid and Attendance or Housebound benefits.",
+  "For surviving spouse, surviving child, surviving parentFind out if you’re eligible for Dependency and Indemnity Compensation (D.I.C.) or a VA Survivors Pension. If you need help with daily activities or you’re housebound, you may also be eligible for VA Aid and Attendance or Housebound benefits.",
+  "For spouse, dependent child, surviving spouse, surviving childFind out if you’re eligible for money for school or to help you cover expenses while you’re training for a job through our Survivors’ and Dependents’ Education Assistance Program (also called Chapter 35) or the Fry Scholarship. And learn about how a Veteran may transfer their unused Post-9/11 GI Bill benefits to you.",
+  "For spouse, dependent child, surviving spouse, surviving childFind out if you’re eligible for money for school or to help you cover expenses while you’re training for a job through our Survivors’ and Dependents’ Education Assistance Program (also called Chapter 35) or the Fry Scholarship. And learn about how a Veteran may transfer their unused Post-9/11 GI Bill benefits to you.",
+  "For surviving spouseFind out if you’re eligible for a VA-backed loan to buy, build, improve, or refinance a home. And learn how to manage your loan benefits and avoid foreclosure.",
+  "For surviving spouseFind out if you’re eligible for a VA-backed loan to buy, build, improve, or refinance a home. And learn how to manage your loan benefits and avoid foreclosure.",
+  "For spouse, dependent child, surviving spouse, surviving childFind out if you’re eligible for Family Servicemembers’ Group Life Insurance (FSGLI) coverage or manage an existing policy. If you’re the beneficiary of a Veteran’s or service member’s policy, find out how to get free financial advice and will preparation services.",
+  "For spouse, dependent child, surviving spouse, surviving childFind out if you’re eligible for Family Servicemembers’ Group Life Insurance (FSGLI) coverage or manage an existing policy. If you’re the beneficiary of a Veteran’s or service member’s policy, find out how to get free financial advice and will preparation services.",
+  "For spouse, dependent child, surviving spouse, surviving child, surviving parent Find out if you’re eligible to be buried in a VA national cemetery, or learn how to plan a burial for a Veteran. You can also apply for help paying for burial costs, request memorial items, and learn about bereavement counseling.",
+  "For spouse, dependent child, surviving spouse, surviving child, surviving parent Find out if you’re eligible to be buried in a VA national cemetery, or learn how to plan a burial for a Veteran. You can also apply for help paying for burial costs, request memorial items, and learn about bereavement counseling.",
+  "Healthcare benefits and online health management tools for Veterans with service-connected disabilities or who meet other eligibility requirements.",
+  "Healthcare benefits and online health management tools for Veterans with service-connected disabilities or who meet other eligibility requirements.",
+  "Monthly payments and online benefit management tools for conditions related to military service.",
+  "Monthly payments and online benefit management tools for conditions related to military service.",
+  "Monthly payments for wartime Veterans with limited or no income who meet certain age and disability requirements.",
+  "Monthly payments for wartime Veterans with limited or no income who meet certain age and disability requirements.",
+  "Home loan programs for Veterans and service members, and disability housing grants to help Veterans with service-connected disabilities make changes to their home so they can live as independently as possible.",
+  "Home loan programs for Veterans and service members, and disability housing grants to help Veterans with service-connected disabilities make changes to their home so they can live as independently as possible.",
+  "Life insurance options and online policy management tools for Veterans and their families.",
+  "Life insurance options and online policy management tools for Veterans and their families.",
+  "Last updated: September 22, 2026",
+  "Find out how to get the support you need to care for a Veteran.",
+  "Contact us online through Ask VA",
+  "VA benefits hotline:800-827-1000",
+  "Caregiver support line:855-260-3274",
+  "VA.gov technical support: 866-279-3677",
+  "MyVA411 main information line:800-698-2411",
+  "Telecommunications Relay Services (using TTY):711"
+ ],
+ "codeBlocks": [],
+ "ctas": [
+  {
+   "label": "Skip to Content",
+   "href": "#content"
+  },
+  {
+   "label": "Here’s how you know",
+   "href": null
+  },
+  {
+   "label": "Talk to the Veterans Crisis Line now",
+   "href": null
+  },
+  {
+   "label": "Search",
+   "href": null
+  },
+  {
+   "label": "Contact us",
+   "href": "https://www.va.gov/contact-us/"
+  },
+  {
+   "label": "VA Benefits and Health Care",
+   "href": null
+  },
+  {
+   "label": "About VA",
+   "href": null
+  },
+  {
+   "label": "Find a VA Location",
+   "href": "https://www.va.gov/find-locations/"
+  },
+  {
+   "label": "My VA",
+   "href": "/my-va/"
+  },
+  {
+   "label": "My HealtheVet",
+   "href": "/my-health/"
+  },
+  {
+   "label": "Contact us online through Ask VA",
+   "href": "/contact-us/ask-va"
+  },
+  {
+   "label": "VA benefits hotline:800-827-1000",
+   "href": "tel:1-800-827-1000"
+  },
+  {
+   "label": "Caregiver support line:855-260-3274",
+   "href": "tel:1-855-260-3274"
+  },
+  {
+   "label": "VA.gov technical support: 866-279-3677",
+   "href": "tel:1- 866-279-3677"
+  },
+  {
+   "label": "MyVA411 main information line:800-698-2411",
+   "href": "tel:1-800-698-2411"
+  },
+  {
+   "label": "Telecommunications Relay Services (using TTY):711",
+   "href": "tel:1+711"
+  },
+  {
+   "label": "Homeless Veterans",
+   "href": "https://department.va.gov/homeless/"
+  },
+  {
+   "label": "Women Veterans",
+   "href": "https://www.va.gov/womenvet/"
+  },
+  {
+   "label": "Minority Veterans",
+   "href": "https://www.va.gov/centerforminorityveterans/"
+  },
+  {
+   "label": "PTSD",
+   "href": "https://www.ptsd.va.gov/"
+  },
+  {
+   "label": "Mental health",
+   "href": "https://www.mentalhealth.va.gov/"
+  },
+  {
+   "label": "Adaptive sports and special events",
+   "href": "https://department.va.gov/veteran-sports/"
+  },
+  {
+   "label": "Small business programs",
+   "href": "https://www.va.gov/osdbu/"
+  },
+  {
+   "label": "VA outreach events",
+   "href": "https://www.va.gov/outreach-and-events/events/"
+  },
+  {
+   "label": "National Resource Directory",
+   "href": "https://www.nrd.gov/"
+  },
+  {
+   "label": "VA forms",
+   "href": "https://www.va.gov/forms/"
+  },
+  {
+   "label": "VA health care access and quality",
+   "href": "https://www.accesstocare.va.gov/"
+  },
+  {
+   "label": "Get help from an accredited representative or VSO",
+   "href": "https://www.va.gov/get-help-from-accredited-representative"
+  },
+  {
+   "label": "VA mobile apps",
+   "href": "https://www.mobile.va.gov/appstore/"
+  },
+  {
+   "label": "State Veterans Affairs offices",
+   "href": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+  },
+  {
+   "label": "Doing business with VA",
+   "href": "https://www.va.gov/opal/fo/dbwva.asp"
+  },
+  {
+   "label": "Careers at VA",
+   "href": "https://vacareers.va.gov/"
+  },
+  {
+   "label": "VA outreach materials",
+   "href": "https://www.va.gov/outreach-and-events/outreach-materials"
+  },
+  {
+   "label": "Your VA welcome kit",
+   "href": "https://www.va.gov/welcome-kit/"
+  },
+  {
+   "label": "VA news",
+   "href": "https://news.va.gov/"
+  },
+  {
+   "label": "Press releases",
+   "href": "https://news.va.gov/va-press-room/"
+  },
+  {
+   "label": "Email updates",
+   "href": "https://public.govdelivery.com/accounts/USVA/subscriber/new/"
+  },
+  {
+   "label": "Facebook",
+   "href": "https://www.facebook.com/VeteransAffairs"
+  },
+  {
+   "label": "Instagram",
+   "href": "https://www.instagram.com/deptvetaffairs/"
+  },
+  {
+   "label": "X",
+   "href": "https://x.com/DeptVetAffairs/"
+  },
+  {
+   "label": "Flickr",
+   "href": "https://www.flickr.com/photos/VeteransAffairs/"
+  },
+  {
+   "label": "YouTube",
+   "href": "https://www.youtube.com/user/DeptVetAffairs"
+  },
+  {
+   "label": "All VA social media",
+   "href": "https://discover.va.gov/social-media/"
+  },
+  {
+   "label": "Veterans Crisis Line",
+   "href": null
+  },
+  {
+   "label": "Resources and support",
+   "href": "https://www.va.gov/resources/"
+  },
+  {
+   "label": "Contact us",
+   "href": "https://www.va.gov/contact-us/"
+  },
+  {
+   "label": "800-698-2411",
+   "href": "tel:18006982411"
+  },
+  {
+   "label": "TTY: 711",
+   "href": "tel:+1711"
+  },
+  {
+   "label": "Find a VA location",
+   "href": "https://www.va.gov/find-locations/"
+  },
+  {
+   "label": "Español",
+   "href": "https://www.va.gov/asistencia-y-recursos-en-espanol"
+  },
+  {
+   "label": "Tagalog",
+   "href": "https://www.va.gov/tagalog-wika-mapagkukunan-at-tulong"
+  },
+  {
+   "label": "Other languages",
+   "href": "https://www.va.gov/resources/how-to-get-free-language-assistance-from-va/"
+  },
+  {
+   "label": "Accessibility",
+   "href": "https://www.va.gov/accessibility-at-va"
+  },
+  {
+   "label": "Civil Rights",
+   "href": "https://www.va.gov/resources/your-civil-rights-and-how-to-file-a-discrimination-complaint/"
+  },
+  {
+   "label": "Freedom of Information Act (FOIA)",
+   "href": "https://department.va.gov/foia/"
+  },
+  {
+   "label": "Harassment",
+   "href": "https://www.va.gov/report-harassment/"
+  },
+  {
+   "label": "Office of Inspector General",
+   "href": "https://www.va.gov/oig/"
+  },
+  {
+   "label": "Plain language",
+   "href": "https://www.va.gov/opa/Plain_Language.asp"
+  },
+  {
+   "label": "Privacy, terms, policies, and legal information",
+   "href": "https://www.va.gov/privacy-policy/"
+  },
+  {
+   "label": "VA Privacy Service",
+   "href": "https://department.va.gov/privacy/"
+  },
+  {
+   "label": "No FEAR Act Data",
+   "href": "https://department.va.gov/resolution-management/reports/"
+  },
+  {
+   "label": "USA.gov",
+   "href": "https://www.usa.gov/"
+  },
+  {
+   "label": "VA performance dashboard",
+   "href": "https://www.va.gov/performance-dashboard/"
+  },
+  {
+   "label": "Veterans Portrait Project",
+   "href": "https://www.va.gov/veterans-portrait-project/"
+  }
+ ],
+ "links": [
+  "https://www.va.gov/family-and-caregiver-benefits/#content",
+  "https://www.va.gov/",
+  "https://www.va.gov/contact-us/",
+  "https://www.va.gov/find-locations/",
+  "https://www.va.gov/my-va/",
+  "https://www.va.gov/my-health/",
+  "tel:988",
+  "sms:838255",
+  "https://www.veteranscrisisline.net/ChatTermsOfService.aspx?account=Veterans%20Chat",
+  "tel:+18774243838",
+  "https://www.va.gov/contact-us/ask-va",
+  "tel:1-800-827-1000",
+  "tel:1-855-260-3274",
+  "tel:1- 866-279-3677",
+  "tel:1-800-698-2411",
+  "tel:1+711",
+  "https://department.va.gov/homeless/",
+  "https://www.va.gov/womenvet/",
+  "https://www.va.gov/centerforminorityveterans/",
+  "https://www.ptsd.va.gov/",
+  "https://www.mentalhealth.va.gov/",
+  "https://department.va.gov/veteran-sports/",
+  "https://www.va.gov/osdbu/",
+  "https://www.va.gov/outreach-and-events/events/",
+  "https://www.nrd.gov/",
+  "https://www.va.gov/forms/",
+  "https://www.accesstocare.va.gov/",
+  "https://www.va.gov/get-help-from-accredited-representative",
+  "https://www.mobile.va.gov/appstore/",
+  "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office",
+  "https://www.va.gov/opal/fo/dbwva.asp",
+  "https://vacareers.va.gov/",
+  "https://www.va.gov/outreach-and-events/outreach-materials",
+  "https://www.va.gov/welcome-kit/",
+  "https://news.va.gov/",
+  "https://news.va.gov/va-press-room/",
+  "https://public.govdelivery.com/accounts/USVA/subscriber/new/",
+  "https://www.facebook.com/VeteransAffairs",
+  "https://www.instagram.com/deptvetaffairs/",
+  "https://x.com/DeptVetAffairs/",
+  "https://www.flickr.com/photos/VeteransAffairs/",
+  "https://www.youtube.com/user/DeptVetAffairs",
+  "https://discover.va.gov/social-media/",
+  "https://www.va.gov/resources/",
+  "tel:18006982411",
+  "tel:+1711",
+  "https://www.va.gov/asistencia-y-recursos-en-espanol",
+  "https://www.va.gov/tagalog-wika-mapagkukunan-at-tulong",
+  "https://www.va.gov/resources/how-to-get-free-language-assistance-from-va/",
+  "https://www.va.gov/accessibility-at-va",
+  "https://www.va.gov/resources/your-civil-rights-and-how-to-file-a-discrimination-complaint/",
+  "https://department.va.gov/foia/",
+  "https://www.va.gov/report-harassment/",
+  "https://www.va.gov/oig/",
+  "https://www.va.gov/opa/Plain_Language.asp",
+  "https://www.va.gov/privacy-policy/",
+  "https://department.va.gov/privacy/",
+  "https://department.va.gov/resolution-management/reports/",
+  "https://www.usa.gov/",
+  "https://www.va.gov/performance-dashboard/",
+  "https://www.va.gov/veterans-portrait-project/",
+  "https://www.veteranscrisisline.net/get-help-now/chat/",
+  "tel:711",
+  "https://www.veteranscrisisline.net/"
+ ],
+ "media": {
+  "imgs": [
+   {
+    "src": "https://www.va.gov/img/tiny-usa-flag.png",
+    "alt": "U.S. flag",
+    "w": 57,
+    "h": 57
+   },
+   {
+    "src": "https://www.va.gov/img/arrow-right-white.svg",
+    "alt": "",
+    "w": 445,
+    "h": 445
+   },
+   {
+    "src": "https://www.va.gov/img/header-logo.png",
+    "alt": "VA logo and Seal, U.S. Department of Veterans Affairs",
+    "w": 512,
+    "h": 114
+   },
+   {
+    "src": "https://dsva-vagov-prod-cms-files.s3.us-gov-west-1.amazonaws.com/styles/3_2_medium_thumbnail/public/2019-09/family-caregiver.png",
+    "alt": "",
+    "w": 480,
+    "h": 320
+   },
+   {
+    "src": "https://s3-us-gov-west-1.amazonaws.com/content.www.va.gov/img/homepage/veterans-banner-desktop-2.png",
+    "alt": "Veteran portraits",
+    "w": 1440,
+    "h": 180
+   },
+   {
+    "src": "https://www.va.gov/img/homepage/va-logo-white.png",
+    "alt": "Go to VA.gov",
+    "w": 587,
+    "h": 145
+   }
+  ],
+  "allImgCount": 8,
+  "cssBackgrounds": [],
+  "modals": [],
+  "videos": [],
+  "iframes": []
+ },
+ "customProps": {},
+ "_signals": {
+  "filteredInterstitials": 0,
+  "distinctHeadings": 15,
+  "mainTextLen": 5481,
+  "realImageCount": 6,
+  "trackingOnlyMedia": false,
+  "spaShellSuspect": false,
+  "screenshotMode": "fullPage"
+ },
+ "dynamic": {
+  "endpoints": [
+   {
+    "method": "GET",
+    "host": "www.va.gov",
+    "path": "/img/sprite.svg",
+    "query": [],
+    "resourceType": "fetch",
+    "contentType": "image/svg+xml",
+    "status": 200,
+    "bytes": null,
+    "hits": 1,
+    "example": "https://www.va.gov/img/sprite.svg",
+    "sameSite": true
+   },
+   {
+    "method": "GET",
+    "host": "resource.digital.voice.va.gov",
+    "path": "/wdcvoice/{n}/onsite/onsiteData1791897796293.json",
+    "query": [],
+    "resourceType": "xhr",
+    "contentType": "application/json",
+    "status": 200,
+    "bytes": 72275,
+    "hits": 1,
+    "example": "https://resource.digital.voice.va.gov/wdcvoice/2/onsite/onsiteData1791897796293.json",
+    "sameSite": true
+   },
+   {
+    "method": "GET",
+    "host": "api.va.gov",
+    "path": "/v0/feature_toggles",
+    "query": [
+     "cookie_id"
+    ],
+    "resourceType": "fetch",
+    "contentType": "application/json",
+    "status": 200,
+    "bytes": null,
+    "hits": 1,
+    "example": "https://api.va.gov/v0/feature_toggles",
+    "sameSite": true
+   },
+   {
+    "method": "POST",
+    "host": "www.google-analytics.com",
+    "path": "/g/collect",
+    "query": [
+     "_ee",
+     "_eu",
+     "_p",
+     "_s",
+     "_tu",
+     "cid",
+     "dl",
+     "dma",
+     "dr",
+     "dt",
+     "en",
+     "ep.agency",
+     "ep.hostname_dimension",
+     "ep.protocol",
+     "ep.script_source",
+     "ep.site_platform",
+     "ep.site_topic",
+     "ep.subagency",
+     "ep.using_parallel_tracker",
+     "ep.version",
+     "frm",
+     "gcd",
+     "gtm",
+     "ngs",
+     "npa",
+     "pscdl",
+     "rcb",
+     "sct",
+     "seg",
+     "sid",
+     "sr",
+     "tag_exp",
+     "tfd",
+     "tid",
+     "uaa",
+     "uab",
+     "uafvl",
+     "uam",
+     "uamb",
+     "uap",
+     "uapv",
+     "uaw",
+     "ul",
+     "v"
+    ],
+    "resourceType": "fetch",
+    "contentType": "text/plain",
+    "status": 204,
+    "bytes": null,
+    "hits": 1,
+    "example": "https://www.google-analytics.com/g/collect",
+    "sameSite": false
+   }
+  ],
+  "thirdPartyScriptHosts": [
+   {
+    "host": "prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com",
+    "count": 23
+   },
+   {
+    "host": "www.googletagmanager.com",
+    "count": 3
+   },
+   {
+    "host": "dap.digitalgov.gov",
+    "count": 1
+   },
+   {
+    "host": "siteimproveanalytics.com",
+    "count": 1
+   }
+  ],
+  "truncated": false,
+  "inlineData": [
+   {
+    "id": "__NEXT_DATA__",
+    "type": "application/json",
+    "bytes": 37323,
+    "topLevelKeys": [
+     "props",
+     "page",
+     "query",
+     "buildId",
+     "isFallback",
+     "dynamicIds",
+     "gsp",
+     "scriptLoader"
+    ]
+   }
+  ],
+  "globalState": [
+   "__NEXT_DATA__",
+   "dataLayer"
+  ],
+  "frameworkHints": [
+   "next"
+  ],
+  "forms": [],
+  "ariaLiveRegions": 2,
+  "triggers": [
+   {
+    "marker": "aria-haspopup",
+    "href": null
+   },
+   {
+    "marker": "aria-haspopup",
+    "href": null
+   }
+  ],
+  "mediaIds": [],
+  "summary": {
+   "sameSiteEndpoints": 3,
+   "thirdPartyEndpoints": 1,
+   "thirdPartyScriptHosts": 4,
+   "inlineDataBlobs": 1,
+   "forms": 0,
+   "searchForms": 0,
+   "hydrated": true
+  }
+ },
+ "screenshot": "assets/screenshots/family-and-caregiver-benefits.png",
+ "renderedHtml": "pages/family-and-caregiver-benefits.html",
+ "slots": {
+  "type": "program",
+  "program-headline": "VA benefits for family and caregivers",
+  "summary": "As the spouse or dependent child of a Veteran or service member, you may qualify for certain benefits, including healthcare, life insurance, or money for school. As the survivor of a Veteran or service member, you may qualify for added benefits, including help with burial costs and survivor compensation.If you’re caring for a Veteran, you may also be eligible for support to help you better care for the Veteran—and for yourself. Find out which benefits you may qualify for and how to get them.",
+  "feature-grid": [
+   "Get updates",
+   "Get VA updates",
+   "Get answers"
+  ],
+  "cta-band": "Other VA benefits and services"
+ }
+}

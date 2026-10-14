@@ -1,0 +1,309 @@
+{
+  "slug": "family-and-caregiver-benefits",
+  "type": "program",
+  "renderBranch": "A'",
+  "template": "health-care",
+  "modules": [
+    "breadcrumbs",
+    "hub-title",
+    "alert",
+    "link-list",
+    "rail-card",
+    "accordion",
+    "feedback",
+    "portraits"
+  ],
+  "slotsFilled": [
+    "interior"
+  ],
+  "canonShas": {
+    "header": "ad2f49f9d3f2",
+    "footer": "82ab3e70efd4",
+    "css": "178760ce5fdf"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "variance-budget",
+      "probe": "stardust/.work/migrate/siblings/program-variance.json",
+      "deltas": {
+        "hub-title": "bg →#162e51 → variant hub-title hub-family-member",
+        "on-this-page": "absent on sibling → module dropped",
+        "alert": "h 177→88: collapsed va-additional-info disclosure → variant alert additional-info",
+        "link-list": "29→6 items, row h 51→127: bold audience prefix + <br> in descriptions (content)",
+        "rail-card": "h 426→353 (content: shorter copy)"
+      }
+    }
+  ],
+  "metadata": {
+    "title": "VA Benefits For Family And Caregivers | Veterans Affairs",
+    "description": "As the spouse or dependent child of a Veteran or service member, you may qualify for certain benefits, including healthcare, life insurance, or money for school. As the survivor of a Veteran or service member, you may qualify for added benefits, including help with burial costs and survivor compensation. If you’re caring for a Veteran, you may also be eligible for support to help you better care for the Veteran—and for yourself. Find out which benefits you may qualify for and how to get them.",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "VA Benefits For Family And Caregivers | Veterans Affairs",
+    "description": "As the spouse or dependent child of a Veteran or service member, you may qualify for certain benefits, including healthcare, life insurance, or money for school. As the survivor of a Veteran or service member, you may qualify for added benefits, including help with burial costs and survivor compensation. If you’re caring for a Veteran, you may also be eligible for support to help you better care for the Veteran—and for yourself. Find out which benefits you may qualify for and how to get them.",
+    "url": "https://www.va.gov/family-and-caregiver-benefits/"
+  },
+  "migratedAt": "2026-10-13T19:15:30Z",
+  "designMdSha": "a8cac2c8e817",
+  "designJsonSha": "56588c04536c",
+  "sourceCurrentSha": "6c6144a89381",
+  "sourceProposedSha": "8070569d742f",
+  "fidelityTier": "sibling",
+  "archetypeSource": "health-care",
+  "archetypeSha": "455263cf5a73",
+  "variants": [
+    "hub-title hub-family-member",
+    "alert additional-info"
+  ],
+  "gatesPassed": [
+    "variance-probe",
+    "content-count",
+    "content-fidelity",
+    "media-reconcile",
+    "delivery-lint",
+    "pixel-gate-1440",
+    "pixel-gate-360"
+  ],
+  "gateEvidence": {
+    "variance-probe": "stardust/.work/migrate/siblings/program-variance.json (sibling-variance exit 2; deltas budgeted: 2 variants + content, on-this-page dropped)",
+    "content-count": "stardust/.work/migrate/siblings/family-and-caregiver-benefits.content-diff.txt main: headings 8/8, CTAs 30→29 (covered by contentDeviations role-swap), body+eyebrow 37→38, img 2/2, editable 26/26",
+    "content-fidelity": "verbatim from stardust/current/pages/family-and-caregiver-benefits.flat.html via stardust/.work/migrate/probes/build-program-siblings.mjs (builder reproduces health-care prototype byte-identical from its own capture); main text nodes equal in content-diff; remaining main 🔴 = archetype-inherited (Expand/Collapse role, empty-svg capture ICON DIFF)",
+    "media-reconcile": "media-reconcile 4 hosted, exit 0 (stardust/.work/rollout/program/content/family-and-caregiver-benefits.html)",
+    "delivery-lint": "delivery-lint 0 P0 / 0 P1",
+    "pixel-gate-1440": "gate-all preview host 5.87% Δh -24, clip 0, MISSING 0 / HIDDEN 0 PASS (stardust/replica/gates/all-1440/family-and-caregiver-benefits)",
+    "pixel-gate-360": "gate-all preview host official 13.89% Δh -126, same-browser 2.79% Δh -4, clip 0, MISSING 0 / HIDDEN 0; documented override stardust/replica/gates/all-360/overrides.json"
+  },
+  "contentDeviations": [
+    {
+      "kind": "role-swap",
+      "source": "va-additional-info trigger <a role=\"button\">Find out how to get support anytime, day or night</a>",
+      "target": "<details><summary>Find out how to get support anytime, day or night</summary>",
+      "reason": "native disclosure for the collapsed alert body (variant alert additional-info); text verbatim, content-diff counts it body not CTA (main CTAs 30→29)"
+    }
+  ],
+  "assetsBundled": 30,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.va.gov/sign-in/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/contact-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/sign-in/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/find-locations/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/my-va/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/my-health/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/family-and-caregiver-benefits/health-and-disability/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/family-and-caregiver-benefits/survivor-compensation/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/family-and-caregiver-benefits/education-and-careers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/family-and-caregiver-benefits/housing-assistance/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/family-and-caregiver-benefits/life-insurance/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/family-and-caregiver-benefits/burials-and-memorials/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/disability/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pension/how-to-apply/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-us/ask-va",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/womenvet/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/centerforminorityveterans/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/osdbu/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/outreach-and-events/events/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/forms/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/get-help-from-accredited-representative",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/opal/fo/dbwva.asp",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/outreach-and-events/outreach-materials",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/welcome-kit/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/resources/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/contact-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/find-locations/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/resources/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/contact-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/find-locations/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/womenvet/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/centerforminorityveterans/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/osdbu/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/outreach-and-events/events/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/forms/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/get-help-from-accredited-representative",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/opal/fo/dbwva.asp",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/outreach-and-events/outreach-materials",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/welcome-kit/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/asistencia-y-recursos-en-espanol",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/tagalog-wika-mapagkukunan-at-tulong",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/resources/how-to-get-free-language-assistance-from-va/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/asistencia-y-recursos-en-espanol",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/tagalog-wika-mapagkukunan-at-tulong",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/resources/how-to-get-free-language-assistance-from-va/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/accessibility-at-va",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/resources/your-civil-rights-and-how-to-file-a-discrimination-complaint/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/report-harassment/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/oig/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/opa/Plain_Language.asp",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/privacy-policy/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/performance-dashboard/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/veterans-portrait-project/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "family-and-caregiver-benefits/index.html",
+  "outputPathDefault": null,
+  "sidecar": "family-and-caregiver-benefits/_meta.json",
+  "driverVersion": "1"
+}

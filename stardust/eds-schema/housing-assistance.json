@@ -1,0 +1,585 @@
+{
+ "source": "file:///workspace/cd6de7e5/stardust/migrated/housing-assistance/index.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "1",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "VA housing assistance"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "VA housing assistance can help Veterans, service members, and their surviving spouses to buy a home or refinance a loan. We also offer benefits and services to help you build, improve, or keep your current home. Find out how to apply for and manage the Veterans housing assistance benefits you’ve earned."
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "On this page"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Help for Veterans who are homeless or at risk of becoming homeless",
+     "href": "#help-for-veterans-who-are-home"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Get VA home loan benefits",
+     "href": "#get-va-home-loan-benefits"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Get Veterans housing assistance grants",
+     "href": "#get-veterans-housing-assistance-grants"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Other VA benefits and services",
+     "href": "#other-va-benefits-and-services"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Help for Veterans who are homeless or at risk of becoming homeless"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Information Alert"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "We can help you find safe shelter, support, and long-term housing."
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Get help if you’re homeless or at risk of becoming homeless",
+     "href": "../resources/homeless-help/index.html"
+    },
+    {
+     "role": "heading",
+     "order": 11,
+     "text": "Get VA home loan benefits"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "About VA home loan types",
+     "href": "../housing-assistance/home-loans/loan-types/index.html"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Learn how VA direct and VA-backed home loans work—and find out which loan type may be right for you."
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Eligibility for VA home loan programs",
+     "href": "../housing-assistance/home-loans/eligibility/index.html"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Find out if you’re eligible for a VA direct or VA-backed home loan, based on your service history and duty status."
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "How to request a VA home loan Certificate of Eligibility (COE)",
+     "href": "../housing-assistance/home-loans/how-to-request-coe/index.html"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Get instructions for how to request a VA home loan COE—and what to do next depending on your loan type."
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Request a Certificate of Eligibility online (VA Form 26-1880)",
+     "href": "../housing-assistance/home-loans/request-coe-form-26-1880/index.html"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Start your application for a VA home loan Certificate of Eligibility (COE) now."
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "VA home loan programs for surviving spouses",
+     "href": "../family-and-caregiver-benefits/housing-assistance/surviving-spouse-home-loan/index.html"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Find out if you’re eligible and how to request a VA home loan COE as the surviving spouse of a Veteran or the spouse of a Veteran who is missing in action or being held as a prisoner of war."
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "Check the status of your VA home loan COE",
+     "href": "../housing-assistance/home-loans/check-coe-status/index.html"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Find out where your home loan COE request is in our process."
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "Request a decision review or manage a legacy appeal",
+     "href": "../decision-reviews/index.html"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "If you disagree with a decision on your application for home loan benefits, you can request a decision review. You can also manage any review requests or appeals you already filed."
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "Check your claim, decision review, or appeal status",
+     "href": "../claim-or-appeal-status/index.html"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Find out where your claim, decision review, or appeal is in our process."
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "VA help to avoid foreclosure",
+     "href": "../housing-assistance/home-loans/trouble-making-payments/index.html"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Get help to avoid foreclosure if you’re struggling to make your monthly mortgage payments."
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "A warning about home loan refinancing offers",
+     "href": "https://news.va.gov/43234/va-and-the-consumer-financial-protection-bureau-warn-against-home-loan-refinancing-offers-that-sound-too-good-to-be-true/"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Learn about the signs of misleading offers to refinance your VA-backed home loan, like claims that you can skip payments or get very low interest rates or other terms that sound too good to be true."
+    },
+    {
+     "role": "cta",
+     "order": 32,
+     "text": "VA funding fee and loan closing costs",
+     "href": "../housing-assistance/home-loans/funding-fee-and-closing-costs/index.html"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Find out if you’ll need to pay this fee when using your home loan benefits."
+    },
+    {
+     "role": "cta",
+     "order": 34,
+     "text": "VA home loan entitlement and limits",
+     "href": "../housing-assistance/home-loans/loan-limits/index.html"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Learn about basic entitlement for a VA home loan guaranty. And find out how to calculate remaining bonus entitlement using the county loan limit. This will help you determine how much you can borrow without a down payment."
+    },
+    {
+     "role": "cta",
+     "order": 36,
+     "text": "Buying a home with a VA-backed loan",
+     "href": "../housing-assistance/home-loans/home-buying-process/index.html"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "Get more information about using your VA home loan benefit to buy a home."
+    },
+    {
+     "role": "cta",
+     "order": 38,
+     "text": "Guidance on natural disasters",
+     "href": "https://benefits.va.gov/homeloans/documents/docs/va_policy_regarding_natural_disasters.pdf"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "Find out how to get help if you have a VA direct or VA-backed home loan or Specially Adapted Housing grant and your home was damaged by a natural disaster."
+    },
+    {
+     "role": "heading",
+     "order": 40,
+     "text": "Get Veterans housing assistance grants"
+    },
+    {
+     "role": "cta",
+     "order": 41,
+     "text": "About disability housing grants for Veterans",
+     "href": "../housing-assistance/disability-housing-grants/index.html"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "Find out how to apply for a housing grant as a Veteran or service member with a service-connected disability."
+    },
+    {
+     "role": "cta",
+     "order": 43,
+     "text": "How to apply for an adapted housing grant",
+     "href": "../housing-assistance/disability-housing-grants/how-to-apply/index.html"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Get financial help to make changes to your home to help you live more independently with a service-connected disability."
+    },
+    {
+     "role": "cta",
+     "order": 45,
+     "text": "Apply for an adapted housing grant online (VA Form 26-4555)",
+     "href": "../housing-assistance/disability-housing-grants/apply-for-grant-form-26-4555/introduction/index.html"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "Complete your application now."
+    },
+    {
+     "role": "cta",
+     "order": 47,
+     "text": "Check your Specially Adapted Housing grant claim status",
+     "href": "../claim-or-appeal-status/index.html"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Track the status of an open claim for a Specially Adapted Housing grant."
+    },
+    {
+     "role": "cta",
+     "order": 49,
+     "text": "Request a decision review or manage a legacy appeal",
+     "href": "../decision-reviews/index.html"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "If you disagree with a decision on your application for housing assistance grants, you can request a decision review. You can also manage any review requests or appeals you already filed."
+    },
+    {
+     "role": "heading",
+     "order": 51,
+     "text": "Other VA benefits and services"
+    },
+    {
+     "role": "cta",
+     "order": 52,
+     "text": "Disability compensation (pay)",
+     "href": "../disability/index.html"
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "Find out how to file a claim for compensation for conditions related to your military service."
+    },
+    {
+     "role": "cta",
+     "order": 54,
+     "text": "Pension benefits",
+     "href": "../pension/index.html"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "See if you qualify for pension benefits as a wartime Veteran or a surviving spouse or child."
+    },
+    {
+     "role": "cta",
+     "order": 56,
+     "text": "Veteran Readiness and Employment (VR&E)",
+     "href": "../careers-employment/vocational-rehabilitation/index.html"
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "If your service-connected disability limits your ability to work or prevents you from working, find out if you can get VR&E benefits and services—like help exploring employment options and getting more training if required."
+    },
+    {
+     "role": "cta",
+     "order": 58,
+     "text": "Life insurance",
+     "href": "../life-insurance/index.html"
+    },
+    {
+     "role": "body",
+     "order": 59,
+     "text": "Explore your life insurance options and find out how to apply as a service member, Veteran, or family member."
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "Last updated:"
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "April 14, 2026"
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "Feedback"
+    },
+    {
+     "role": "cta",
+     "order": 63,
+     "text": "National Call Center for Homeless Veterans",
+     "href": "../homeless/nationalcallcenter.asp"
+    },
+    {
+     "role": "body",
+     "order": 64,
+     "text": "Find out how we can help you or a Veteran you care about connect with VA and local resources 24 hours a day, 7 days a week."
+    },
+    {
+     "role": "eyebrow",
+     "order": 65,
+     "text": "Expand all"
+    },
+    {
+     "role": "eyebrow",
+     "order": 66,
+     "text": "Collapse all"
+    },
+    {
+     "role": "body",
+     "order": 67,
+     "text": "Ask questions"
+    },
+    {
+     "role": "heading",
+     "order": 68,
+     "text": "Message us"
+    },
+    {
+     "role": "cta",
+     "order": 69,
+     "text": "Contact us online through Ask VA",
+     "href": "../contact-us/ask-va/index.html"
+    },
+    {
+     "role": "heading",
+     "order": 70,
+     "text": "Call us"
+    },
+    {
+     "role": "cta",
+     "order": 71,
+     "text": "VA benefits hotline:800-827-1000",
+     "href": "tel:1-800-827-1000"
+    },
+    {
+     "role": "cta",
+     "order": 72,
+     "text": "VA.gov technical support:866-279-3677",
+     "href": "tel:1-866-279-3677"
+    },
+    {
+     "role": "cta",
+     "order": 73,
+     "text": "MyVA411 main information line:800-698-2411",
+     "href": "tel:1-800-698-2411"
+    },
+    {
+     "role": "cta",
+     "order": 74,
+     "text": "Telecommunications Relay Services (using TTY):711",
+     "href": "tel:1+711"
+    },
+    {
+     "role": "body",
+     "order": 75,
+     "text": "Not a Veteran or family member?"
+    },
+    {
+     "role": "heading",
+     "order": 76,
+     "text": "Get information for:"
+    },
+    {
+     "role": "cta",
+     "order": 77,
+     "text": "Appraisers and staff appraisal reviewers (SARs)",
+     "href": "https://www.benefits.va.gov/homeloans/appraiser.asp"
+    },
+    {
+     "role": "cta",
+     "order": 78,
+     "text": "Lenders",
+     "href": "https://www.benefits.va.gov/homeloans/lenders.asp"
+    },
+    {
+     "role": "cta",
+     "order": 79,
+     "text": "Real estate professionals",
+     "href": "https://benefits.va.gov/homeloans/real-estate/"
+    },
+    {
+     "role": "cta",
+     "order": 80,
+     "text": "Servicers of VA loans",
+     "href": "https://www.benefits.va.gov/homeloans/servicers.asp"
+    },
+    {
+     "role": "body",
+     "order": 81,
+     "text": "Connect with us"
+    },
+    {
+     "role": "heading",
+     "order": 82,
+     "text": "Get updates"
+    },
+    {
+     "role": "cta",
+     "order": 83,
+     "text": "Veterans Affairs Email Updates",
+     "href": "https://public.govdelivery.com/accounts/USVA/subscriber/new/"
+    },
+    {
+     "role": "heading",
+     "order": 84,
+     "text": "Follow us"
+    },
+    {
+     "role": "cta",
+     "order": 85,
+     "text": "Veterans Affairs X (formerly Twitter)",
+     "href": "https://www.twitter.com/DeptVetAffairs"
+    },
+    {
+     "role": "cta",
+     "order": 86,
+     "text": "Veterans Affairs Facebook",
+     "href": "https://www.facebook.com/VeteransAffairs"
+    },
+    {
+     "role": "cta",
+     "order": 87,
+     "text": "Veterans Affairs YouTube",
+     "href": "https://www.youtube.com/DeptVetAffairs"
+    },
+    {
+     "role": "cta",
+     "order": 88,
+     "text": "Veterans Affairs Instagram",
+     "href": "https://www.instagram.com/deptvetaffairs"
+    },
+    {
+     "role": "body",
+     "order": 89,
+     "text": "Last updated:"
+    },
+    {
+     "role": "body",
+     "order": 90,
+     "text": "April 14, 2026"
+    },
+    {
+     "role": "body",
+     "order": 91,
+     "text": "Feedback"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 30,
+   "repeats": [
+    {
+     "unitSelector": "DIV.hub-section",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 14,
+      "imgs": 0,
+      "textRuns": 29
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.acc-item",
+     "count": 3,
+     "unit": {
+      "headings": 3,
+      "ctas": 5,
+      "imgs": 0,
+      "textRuns": 8
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

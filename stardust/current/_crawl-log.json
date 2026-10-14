@@ -1,0 +1,298 @@
+{
+ "discovery": {
+  "fetchTechnique": "headless",
+  "count": 5,
+  "concurrency": 3
+ },
+ "consent": {
+  "method": "auto"
+ },
+ "favicon": {
+  "url": "https://www.va.gov/img/design/icons/favicon.ico",
+  "file": "assets/favicon.ico"
+ },
+ "crawl": {
+  "failures": []
+ },
+ "captureGaps": {
+  "roots": [],
+  "detail": "uncaptured first-level targets: none (no locale root captured)"
+ },
+ "dynamicSurface": {
+  "pages": 5,
+  "pagesWithSameSiteData": 5,
+  "pagesWithSearchForm": 0,
+  "pagesHydrated": 4,
+  "truncatedPages": 0,
+  "endpoints": [
+   {
+    "method": "GET",
+    "host": "www.va.gov",
+    "path": "/img/sprite.svg",
+    "query": [],
+    "resourceType": "fetch",
+    "contentType": "image/svg+xml",
+    "sameSite": true,
+    "example": "https://www.va.gov/img/sprite.svg",
+    "pages": 5,
+    "examples": [
+     "index",
+     "life-insurance",
+     "housing-assistance"
+    ]
+   },
+   {
+    "method": "POST",
+    "host": "www.google-analytics.com",
+    "path": "/g/collect",
+    "query": [
+     "_ee",
+     "_fv",
+     "_nsi",
+     "_p",
+     "_s",
+     "_ss",
+     "_tu",
+     "cid",
+     "dl",
+     "dma",
+     "dr",
+     "dt",
+     "en",
+     "ep.agency",
+     "ep.hostname_dimension",
+     "ep.protocol",
+     "ep.script_source",
+     "ep.site_platform",
+     "ep.site_topic",
+     "ep.subagency",
+     "ep.using_parallel_tracker",
+     "ep.version",
+     "frm",
+     "gcd",
+     "gtm",
+     "ngs",
+     "npa",
+     "pscdl",
+     "rcb",
+     "sct",
+     "seg",
+     "sid",
+     "sr",
+     "tag_exp",
+     "tfd",
+     "tid",
+     "uaa",
+     "uab",
+     "uafvl",
+     "uam",
+     "uamb",
+     "uap",
+     "uapv",
+     "uaw",
+     "ul",
+     "v"
+    ],
+    "resourceType": "fetch",
+    "contentType": "text/plain",
+    "sameSite": false,
+    "example": "https://www.google-analytics.com/g/collect",
+    "pages": 5,
+    "examples": [
+     "index",
+     "life-insurance",
+     "housing-assistance"
+    ]
+   },
+   {
+    "method": "GET",
+    "host": "resource.digital.voice.va.gov",
+    "path": "/wdcvoice/{n}/onsite/onsiteData1791897796293.json",
+    "query": [],
+    "resourceType": "xhr",
+    "contentType": "application/json",
+    "sameSite": true,
+    "example": "https://resource.digital.voice.va.gov/wdcvoice/2/onsite/onsiteData1791897796293.json",
+    "pages": 5,
+    "examples": [
+     "index",
+     "life-insurance",
+     "housing-assistance"
+    ]
+   },
+   {
+    "method": "GET",
+    "host": "api.va.gov",
+    "path": "/v0/feature_toggles",
+    "query": [
+     "cookie_id"
+    ],
+    "resourceType": "fetch",
+    "contentType": "application/json",
+    "sameSite": true,
+    "example": "https://api.va.gov/v0/feature_toggles",
+    "pages": 5,
+    "examples": [
+     "index",
+     "life-insurance",
+     "housing-assistance"
+    ]
+   },
+   {
+    "method": "GET",
+    "host": "resource.digital.voice.va.gov",
+    "path": "/wdcvoice/{n}/forms/{n}/invitationData1791897793480_en.json",
+    "query": [],
+    "resourceType": "xhr",
+    "contentType": "application/json",
+    "sameSite": true,
+    "example": "https://resource.digital.voice.va.gov/wdcvoice/2/forms/78/invitationData1791897793480_en.json",
+    "pages": 1,
+    "examples": [
+     "life-insurance"
+    ]
+   },
+   {
+    "method": "GET",
+    "host": "resource.digital.voice.va.gov",
+    "path": "/wdcvoice/{n}/onsite/domains-configuration.json",
+    "query": [],
+    "resourceType": "xhr",
+    "contentType": "application/json",
+    "sameSite": true,
+    "example": "https://resource.digital.voice.va.gov/wdcvoice/2/onsite/domains-configuration.json",
+    "pages": 1,
+    "examples": [
+     "life-insurance"
+    ]
+   },
+   {
+    "method": "GET",
+    "host": "api.va.gov",
+    "path": "/v0/banners/",
+    "query": [
+     "path"
+    ],
+    "resourceType": "fetch",
+    "contentType": "application/json",
+    "sameSite": true,
+    "example": "https://api.va.gov/v0/banners/",
+    "pages": 1,
+    "examples": [
+     "health-care"
+    ]
+   }
+  ],
+  "thirdPartyScriptHosts": [
+   {
+    "host": "prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com",
+    "pages": 5,
+    "examples": [
+     "index",
+     "life-insurance",
+     "housing-assistance"
+    ]
+   },
+   {
+    "host": "www.googletagmanager.com",
+    "pages": 5,
+    "examples": [
+     "index",
+     "life-insurance",
+     "housing-assistance"
+    ]
+   },
+   {
+    "host": "dap.digitalgov.gov",
+    "pages": 5,
+    "examples": [
+     "index",
+     "life-insurance",
+     "housing-assistance"
+    ]
+   },
+   {
+    "host": "siteimproveanalytics.com",
+    "pages": 4,
+    "examples": [
+     "life-insurance",
+     "housing-assistance",
+     "family-and-caregiver-benefits"
+    ]
+   }
+  ],
+  "frameworkHints": [
+   {
+    "hint": "next",
+    "pages": 4,
+    "examples": [
+     "life-insurance",
+     "housing-assistance",
+     "family-and-caregiver-benefits"
+    ]
+   }
+  ],
+  "globalState": [
+   {
+    "name": "dataLayer",
+    "pages": 5,
+    "examples": [
+     "index",
+     "life-insurance",
+     "housing-assistance"
+    ]
+   },
+   {
+    "name": "__NEXT_DATA__",
+    "pages": 4,
+    "examples": [
+     "life-insurance",
+     "housing-assistance",
+     "family-and-caregiver-benefits"
+    ]
+   }
+  ],
+  "formTargets": [
+   {
+    "action": "https://public.govdelivery.com/accounts/USVACHOOSE/subscribers/qualify",
+    "method": "post",
+    "sameOrigin": false,
+    "search": false,
+    "fieldNames": [],
+    "pages": 1,
+    "examples": [
+     "index"
+    ]
+   }
+  ]
+ },
+ "visionCheck": [
+  {
+   "slug": "index",
+   "verdict": "ok",
+   "notes": "home rendered: hero, search/top pages, app promo, 12-hub grid, signup, footer"
+  },
+  {
+   "slug": "health-care",
+   "verdict": "ok",
+   "notes": "hub rendered with sidebar"
+  },
+  {
+   "slug": "life-insurance",
+   "verdict": "ok",
+   "notes": "hub rendered with sidebar"
+  },
+  {
+   "slug": "housing-assistance",
+   "verdict": "ok",
+   "notes": "same hub template (thumbnail generated, structure matches health-care headings)"
+  },
+  {
+   "slug": "family-and-caregiver-benefits",
+   "verdict": "ok",
+   "notes": "same hub template (thumbnail generated)"
+  }
+ ],
+ "siblingCandidates": [],
+ "userChoice": "--pages (5 planned pages, fixed scope)"
+}

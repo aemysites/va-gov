@@ -1,0 +1,48 @@
+{"ts":"2026-10-13T16:09:01Z","skill":"stardust:replica","phase":"extract","event":"start","detail":"extract --prep --dynamics over the 5 planned pages of https://www.va.gov/"}
+{"ts":"2026-10-13T16:09:15Z","skill":"stardust:extract","phase":"prep","event":"start","detail":"crawl 5 planned pages (--pages), --dynamics"}
+{"ts":"2026-10-13T16:26:11Z","skill":"stardust:extract","phase":"prep","event":"end","detail":"5/5 live; types landing 1 · program 4; 16 module candidates; uncaptured first-level targets: none"}
+{"ts":"2026-10-13T16:26:11Z","skill":"stardust:replica","phase":"extract","event":"end","detail":"Provenance 5/5 live; templates landing(index) + program(health-care archetype, 3 siblings); uncaptured first-level targets: none"}
+{"ts":"2026-10-13T16:26:25Z","skill":"stardust:replica","phase":"preserve-direction","event":"start","detail":"promote current spec verbatim, empty register, dynamics triage"}
+{"ts":"2026-10-13T16:26:45Z","skill":"stardust:dynamics","phase":"detect","event":"start","detail":"archetypes index + health-care, reach from crawl"}
+{"ts":"2026-10-13T16:27:17Z","skill":"stardust:dynamics","phase":"detect","event":"end","detail":"20 findings on 2 archetypes"}
+{"ts":"2026-10-13T16:27:17Z","skill":"stardust:dynamics","phase":"classify","event":"start"}
+{"ts":"2026-10-13T16:27:17Z","skill":"stardust:dynamics","phase":"triage","event":"start"}
+{"ts":"2026-10-13T16:27:49Z","skill":"stardust:dynamics","phase":"classify","event":"end","detail":"23 rows classified"}
+{"ts":"2026-10-13T16:27:49Z","skill":"stardust:dynamics","phase":"triage","event":"end","detail":"23 rows, every row dispositioned; 6 owner decisions batched; self rows ship with foundation/home"}
+{"ts":"2026-10-13T16:27:54Z","skill":"stardust:replica","phase":"preserve-direction","event":"end","detail":"verbatim promotion; register empty (pure replica); dynamics 23 rows dispositioned"}
+{"ts":"2026-10-13T16:28:04Z","skill":"stardust:replica","phase":"recreate","event":"start","detail":"archetypes: index (landing), health-care (program)"}
+{"ts":"2026-10-13T16:57:01Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"start","detail":"gate rounds running inside recreate since 16:55Z; health-care passed, index next"}
+{"ts":"2026-10-13T17:10:52Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"end","detail":"index 1440 1.33% Δh-1 · 360 2.80% Δh-1; health-care 1440 1.65% Δh-2 · 360 5.10% Δh-6; 0 structural red, clip 0, overflow ok; prototype table 2/2 PASS"}
+{"ts":"2026-10-13T17:10:52Z","skill":"stardust:replica","phase":"recreate","event":"end","detail":"2 archetypes recreated and gated: index (landing), health-care (program)"}
+{"ts":"2026-10-13T17:11:06Z","skill":"stardust:replica","phase":"handoff","event":"start","detail":"migrate → deploy → rollout for 5 pages; publish decided"}
+{"ts":"2026-10-13T17:11:38Z","skill":"stardust:migrate","phase":"plan","event":"start","detail":"page map + render plan: 2 archetypes now, program siblings after their archetype is live"}
+{"ts":"2026-10-13T17:11:45Z","skill":"stardust:migrate","phase":"plan","event":"end","detail":"5 pages mapped, 0 collisions; units archetypes → program (after C-archetype) → report"}
+{"ts":"2026-10-13T17:11:45Z","skill":"stardust:migrate","phase":"render","event":"start","detail":"unit archetypes: index, health-care"}
+{"ts":"2026-10-13T17:12:05Z","skill":"stardust:rollout","phase":"A-inventory","event":"start","detail":"inventory migrated tree + state (5 pages)"}
+{"ts":"2026-10-13T17:12:30Z","skill":"stardust:rollout","phase":"A-inventory","event":"end","detail":"2 pages (index, health-care) inventoried; 3 program siblings join at their render unit","artifact":"stardust/rollout/coverage/pages.json"}
+{"ts":"2026-10-13T17:12:39Z","skill":"stardust:rollout","phase":"B-block","event":"start","detail":"block dedup + representative-first plan"}
+{"ts":"2026-10-13T17:12:43Z","skill":"stardust:rollout","phase":"B-block","event":"end","detail":"15 distinct blocks from 16 instances; plan: health-care first, index reuses feedback","artifact":"stardust/rollout/plan.json"}
+{"ts":"2026-10-13T17:12:55Z","skill":"stardust:rollout","phase":"B2-dynamic","event":"start","detail":"re-verify dynamic-features.md against fresh detect evidence, target origin main--cd6de7e5--aemcoder.aem.page"}
+{"ts":"2026-10-13T17:13:29Z","skill":"stardust:rollout","phase":"B2-dynamic","event":"end","detail":"fresh detect 20 findings = curated inventory; 23 rows dispositioned, unchanged","artifact":"stardust/dynamic-features.md"}
+{"ts":"2026-10-13T17:13:53Z","skill":"stardust:rollout","phase":"C-deliver","event":"start","detail":"units: foundation, archetype-landing, archetype-program, cluster program, gate-all, final"}
+{"ts":"2026-10-13T20:03:21Z","skill":"stardust:rollout","phase":"C-deliver","event":"end","detail":"5/5 pages live on aem.live; units foundation, archetype-program, archetype-landing, program, gate-all, final done; 1440 5/5 PASS ≤5.87%, 360 5/5 delivered via documented same-browser overrides; 1 foundation request applied"}
+{"ts":"2026-10-13T20:03:54Z","skill":"stardust:migrate","phase":"render","event":"end","detail":"units archetypes (2) + program (3) rendered; 5/5 pages placed"}
+{"ts":"2026-10-13T20:03:54Z","skill":"stardust:migrate","phase":"state-and-report","event":"start","detail":"migrate report: 5 pages"}
+{"ts":"2026-10-13T20:03:54Z","skill":"stardust:migrate","phase":"state-and-report","event":"end","detail":"5/5 pages: 2 archetype, 3 sibling; all deployed"}
+{"ts":"2026-10-13T20:04:19Z","skill":"stardust:rollout","phase":"D-site","event":"start","detail":"sitemap/robots/manifest, redirects sheet, root answers, chrome noindex, assemble --verify-origin"}
+{"ts":"2026-10-13T20:12:41Z","skill":"stardust:rollout","phase":"D-site","event":"end","detail":"sitemap served 5 = assembled 5; assemble --verify-origin exit 0; redirects sheet live (4 rows, no /); / 200; chrome noindex"}
+{"ts":"2026-10-13T20:12:41Z","skill":"stardust:rollout","phase":"D2-dynamic","event":"start","detail":"parity rows + dynamics-check on aem.live"}
+{"ts":"2026-10-13T20:12:41Z","skill":"stardust:rollout","phase":"D2-dynamic","event":"end","detail":"16 features, dynamics-check 16/16 pass"}
+{"ts":"2026-10-13T20:12:41Z","skill":"stardust:rollout","phase":"E-full-site","event":"start","detail":"verify.mjs + gate tables"}
+{"ts":"2026-10-13T20:12:41Z","skill":"stardust:rollout","phase":"E-full-site","event":"end","detail":"verified 5/5; gate 1440 5/5, 360 5/5 (overrides); render check clean"}
+{"ts":"2026-10-13T20:12:41Z","skill":"stardust:rollout","phase":"E2-link-audit","event":"start","detail":"localize-links + href audit"}
+{"ts":"2026-10-13T20:12:41Z","skill":"stardust:rollout","phase":"E2-link-audit","event":"end","detail":"89 out-of-scope links repointed to www.va.gov; check 0; 254 hrefs, 0 × 404"}
+{"ts":"2026-10-13T20:13:33Z","skill":"stardust:rollout","phase":"F-optimize","event":"start","detail":"optimize sweep over 5 live pages; P1 gate"}
+{"ts":"2026-10-13T20:13:47Z","skill":"stardust:rollout","phase":"F-optimize","event":"end","detail":"5 pages: P1 0, P2 4 (JSON-LD on program hubs → G-aem), 1 source-parity; gate pass","artifact":"stardust/rollout/optimize/scorecard.json"}
+{"ts":"2026-10-13T20:14:00Z","skill":"stardust:rollout","phase":"G-aem","event":"start","detail":"autofix platform-migration findings (JSON-LD on 4 program hubs)"}
+{"ts":"2026-10-13T20:15:11Z","skill":"stardust:rollout","phase":"G-aem","event":"end","detail":"4 JSON-LD findings fixed via metadata row, 4 pages republished; optimize P1 0 P2 0; verify 5/5","artifact":"stardust/rollout/optimize/findings.json"}
+{"ts":"2026-10-13T20:15:24Z","skill":"stardust:rollout","phase":"H-report","event":"start","detail":"rollout summary + learnings"}
+{"ts":"2026-10-13T20:15:55Z","skill":"stardust:rollout","phase":"H-report","event":"end","detail":"5/5 verified, 15/15 blocks, health 100, 0 open findings; 3 learnings pending","artifact":"stardust/rollout/report.md"}
+{"ts":"2026-10-13T20:16:06Z","skill":"stardust:rollout","phase":"I-dashboard","event":"start","detail":"dashboard/index.html + data.json"}
+{"ts":"2026-10-13T20:26:19Z","skill":"stardust:rollout","phase":"I-dashboard","event":"end","detail":"dashboard 5 pages (deployed 5, optimised 4); header parity 0 errors","artifact":"stardust/rollout/dashboard/index.html"}
+{"ts":"2026-10-13T20:26:35Z","skill":"stardust:replica","phase":"handoff","event":"end","detail":"5/5 pages live + verified on aem.live; rollout A–I ended; done-check complete"}

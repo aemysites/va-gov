@@ -1,0 +1,47 @@
+{
+  "/family-and-caregiver-benefits": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-13T20:11:03.096Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/health-care": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-13T20:11:03.096Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/housing-assistance": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-13T20:11:03.096Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/index": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-13T20:11:03.096Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/life-insurance": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-13T20:11:09.157Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

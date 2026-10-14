@@ -1,0 +1,278 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:prototype",
+    "writtenAt": "2026-10-13T17:08:50Z",
+    "stardustVersion": "0.32.1"
+  },
+  "site": {
+    "originUrl": "https://www.va.gov/",
+    "deployUrl": null,
+    "extractedAt": "2026-10-13T16:13:03.925Z",
+    "pageCap": null,
+    "totalDiscovered": 5,
+    "crawled": 5,
+    "captureGaps": []
+  },
+  "direction": {
+    "resolvedAt": "2026-10-13T16:26:37.614Z",
+    "phrase": "replica (preserve)",
+    "directionFile": "stardust/direction.md",
+    "iaFidelity": "verbatim"
+  },
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-10-13T16:13:03.925Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://www.va.gov/",
+      "title": "VA.gov Home | Veterans Affairs",
+      "type": "landing",
+      "status": "deployed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-13T16:09:28.051Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-13T16:26:40Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-13T17:08:50Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": "stardust/prototypes/index-proposed.html",
+      "migratedPath": null,
+      "liveUrl": "https://main--cd6de7e5--aemcoder.aem.live/",
+      "deployedPath": "/"
+    },
+    {
+      "slug": "housing-assistance",
+      "url": "https://www.va.gov/housing-assistance/",
+      "title": "VA Housing Assistance | Veterans Affairs",
+      "type": "program",
+      "status": "deployed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-13T16:09:29.390Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-13T16:26:40Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/housing-assistance.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "liveUrl": "https://main--cd6de7e5--aemcoder.aem.live/housing-assistance",
+      "deployedPath": "/housing-assistance"
+    },
+    {
+      "slug": "life-insurance",
+      "url": "https://www.va.gov/life-insurance/",
+      "title": "VA Life Insurance | Veterans Affairs",
+      "type": "program",
+      "status": "deployed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-13T16:09:28.792Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-13T16:26:40Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/life-insurance.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "liveUrl": "https://main--cd6de7e5--aemcoder.aem.live/life-insurance",
+      "deployedPath": "/life-insurance"
+    },
+    {
+      "slug": "family-and-caregiver-benefits",
+      "url": "https://www.va.gov/family-and-caregiver-benefits/",
+      "title": "VA Benefits For Family And Caregivers | Veterans Affairs",
+      "type": "program",
+      "status": "deployed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-13T16:09:34.405Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-13T16:26:40Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/family-and-caregiver-benefits.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "liveUrl": "https://main--cd6de7e5--aemcoder.aem.live/family-and-caregiver-benefits",
+      "deployedPath": "/family-and-caregiver-benefits"
+    },
+    {
+      "slug": "health-care",
+      "url": "https://www.va.gov/health-care/",
+      "title": "VA Health Care | Veterans Affairs",
+      "type": "program",
+      "status": "deployed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-13T16:09:35.246Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-13T16:26:40Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-13T16:56:49Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-13T16:56:49Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/health-care.json",
+      "prototypePath": "stardust/prototypes/health-care-proposed.html",
+      "migratedPath": null,
+      "liveUrl": "https://main--cd6de7e5--aemcoder.aem.live/health-care",
+      "deployedPath": "/health-care"
+    }
+  ],
+  "migrate": {
+    "at": "2026-10-13T19:16:41Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/housing-assistance/",
+        "outputPath": "housing-assistance/index.html",
+        "slug": "housing-assistance",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/life-insurance/",
+        "outputPath": "life-insurance/index.html",
+        "slug": "life-insurance",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/family-and-caregiver-benefits/",
+        "outputPath": "family-and-caregiver-benefits/index.html",
+        "slug": "family-and-caregiver-benefits",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/health-care/",
+        "outputPath": "health-care/index.html",
+        "slug": "health-care",
+        "outputPathDefault": null
+      }
+    ],
+    "totalAssetsBundled": 36,
+    "bundledAssets": [
+      "canon.css",
+      "chrome.js",
+      "favicon.ico",
+      "fonts/bitter-bold-GMUGIFN6.woff2",
+      "fonts/bitter-regular-6ETIX3HM.woff2",
+      "fonts/sourcesanspro-bold-webfont-SCSOYK7L.woff2",
+      "fonts/sourcesanspro-bolditalic-webfont-4ZT7N24T.woff2",
+      "fonts/sourcesanspro-italic-webfont-X2X3YPXD.woff2",
+      "fonts/sourcesanspro-regular-webfont-TJXUUIWO.woff2",
+      "home.css",
+      "home.js",
+      "hub.css",
+      "hub.js",
+      "img/Health-and-benefits-distro-graphics_sq.jpg",
+      "img/VCL-icon-white.svg",
+      "img/arrow-down-white.svg",
+      "img/arrow-right-white.svg",
+      "img/arrow-up.svg",
+      "img/family-caregiver.png",
+      "img/header-logo.png",
+      "img/hub-promo-health-care.png",
+      "img/hub-promo-housing.png",
+      "img/hub-promo-life-insurance.png",
+      "img/icon-dot-gov.svg",
+      "img/icon-https.svg",
+      "img/minus-white.svg",
+      "img/plus-white.svg",
+      "img/stars-E7HVB7EU.png",
+      "img/tiny-usa-flag.png",
+      "img/va-logo-white.png",
+      "img/veterans-banner-desktop-1.png",
+      "img/veterans-banner-desktop-2.png",
+      "img/veterans-banner-mobile-1.png",
+      "img/veterans-banner-mobile-2.png",
+      "img/veterans-banner-tablet-1.png",
+      "img/veterans-banner-tablet-2.png"
+    ],
+    "pages": [
+      {
+        "slug": "index",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 30
+      },
+      {
+        "slug": "health-care",
+        "file": "stardust/migrated/health-care/index.html",
+        "assetsBundled": 18
+      },
+      {
+        "slug": "housing-assistance",
+        "file": "stardust/migrated/housing-assistance/index.html",
+        "assetsBundled": 30
+      },
+      {
+        "slug": "life-insurance",
+        "file": "stardust/migrated/life-insurance/index.html",
+        "assetsBundled": 18
+      },
+      {
+        "slug": "family-and-caregiver-benefits",
+        "file": "stardust/migrated/family-and-caregiver-benefits/index.html",
+        "assetsBundled": 30
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-10-13T19:16:41Z",
+      "rendered": [],
+      "unchanged": [
+        "housing-assistance",
+        "life-insurance",
+        "family-and-caregiver-benefits"
+      ],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

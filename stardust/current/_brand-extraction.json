@@ -1,0 +1,702 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:extract",
+  "writtenAt": "2026-10-13T16:13:50.924Z",
+  "stardustVersion": "0.32.1",
+  "sources": [
+   "stardust/current/_computed-styles.json",
+   "stardust/current/assets/css/style.css",
+   "stardust/current/assets/fonts/_fonts.json"
+  ]
+ },
+ "origins": [
+  {
+   "origin": "https://www.va.gov",
+   "role": "primary",
+   "pages": 5
+  }
+ ],
+ "logo": {
+  "path": "stardust/current/assets/logo.png",
+  "source": "img",
+  "selector": ".va-header-logo img",
+  "url": "https://www.va.gov/img/header-logo.png",
+  "alt": "VA logo and Seal, U.S. Department of Veterans Affairs"
+ },
+ "favicon": {
+  "path": "stardust/current/assets/favicon.ico"
+ },
+ "palette": [
+  {
+   "hex": "#ffffff",
+   "roles": [
+    "background",
+    "text"
+   ],
+   "weight": 581,
+   "bgArea": 46112655,
+   "sources": [
+    {
+     "url": "https://www.va.gov/",
+     "selector": "#legacy-header > div:nth-of-type(1) > div:nth-of-type(2) > button > div > span:nth-of-type(2)",
+     "prop": "text"
+    },
+    {
+     "url": "https://www.va.gov/family-and-caregiver-benefits/",
+     "selector": "#legacy-header > div:nth-of-type(1) > div:nth-of-type(2) > button > div > span:nth-of-type(2)",
+     "prop": "text"
+    }
+   ]
+  },
+  {
+   "hex": "#212121",
+   "roles": [
+    "heading"
+   ],
+   "weight": 352,
+   "bgArea": 0,
+   "sources": [
+    {
+     "url": "https://www.va.gov/health-care/",
+     "selector": "div:nth-of-type(1) > div:nth-of-type(1) > article > div:nth-of-type(2) > section > ul > li:nth-of-type(1) > p",
+     "prop": "text"
+    },
+    {
+     "url": "https://www.va.gov/housing-assistance/",
+     "selector": "div:nth-of-type(1) > div:nth-of-type(1) > article > div:nth-of-type(2) > section > ul > li:nth-of-type(1) > p",
+     "prop": "text"
+    }
+   ]
+  },
+  {
+   "hex": "#005ea2",
+   "roles": [
+    "accent"
+   ],
+   "weight": 166,
+   "bgArea": 0,
+   "sources": [
+    {
+     "url": "https://www.va.gov/life-insurance/",
+     "selector": "#header-v2 > div > div:nth-of-type(1) > div > button",
+     "prop": "text"
+    },
+    {
+     "url": "https://www.va.gov/health-care/",
+     "selector": "#header-v2 > div > div:nth-of-type(1) > div > button",
+     "prop": "text"
+    }
+   ]
+  },
+  {
+   "hex": "#162e51",
+   "roles": [
+    "surface"
+   ],
+   "weight": 65,
+   "bgArea": 9467770,
+   "sources": [
+    {
+     "url": "https://www.va.gov/",
+     "selector": "header",
+     "prop": "background"
+    },
+    {
+     "url": "https://www.va.gov/family-and-caregiver-benefits/",
+     "selector": "header",
+     "prop": "background"
+    }
+   ]
+  },
+  {
+   "hex": "#1a4480",
+   "roles": [
+    "primary"
+   ],
+   "weight": 52,
+   "bgArea": 1258167,
+   "sources": [
+    {
+     "url": "https://www.va.gov/",
+     "selector": "#content > div:nth-of-type(3)",
+     "prop": "background"
+    },
+    {
+     "url": "https://www.va.gov/family-and-caregiver-benefits/",
+     "selector": "#footerNav > div > div:nth-of-type(1) > div:nth-of-type(2) > ul > li:nth-of-type(2) > button",
+     "prop": "background"
+    }
+   ]
+  },
+  {
+   "hex": "#f1f1f1",
+   "roles": [
+    "secondary"
+   ],
+   "weight": 35,
+   "bgArea": 2647371,
+   "sources": [
+    {
+     "url": "https://www.va.gov/family-and-caregiver-benefits/",
+     "selector": "#legacy-header > div:nth-of-type(1)",
+     "prop": "background"
+    },
+    {
+     "url": "https://www.va.gov/health-care/",
+     "selector": "#legacy-header > div:nth-of-type(1)",
+     "prop": "background"
+    }
+   ]
+  },
+  {
+   "hex": "#a9aeb1",
+   "roles": [
+    "border"
+   ],
+   "weight": 21,
+   "bgArea": 0,
+   "sources": [
+    {
+     "url": "https://www.va.gov/health-care/",
+     "selector": "#content > div:nth-of-type(1) > div:nth-of-type(1) > article > va-on-this-page",
+     "prop": "border"
+    },
+    {
+     "url": "https://www.va.gov/housing-assistance/",
+     "selector": "#content > div:nth-of-type(1) > div:nth-of-type(1) > article > va-on-this-page",
+     "prop": "border"
+    }
+   ]
+  },
+  {
+   "hex": "#3d4551",
+   "roles": [],
+   "weight": 32,
+   "bgArea": 0,
+   "sources": [
+    {
+     "url": "https://www.va.gov/",
+     "selector": "#search-tools-header",
+     "prop": "text"
+    },
+    {
+     "url": "https://www.va.gov/family-and-caregiver-benefits/",
+     "selector": "#content > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > span > p",
+     "prop": "text"
+    }
+   ]
+  },
+  {
+   "hex": "#8b0a03",
+   "roles": [],
+   "weight": 15,
+   "bgArea": 174400,
+   "sources": [
+    {
+     "url": "https://www.va.gov/",
+     "selector": "#header-v2 > div > div:nth-of-type(2)",
+     "prop": "background"
+    },
+    {
+     "url": "https://www.va.gov/family-and-caregiver-benefits/",
+     "selector": "#header-v2 > div > div:nth-of-type(2)",
+     "prop": "background"
+    }
+   ]
+  },
+  {
+   "hex": "#6f7a41",
+   "roles": [],
+   "weight": 6,
+   "bgArea": 9600,
+   "sources": [
+    {
+     "url": "https://www.va.gov/",
+     "selector": "#content > section > div:nth-of-type(3) > div:nth-of-type(1) > h3 > va-icon",
+     "prop": "background"
+    },
+    {
+     "url": "https://www.va.gov/life-insurance/",
+     "selector": "#content > div:nth-of-type(1) > div:nth-of-type(1) > article > div:nth-of-type(1) > span > va-icon",
+     "prop": "background"
+    }
+   ]
+  },
+  {
+   "hex": "#757575",
+   "roles": [],
+   "weight": 6,
+   "bgArea": 0,
+   "sources": [
+    {
+     "url": "https://www.va.gov/family-and-caregiver-benefits/",
+     "selector": "#hub-rail > div > va-card",
+     "prop": "border"
+    },
+    {
+     "url": "https://www.va.gov/health-care/",
+     "selector": "#hub-rail > div > va-card",
+     "prop": "border"
+    }
+   ]
+  },
+  {
+   "hex": "#000000",
+   "roles": [],
+   "weight": 5,
+   "bgArea": 0,
+   "sources": [
+    {
+     "url": "https://www.va.gov/",
+     "selector": "#legacy-header > div:nth-of-type(1) > div:nth-of-type(1) > div > div > div:nth-of-type(1) > div > p",
+     "prop": "text"
+    },
+    {
+     "url": "https://www.va.gov/family-and-caregiver-benefits/",
+     "selector": "#legacy-header > div:nth-of-type(1) > div:nth-of-type(1) > div > div > div:nth-of-type(1) > div > p",
+     "prop": "text"
+    }
+   ]
+  },
+  {
+   "hex": "#3f57a6",
+   "roles": [],
+   "weight": 4,
+   "bgArea": 6400,
+   "sources": [
+    {
+     "url": "https://www.va.gov/",
+     "selector": "#content > section > div:nth-of-type(1) > div:nth-of-type(1) > h3 > va-icon",
+     "prop": "background"
+    },
+    {
+     "url": "https://www.va.gov/health-care/",
+     "selector": "#content > div:nth-of-type(1) > div:nth-of-type(1) > article > div:nth-of-type(1) > span > va-icon",
+     "prop": "background"
+    }
+   ]
+  },
+  {
+   "hex": "#565c65",
+   "roles": [],
+   "weight": 4,
+   "bgArea": 0,
+   "sources": [
+    {
+     "url": "https://www.va.gov/",
+     "selector": "#content > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > div > h2",
+     "prop": "heading"
+    },
+    {
+     "url": "https://www.va.gov/",
+     "selector": "#content > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > div > h2",
+     "prop": "text"
+    }
+   ]
+  },
+  {
+   "hex": "#8e704f",
+   "roles": [],
+   "weight": 4,
+   "bgArea": 6400,
+   "sources": [
+    {
+     "url": "https://www.va.gov/",
+     "selector": "#content > section > div:nth-of-type(2) > div:nth-of-type(3) > h3 > va-icon",
+     "prop": "background"
+    },
+    {
+     "url": "https://www.va.gov/housing-assistance/",
+     "selector": "#content > div:nth-of-type(1) > div:nth-of-type(1) > article > div:nth-of-type(1) > span > va-icon",
+     "prop": "background"
+    }
+   ]
+  },
+  {
+   "hex": "#e1f3f8",
+   "roles": [],
+   "weight": 3,
+   "bgArea": 850135,
+   "sources": [
+    {
+     "url": "https://www.va.gov/",
+     "selector": "#content > div:nth-of-type(2) > div > div > div:nth-of-type(2)",
+     "prop": "background"
+    },
+    {
+     "url": "https://www.va.gov/",
+     "selector": "#content > div:nth-of-type(5)",
+     "prop": "background"
+    }
+   ]
+  },
+  {
+   "hex": "#2378c3",
+   "roles": [],
+   "weight": 2,
+   "bgArea": 3200,
+   "sources": [
+    {
+     "url": "https://www.va.gov/",
+     "selector": "#content > section > div:nth-of-type(3) > div:nth-of-type(2) > h3 > va-icon",
+     "prop": "background"
+    }
+   ]
+  },
+  {
+   "hex": "#4d8055",
+   "roles": [],
+   "weight": 2,
+   "bgArea": 3200,
+   "sources": [
+    {
+     "url": "https://www.va.gov/",
+     "selector": "#content > section > div:nth-of-type(2) > div:nth-of-type(2) > h3 > va-icon",
+     "prop": "background"
+    }
+   ]
+  },
+  {
+   "hex": "#a23737",
+   "roles": [],
+   "weight": 2,
+   "bgArea": 3200,
+   "sources": [
+    {
+     "url": "https://www.va.gov/",
+     "selector": "#content > section > div:nth-of-type(1) > div:nth-of-type(2) > h3 > va-icon",
+     "prop": "background"
+    }
+   ]
+  },
+  {
+   "hex": "#bd5727",
+   "roles": [],
+   "weight": 2,
+   "bgArea": 3200,
+   "sources": [
+    {
+     "url": "https://www.va.gov/",
+     "selector": "#content > section > div:nth-of-type(2) > div:nth-of-type(1) > h3 > va-icon",
+     "prop": "background"
+    }
+   ]
+  }
+ ],
+ "type": {
+  "headingFamily": "Bitter",
+  "bodyFamily": "Source Sans Pro Web",
+  "families": [
+   {
+    "family": "Source Sans Pro Web",
+    "count": 154,
+    "headings": 2,
+    "text": 112,
+    "buttons": 40
+   },
+   {
+    "family": "Bitter",
+    "count": 143,
+    "headings": 135,
+    "text": 8,
+    "buttons": 0
+   }
+  ],
+  "levels": {
+   "h1": {
+    "fontSize": 40,
+    "fontWeight": "700",
+    "count": 4,
+    "score": 140
+   },
+   "h2": {
+    "fontSize": 32,
+    "fontWeight": "700",
+    "count": 17,
+    "score": 230.89
+   },
+   "h3": {
+    "fontSize": 17.01,
+    "fontWeight": "700",
+    "count": 34,
+    "score": 173.57
+   }
+  },
+  "scaleAudit": {
+   "kind": "ad-hoc"
+  },
+  "files": [
+   {
+    "file": "stardust/current/assets/fonts/sourcesanspro-regular-webfont-TJXUUIWO.woff2",
+    "family": "Source Sans Pro Web",
+    "weight": 400,
+    "style": "normal",
+    "license": "SIL OFL (open, self-hostable)"
+   },
+   {
+    "file": "stardust/current/assets/fonts/sourcesanspro-bold-webfont-SCSOYK7L.woff2",
+    "family": "Source Sans Pro Web",
+    "weight": 700,
+    "style": "normal",
+    "license": "SIL OFL (open, self-hostable)"
+   },
+   {
+    "file": "stardust/current/assets/fonts/sourcesanspro-italic-webfont-X2X3YPXD.woff2",
+    "family": "Source Sans Pro Web",
+    "weight": 400,
+    "style": "italic",
+    "license": "SIL OFL (open, self-hostable)"
+   },
+   {
+    "file": "stardust/current/assets/fonts/sourcesanspro-bolditalic-webfont-4ZT7N24T.woff2",
+    "family": "Source Sans Pro Web",
+    "weight": 700,
+    "style": "italic",
+    "license": "SIL OFL (open, self-hostable)"
+   },
+   {
+    "file": "stardust/current/assets/fonts/bitter-regular-6ETIX3HM.woff2",
+    "family": "Bitter",
+    "weight": 400,
+    "style": "normal",
+    "license": "SIL OFL (open, self-hostable)"
+   },
+   {
+    "file": "stardust/current/assets/fonts/bitter-bold-GMUGIFN6.woff2",
+    "family": "Bitter",
+    "weight": 700,
+    "style": "normal",
+    "license": "SIL OFL (open, self-hostable)"
+   }
+  ]
+ },
+ "motifs": {
+  "radius": {
+   "mode": "5px",
+   "areaMode": "4px",
+   "pill": "50%",
+   "values": [
+    {
+     "value": "50%",
+     "count": 32,
+     "area": 51200,
+     "sources": [
+      {
+       "url": "https://www.va.gov/",
+       "selector": "#content > section > div:nth-of-type(1) > div:nth-of-type(1) > h3 > va-icon"
+      },
+      {
+       "url": "https://www.va.gov/",
+       "selector": "#content > section > div:nth-of-type(1) > div:nth-of-type(2) > h3 > va-icon"
+      },
+      {
+       "url": "https://www.va.gov/",
+       "selector": "#content > section > div:nth-of-type(1) > div:nth-of-type(3) > h3 > va-icon"
+      },
+      {
+       "url": "https://www.va.gov/family-and-caregiver-benefits/",
+       "selector": "#content > div:nth-of-type(1) > div:nth-of-type(1) > article > div:nth-of-type(1) > span > va-icon"
+      },
+      {
+       "url": "https://www.va.gov/health-care/",
+       "selector": "#content > div:nth-of-type(1) > div:nth-of-type(1) > article > div:nth-of-type(1) > span > va-icon"
+      }
+     ]
+    },
+    {
+     "value": "5px",
+     "count": 7,
+     "area": 197942,
+     "sources": [
+      {
+       "url": "https://www.va.gov/",
+       "selector": "#header-v2 > div > div:nth-of-type(3) > div > div > button"
+      },
+      {
+       "url": "https://www.va.gov/",
+       "selector": "#content > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > div"
+      },
+      {
+       "url": "https://www.va.gov/family-and-caregiver-benefits/",
+       "selector": "#header-v2 > div > div:nth-of-type(3) > div > div > button"
+      },
+      {
+       "url": "https://www.va.gov/health-care/",
+       "selector": "#header-v2 > div > div:nth-of-type(3) > div > div > button"
+      },
+      {
+       "url": "https://www.va.gov/housing-assistance/",
+       "selector": "#header-v2 > div > div:nth-of-type(3) > div > div > button"
+      }
+     ]
+    },
+    {
+     "value": "4px",
+     "count": 6,
+     "area": 819960,
+     "sources": [
+      {
+       "url": "https://www.va.gov/health-care/",
+       "selector": "#content > div:nth-of-type(1) > div:nth-of-type(1) > article > va-on-this-page"
+      },
+      {
+       "url": "https://www.va.gov/housing-assistance/",
+       "selector": "#content > div:nth-of-type(1) > div:nth-of-type(1) > article > va-on-this-page"
+      },
+      {
+       "url": "https://www.va.gov/life-insurance/",
+       "selector": "#content > div:nth-of-type(1) > div:nth-of-type(1) > article > va-on-this-page"
+      }
+     ]
+    },
+    {
+     "value": "0px 0px 3.2px 3.2px",
+     "count": 5,
+     "area": 54080,
+     "sources": [
+      {
+       "url": "https://www.va.gov/",
+       "selector": "#legacy-header > div:nth-of-type(1) > div:nth-of-type(2) > button"
+      },
+      {
+       "url": "https://www.va.gov/family-and-caregiver-benefits/",
+       "selector": "#legacy-header > div:nth-of-type(1) > div:nth-of-type(2) > button"
+      },
+      {
+       "url": "https://www.va.gov/health-care/",
+       "selector": "#legacy-header > div:nth-of-type(1) > div:nth-of-type(2) > button"
+      },
+      {
+       "url": "https://www.va.gov/housing-assistance/",
+       "selector": "#legacy-header > div:nth-of-type(1) > div:nth-of-type(2) > button"
+      },
+      {
+       "url": "https://www.va.gov/life-insurance/",
+       "selector": "#legacy-header > div:nth-of-type(1) > div:nth-of-type(2) > button"
+      }
+     ]
+    }
+   ]
+  },
+  "shadows": [
+   {
+    "value": "rgb(22, 46, 81) 0px 450px 0px 450px",
+    "count": 10,
+    "sources": [
+     {
+      "url": "https://www.va.gov/",
+      "selector": "footer"
+     },
+     {
+      "url": "https://www.va.gov/family-and-caregiver-benefits/",
+      "selector": "footer"
+     },
+     {
+      "url": "https://www.va.gov/health-care/",
+      "selector": "footer"
+     },
+     {
+      "url": "https://www.va.gov/housing-assistance/",
+      "selector": "footer"
+     },
+     {
+      "url": "https://www.va.gov/life-insurance/",
+      "selector": "footer"
+     }
+    ]
+   },
+   {
+    "value": "rgb(27, 27, 27) 0px 2px 5px 0px",
+    "count": 5,
+    "sources": [
+     {
+      "url": "https://www.va.gov/",
+      "selector": "#legacy-header > div:nth-of-type(1) > div:nth-of-type(2) > button"
+     },
+     {
+      "url": "https://www.va.gov/family-and-caregiver-benefits/",
+      "selector": "#legacy-header > div:nth-of-type(1) > div:nth-of-type(2) > button"
+     },
+     {
+      "url": "https://www.va.gov/health-care/",
+      "selector": "#legacy-header > div:nth-of-type(1) > div:nth-of-type(2) > button"
+     },
+     {
+      "url": "https://www.va.gov/housing-assistance/",
+      "selector": "#legacy-header > div:nth-of-type(1) > div:nth-of-type(2) > button"
+     },
+     {
+      "url": "https://www.va.gov/life-insurance/",
+      "selector": "#legacy-header > div:nth-of-type(1) > div:nth-of-type(2) > button"
+     }
+    ]
+   }
+  ],
+  "gradients": [
+   {
+    "value": "linear-gradient(to left, rgb(0, 94, 162) 30%, rgb(26, 68, 128) 60%, rgb(22, 46, 81))",
+    "count": 2,
+    "area": 875813,
+    "sources": [
+     {
+      "url": "https://www.va.gov/",
+      "selector": "#content > div:nth-of-type(1)"
+     }
+    ]
+   },
+   {
+    "value": "linear-gradient(to right, rgb(255, 255, 255) 0px, rgb(255, 255, 255) 50%, rgb(225, 243, 248) 50%, rgb(225, 243, 248) 100%)",
+    "count": 1,
+    "area": 617670,
+    "sources": [
+     {
+      "url": "https://www.va.gov/",
+      "selector": "#content > div:nth-of-type(2)"
+     }
+    ]
+   }
+  ]
+ },
+ "iconFont": null,
+ "voice": {
+  "heroHeadline": "Let us help you get started",
+  "heroLede": "Whether you’re a Veteran, service member, or family member, we’re here to help you get the care and benefits you deserve.",
+  "ctaSamples": [
+   "Skip to Content",
+   "Here’s how you know",
+   "Talk to the Veterans Crisis Line now",
+   "Search",
+   "Contact us",
+   "VA Benefits and Health Care"
+  ],
+  "heroImage": null,
+  "heroMedium": null,
+  "firstParagraph": "Whether you’re a Veteran, service member, or family member, we’re here to help you get the care and benefits you deserve."
+ },
+ "systemComponents": [
+  {
+   "id": "gov-banner",
+   "label": "Official U.S. government banner"
+  },
+  {
+   "id": "crisis-line",
+   "label": "Veterans Crisis Line strip"
+  },
+  {
+   "id": "site-header",
+   "label": "Header with logo, search, contact, sign-in, mega menu"
+  },
+  {
+   "id": "site-footer",
+   "label": "Dark navy footer, 4 link columns, language assistance, legal links"
+  },
+  {
+   "id": "breadcrumbs",
+   "label": "Breadcrumb trail on hub pages"
+  },
+  {
+   "id": "feedback-button",
+   "label": "Feedback button + last-updated line"
+  }
+ ]
+}

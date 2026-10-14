@@ -1,0 +1,87 @@
+/* Alert — values lifted from the gated prototype (hub.css .alert). */
+.alert {
+  margin: 24px 0 0;
+  background: var(--va-info-bg);
+  border-left: 8px solid var(--va-info-accent);
+  padding: 16px 20px;
+  position: relative;
+  font-size: 16.96px;
+  line-height: 25.44px;
+}
+
+.alert::before {
+  content: "";
+  position: absolute;
+  left: 16px;
+  top: 13px;
+  width: 32px;
+  height: 32px;
+  background-color: var(--va-ink);
+  mask: url("../../icons/va-info.svg") center / 32px no-repeat;
+}
+
+.alert .alert-body {
+  margin-left: 40px;
+}
+
+.alert .alert-body :is(h2, h3, h4) {
+  font-size: 20px;
+  line-height: 24px;
+  margin: -2px 0 8px;
+}
+
+.alert .alert-body p {
+  margin: 16px 0;
+}
+
+/* Variant additional-info — collapsed disclosure (sibling draft
+   stardust/migrated/family-and-caregiver-benefits: .alert.additional-info .alert__more). */
+.alert.additional-info .alert-more-toggle {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  color: var(--va-link);
+}
+
+.alert.additional-info .alert-more-label p {
+  margin: 0;
+}
+
+.alert.additional-info .alert-more-toggle svg {
+  flex: 0 0 16px;
+  width: 16px;
+  height: 16px;
+  fill: currentcolor;
+}
+
+.alert.additional-info .alert-more.is-open .alert-more-toggle svg {
+  transform: rotate(180deg);
+}
+
+.alert.additional-info .alert-more-button {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.alert.additional-info .alert-more-button:focus-visible {
+  outline: 2px solid #face00;
+  outline-offset: 2px;
+}
+
+.alert.additional-info .alert-more-body {
+  border-left: 4px solid var(--va-link);
+  padding-left: 16px;
+  margin-top: 8px;
+}
+
+.alert.additional-info .alert-more-body ul {
+  padding-left: 20px;
+}

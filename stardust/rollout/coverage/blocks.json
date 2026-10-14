@@ -1,0 +1,315 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-10-13T17:12:39.554Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-13T19:50:13.464Z",
+  "blocks": [
+    {
+      "id": "accordion",
+      "label": "accordion",
+      "kind": "module",
+      "signature": "module:accordion",
+      "source": null,
+      "usedByTemplates": [
+        "health-care"
+      ],
+      "usedByPages": [
+        "health-care"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "accordion",
+        "blockPath": null,
+        "convertedAt": "2026-10-13T18:58:04.850Z"
+      }
+    },
+    {
+      "id": "alert",
+      "label": "alert",
+      "kind": "module",
+      "signature": "module:alert",
+      "source": null,
+      "usedByTemplates": [
+        "health-care"
+      ],
+      "usedByPages": [
+        "health-care"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "alert",
+        "blockPath": null,
+        "convertedAt": "2026-10-13T18:58:04.718Z"
+      }
+    },
+    {
+      "id": "breadcrumbs",
+      "label": "breadcrumbs",
+      "kind": "module",
+      "signature": "module:breadcrumbs",
+      "source": null,
+      "usedByTemplates": [
+        "health-care"
+      ],
+      "usedByPages": [
+        "health-care"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "breadcrumbs",
+        "blockPath": null,
+        "convertedAt": "2026-10-13T18:58:04.578Z"
+      }
+    },
+    {
+      "id": "email-signup",
+      "label": "email-signup",
+      "kind": "module",
+      "signature": "module:email-signup",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "email-signup",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "feedback",
+      "label": "feedback",
+      "kind": "module",
+      "signature": "module:feedback",
+      "source": null,
+      "usedByTemplates": [
+        "health-care",
+        "index"
+      ],
+      "usedByPages": [
+        "health-care",
+        "index"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "feedback",
+        "blockPath": null,
+        "convertedAt": "2026-10-13T18:58:04.902Z"
+      }
+    },
+    {
+      "id": "home-hero",
+      "label": "home-hero",
+      "kind": "module",
+      "signature": "module:home-hero",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "home-hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "home-tasks",
+      "label": "home-tasks",
+      "kind": "module",
+      "signature": "module:home-tasks",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "home-tasks",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hub-grid",
+      "label": "hub-grid",
+      "kind": "module",
+      "signature": "module:hub-grid",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "hub-grid",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hub-title",
+      "label": "hub-title",
+      "kind": "module",
+      "signature": "module:hub-title",
+      "source": null,
+      "usedByTemplates": [
+        "health-care"
+      ],
+      "usedByPages": [
+        "health-care"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "hub-title",
+        "blockPath": null,
+        "convertedAt": "2026-10-13T18:58:04.623Z"
+      }
+    },
+    {
+      "id": "link-list",
+      "label": "link-list",
+      "kind": "module",
+      "signature": "module:link-list",
+      "source": null,
+      "usedByTemplates": [
+        "health-care"
+      ],
+      "usedByPages": [
+        "health-care"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "link-list",
+        "blockPath": null,
+        "convertedAt": "2026-10-13T18:58:04.766Z"
+      }
+    },
+    {
+      "id": "news-promo",
+      "label": "news-promo",
+      "kind": "module",
+      "signature": "module:news-promo",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "news-promo",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "on-this-page",
+      "label": "on-this-page",
+      "kind": "module",
+      "signature": "module:on-this-page",
+      "source": null,
+      "usedByTemplates": [
+        "health-care"
+      ],
+      "usedByPages": [
+        "health-care"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "on-this-page",
+        "blockPath": null,
+        "convertedAt": "2026-10-13T18:58:04.672Z"
+      }
+    },
+    {
+      "id": "portraits",
+      "label": "portraits",
+      "kind": "module",
+      "signature": "module:portraits",
+      "source": null,
+      "usedByTemplates": [
+        "health-care"
+      ],
+      "usedByPages": [
+        "health-care"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "portraits",
+        "blockPath": null,
+        "convertedAt": "2026-10-13T18:58:04.948Z"
+      }
+    },
+    {
+      "id": "rail-card",
+      "label": "rail-card",
+      "kind": "module",
+      "signature": "module:rail-card",
+      "source": null,
+      "usedByTemplates": [
+        "health-care"
+      ],
+      "usedByPages": [
+        "health-care"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "rail-card",
+        "blockPath": null,
+        "convertedAt": "2026-10-13T18:58:04.809Z"
+      }
+    },
+    {
+      "id": "site-alert",
+      "label": "site-alert",
+      "kind": "module",
+      "signature": "module:site-alert",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "site-alert",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,632 @@
+{
+ "_provenance": {
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-13T16:09:28.051Z",
+  "waitMode": "medium",
+  "waitMs": 2500,
+  "httpStatus": 200
+ },
+ "slug": "index",
+ "url": "https://www.va.gov/",
+ "renderedBy": "playwright",
+ "fetchedAt": "2026-10-13T16:09:28.051Z",
+ "finalUrl": "https://www.va.gov/",
+ "title": "VA.gov Home | Veterans Affairs",
+ "description": "Welcome to the official website of the U.S. Department of Veterans Affairs. Discover, apply for, and manage your VA benefits and care.",
+ "og": {
+  "title": "VA.gov Home | Veterans Affairs",
+  "description": "Welcome to the official website of the U.S. Department of Veterans Affairs. Discover, apply for, and manage your VA benefits and care.",
+  "image": "/img/design/logo/va-og-image.png",
+  "type": "website"
+ },
+ "headings": [
+  {
+   "tag": "h1",
+   "text": "Welcome to VA.gov"
+  },
+  {
+   "tag": "h2",
+   "text": "Let us help you get started"
+  },
+  {
+   "tag": "h2",
+   "text": "Create an account to manage your VA benefits and care in one place — any time, from anywhere."
+  },
+  {
+   "tag": "h2",
+   "text": "Search"
+  },
+  {
+   "tag": "h3",
+   "text": "Other search tools"
+  },
+  {
+   "tag": "h2",
+   "text": "Top pages"
+  },
+  {
+   "tag": "h2",
+   "text": "VA NEWS"
+  },
+  {
+   "tag": "h3",
+   "text": "Download the VA Health and Benefits App"
+  },
+  {
+   "tag": "h2",
+   "text": "Explore VA benefits and health care"
+  },
+  {
+   "tag": "h2",
+   "text": "Veteran programs and services"
+  },
+  {
+   "tag": "h2",
+   "text": "More VA resources"
+  },
+  {
+   "tag": "h2",
+   "text": "Get VA updates"
+  },
+  {
+   "tag": "h2",
+   "text": "In crisis? Talk to someone now"
+  },
+  {
+   "tag": "h2",
+   "text": "Get answers"
+  },
+  {
+   "tag": "h2",
+   "text": "Call us"
+  },
+  {
+   "tag": "h2",
+   "text": "Visit a medical center or regional office"
+  },
+  {
+   "tag": "h2",
+   "text": "Language assistance"
+  }
+ ],
+ "body": [
+  "Whether you’re a Veteran, service member, or family member, we’re here to help you get the care and benefits you deserve.",
+  "With the VA Health and Benefits App, you can refill prescriptions, message your care team or check your VA benefits using your smartphone.",
+  "Apply for VA health care, find out how to access services, and manage your health and benefits online.",
+  "File a claim for disability compensation for conditions related to your military service, and manage your benefits over time.",
+  "Apply for and manage your GI Bill and other education benefits to help pay for college and training programs.",
+  "Apply for vocational rehabilitation services, get support for your Veteran-owned small business, and access other career resources.",
+  "Apply for monthly payments for wartime Veterans and survivors with limited or no income who meet certain age and disability requirements.",
+  "Find out if you're eligible for a VA-backed home loan. If you have a service-connected disability, see if you qualify for a housing grant to help you live more independently.",
+  "Explore VA life insurance options for Veterans, service members, and families. Manage your policy online, file claims for benefits, and access helpful resources.",
+  "Get help planning a burial in a VA national cemetery, order a headstone or other memorial item to honor a Veteran's service, and apply for survivor and dependent benefits.",
+  "Apply for a printed Veteran ID card, get your VA benefit letters and medical records, and learn how to apply for a discharge upgrade.",
+  "Find out what benefits you may be eligible for during service and which time-sensitive benefits to consider when separating or retiring.",
+  "Learn about the benefits you may be eligible for as the spouse, dependent, survivor, or caregiver of a Veteran.",
+  "Learn more about the VA departments that manage our benefit and health care programs."
+ ],
+ "codeBlocks": [],
+ "ctas": [
+  {
+   "label": "Skip to Content",
+   "href": "#content"
+  },
+  {
+   "label": "Here’s how you know",
+   "href": null
+  },
+  {
+   "label": "Talk to the Veterans Crisis Line now",
+   "href": null
+  },
+  {
+   "label": "Search",
+   "href": null
+  },
+  {
+   "label": "Contact us",
+   "href": "https://www.va.gov/contact-us/"
+  },
+  {
+   "label": "VA Benefits and Health Care",
+   "href": null
+  },
+  {
+   "label": "About VA",
+   "href": null
+  },
+  {
+   "label": "Find a VA Location",
+   "href": "https://www.va.gov/find-locations/"
+  },
+  {
+   "label": "My VA",
+   "href": "/my-va/"
+  },
+  {
+   "label": "My HealtheVet",
+   "href": "/my-health/"
+  },
+  {
+   "label": "find VA locations tool",
+   "href": "https://www.va.gov/find-locations"
+  },
+  {
+   "label": "Homeless Veterans",
+   "href": "https://department.va.gov/homeless/"
+  },
+  {
+   "label": "Women Veterans",
+   "href": "https://www.va.gov/womenvet/"
+  },
+  {
+   "label": "Minority Veterans",
+   "href": "https://www.va.gov/centerforminorityveterans/"
+  },
+  {
+   "label": "PTSD",
+   "href": "https://www.ptsd.va.gov/"
+  },
+  {
+   "label": "Mental health",
+   "href": "https://www.mentalhealth.va.gov/"
+  },
+  {
+   "label": "Adaptive sports and special events",
+   "href": "https://department.va.gov/veteran-sports/"
+  },
+  {
+   "label": "Small business programs",
+   "href": "https://www.va.gov/osdbu/"
+  },
+  {
+   "label": "VA outreach events",
+   "href": "https://www.va.gov/outreach-and-events/events/"
+  },
+  {
+   "label": "National Resource Directory",
+   "href": "https://www.nrd.gov/"
+  },
+  {
+   "label": "VA forms",
+   "href": "https://www.va.gov/forms/"
+  },
+  {
+   "label": "VA health care access and quality",
+   "href": "https://www.accesstocare.va.gov/"
+  },
+  {
+   "label": "Get help from an accredited representative or VSO",
+   "href": "https://www.va.gov/get-help-from-accredited-representative"
+  },
+  {
+   "label": "VA mobile apps",
+   "href": "https://www.mobile.va.gov/appstore/"
+  },
+  {
+   "label": "State Veterans Affairs offices",
+   "href": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+  },
+  {
+   "label": "Doing business with VA",
+   "href": "https://www.va.gov/opal/fo/dbwva.asp"
+  },
+  {
+   "label": "Careers at VA",
+   "href": "https://vacareers.va.gov/"
+  },
+  {
+   "label": "VA outreach materials",
+   "href": "https://www.va.gov/outreach-and-events/outreach-materials"
+  },
+  {
+   "label": "Your VA welcome kit",
+   "href": "https://www.va.gov/welcome-kit/"
+  },
+  {
+   "label": "VA news",
+   "href": "https://news.va.gov/"
+  },
+  {
+   "label": "Press releases",
+   "href": "https://news.va.gov/va-press-room/"
+  },
+  {
+   "label": "Email updates",
+   "href": "https://public.govdelivery.com/accounts/USVA/subscriber/new/"
+  },
+  {
+   "label": "Facebook",
+   "href": "https://www.facebook.com/VeteransAffairs"
+  },
+  {
+   "label": "Instagram",
+   "href": "https://www.instagram.com/deptvetaffairs/"
+  },
+  {
+   "label": "X",
+   "href": "https://x.com/DeptVetAffairs/"
+  },
+  {
+   "label": "Flickr",
+   "href": "https://www.flickr.com/photos/VeteransAffairs/"
+  },
+  {
+   "label": "YouTube",
+   "href": "https://www.youtube.com/user/DeptVetAffairs"
+  },
+  {
+   "label": "All VA social media",
+   "href": "https://discover.va.gov/social-media/"
+  },
+  {
+   "label": "Veterans Crisis Line",
+   "href": null
+  },
+  {
+   "label": "Resources and support",
+   "href": "https://www.va.gov/resources/"
+  },
+  {
+   "label": "Contact us",
+   "href": "https://www.va.gov/contact-us/"
+  },
+  {
+   "label": "800-698-2411",
+   "href": "tel:18006982411"
+  },
+  {
+   "label": "TTY: 711",
+   "href": "tel:+1711"
+  },
+  {
+   "label": "Find a VA location",
+   "href": "https://www.va.gov/find-locations/"
+  },
+  {
+   "label": "Español",
+   "href": "https://www.va.gov/asistencia-y-recursos-en-espanol"
+  },
+  {
+   "label": "Tagalog",
+   "href": "https://www.va.gov/tagalog-wika-mapagkukunan-at-tulong"
+  },
+  {
+   "label": "Other languages",
+   "href": "https://www.va.gov/resources/how-to-get-free-language-assistance-from-va/"
+  },
+  {
+   "label": "Accessibility",
+   "href": "https://www.va.gov/accessibility-at-va"
+  },
+  {
+   "label": "Civil Rights",
+   "href": "https://www.va.gov/resources/your-civil-rights-and-how-to-file-a-discrimination-complaint/"
+  },
+  {
+   "label": "Freedom of Information Act (FOIA)",
+   "href": "https://department.va.gov/foia/"
+  },
+  {
+   "label": "Harassment",
+   "href": "https://www.va.gov/report-harassment/"
+  },
+  {
+   "label": "Office of Inspector General",
+   "href": "https://www.va.gov/oig/"
+  },
+  {
+   "label": "Plain language",
+   "href": "https://www.va.gov/opa/Plain_Language.asp"
+  },
+  {
+   "label": "Privacy, terms, policies, and legal information",
+   "href": "https://www.va.gov/privacy-policy/"
+  },
+  {
+   "label": "VA Privacy Service",
+   "href": "https://department.va.gov/privacy/"
+  },
+  {
+   "label": "No FEAR Act Data",
+   "href": "https://department.va.gov/resolution-management/reports/"
+  },
+  {
+   "label": "USA.gov",
+   "href": "https://www.usa.gov/"
+  },
+  {
+   "label": "VA performance dashboard",
+   "href": "https://www.va.gov/performance-dashboard/"
+  },
+  {
+   "label": "Veterans Portrait Project",
+   "href": "https://www.va.gov/veterans-portrait-project/"
+  }
+ ],
+ "links": [
+  "https://www.va.gov/#content",
+  "https://www.va.gov/",
+  "https://www.va.gov/contact-us/",
+  "https://www.va.gov/find-locations/",
+  "https://www.va.gov/my-va/",
+  "https://www.va.gov/my-health/",
+  "https://www.va.gov/find-locations",
+  "https://department.va.gov/homeless/",
+  "https://www.va.gov/womenvet/",
+  "https://www.va.gov/centerforminorityveterans/",
+  "https://www.ptsd.va.gov/",
+  "https://www.mentalhealth.va.gov/",
+  "https://department.va.gov/veteran-sports/",
+  "https://www.va.gov/osdbu/",
+  "https://www.va.gov/outreach-and-events/events/",
+  "https://www.nrd.gov/",
+  "https://www.va.gov/forms/",
+  "https://www.accesstocare.va.gov/",
+  "https://www.va.gov/get-help-from-accredited-representative",
+  "https://www.mobile.va.gov/appstore/",
+  "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office",
+  "https://www.va.gov/opal/fo/dbwva.asp",
+  "https://vacareers.va.gov/",
+  "https://www.va.gov/outreach-and-events/outreach-materials",
+  "https://www.va.gov/welcome-kit/",
+  "https://news.va.gov/",
+  "https://news.va.gov/va-press-room/",
+  "https://public.govdelivery.com/accounts/USVA/subscriber/new/",
+  "https://www.facebook.com/VeteransAffairs",
+  "https://www.instagram.com/deptvetaffairs/",
+  "https://x.com/DeptVetAffairs/",
+  "https://www.flickr.com/photos/VeteransAffairs/",
+  "https://www.youtube.com/user/DeptVetAffairs",
+  "https://discover.va.gov/social-media/",
+  "https://www.va.gov/resources/",
+  "tel:18006982411",
+  "tel:+1711",
+  "https://www.va.gov/asistencia-y-recursos-en-espanol",
+  "https://www.va.gov/tagalog-wika-mapagkukunan-at-tulong",
+  "https://www.va.gov/resources/how-to-get-free-language-assistance-from-va/",
+  "https://www.va.gov/accessibility-at-va",
+  "https://www.va.gov/resources/your-civil-rights-and-how-to-file-a-discrimination-complaint/",
+  "https://department.va.gov/foia/",
+  "https://www.va.gov/report-harassment/",
+  "https://www.va.gov/oig/",
+  "https://www.va.gov/opa/Plain_Language.asp",
+  "https://www.va.gov/privacy-policy/",
+  "https://department.va.gov/privacy/",
+  "https://department.va.gov/resolution-management/reports/",
+  "https://www.usa.gov/",
+  "https://www.va.gov/performance-dashboard/",
+  "https://www.va.gov/veterans-portrait-project/",
+  "tel:988",
+  "sms:838255",
+  "https://www.veteranscrisisline.net/get-help-now/chat/",
+  "tel:711",
+  "https://www.veteranscrisisline.net/"
+ ],
+ "media": {
+  "imgs": [
+   {
+    "src": "https://www.va.gov/img/tiny-usa-flag.png",
+    "alt": "U.S. flag",
+    "w": 57,
+    "h": 57
+   },
+   {
+    "src": "https://www.va.gov/img/arrow-right-white.svg",
+    "alt": "",
+    "w": 445,
+    "h": 445
+   },
+   {
+    "src": "https://www.va.gov/img/header-logo.png",
+    "alt": "VA logo and Seal, U.S. Department of Veterans Affairs",
+    "w": 512,
+    "h": 114
+   },
+   {
+    "src": "https://dsva-vagov-prod-cms-files.s3.us-gov-west-1.amazonaws.com/styles/crop_square/public/news_promos/Health-and-benefits-distro-graphics_sq.jpg",
+    "alt": "Benefits app graphic",
+    "w": 628,
+    "h": 628
+   },
+   {
+    "src": "https://s3-us-gov-west-1.amazonaws.com/content.www.va.gov/img/homepage/veterans-banner-desktop-2.png",
+    "alt": "Veteran portraits",
+    "w": 1440,
+    "h": 180
+   },
+   {
+    "src": "https://www.va.gov/img/homepage/va-logo-white.png",
+    "alt": "Go to VA.gov",
+    "w": 587,
+    "h": 145
+   }
+  ],
+  "allImgCount": 8,
+  "cssBackgrounds": [],
+  "modals": [],
+  "videos": [],
+  "iframes": []
+ },
+ "customProps": {},
+ "_signals": {
+  "filteredInterstitials": 0,
+  "distinctHeadings": 17,
+  "mainTextLen": 2086,
+  "realImageCount": 6,
+  "trackingOnlyMedia": false,
+  "spaShellSuspect": false,
+  "screenshotMode": "fullPage"
+ },
+ "dynamic": {
+  "endpoints": [
+   {
+    "method": "GET",
+    "host": "www.va.gov",
+    "path": "/img/sprite.svg",
+    "query": [],
+    "resourceType": "fetch",
+    "contentType": "image/svg+xml",
+    "status": 200,
+    "bytes": null,
+    "hits": 1,
+    "example": "https://www.va.gov/img/sprite.svg",
+    "sameSite": true
+   },
+   {
+    "method": "POST",
+    "host": "www.google-analytics.com",
+    "path": "/g/collect",
+    "query": [
+     "_ee",
+     "_fv",
+     "_nsi",
+     "_p",
+     "_s",
+     "_ss",
+     "_tu",
+     "cid",
+     "dl",
+     "dma",
+     "dr",
+     "dt",
+     "en",
+     "ep.agency",
+     "ep.hostname_dimension",
+     "ep.protocol",
+     "ep.script_source",
+     "ep.site_platform",
+     "ep.site_topic",
+     "ep.subagency",
+     "ep.using_parallel_tracker",
+     "ep.version",
+     "frm",
+     "gcd",
+     "gtm",
+     "ngs",
+     "npa",
+     "pscdl",
+     "rcb",
+     "sct",
+     "seg",
+     "sid",
+     "sr",
+     "tag_exp",
+     "tfd",
+     "tid",
+     "uaa",
+     "uab",
+     "uafvl",
+     "uam",
+     "uamb",
+     "uap",
+     "uapv",
+     "uaw",
+     "ul",
+     "v"
+    ],
+    "resourceType": "fetch",
+    "contentType": "text/plain",
+    "status": 204,
+    "bytes": null,
+    "hits": 2,
+    "example": "https://www.google-analytics.com/g/collect",
+    "sameSite": false
+   },
+   {
+    "method": "GET",
+    "host": "resource.digital.voice.va.gov",
+    "path": "/wdcvoice/{n}/onsite/onsiteData1791897796293.json",
+    "query": [],
+    "resourceType": "xhr",
+    "contentType": "application/json",
+    "status": 200,
+    "bytes": 72275,
+    "hits": 1,
+    "example": "https://resource.digital.voice.va.gov/wdcvoice/2/onsite/onsiteData1791897796293.json",
+    "sameSite": true
+   },
+   {
+    "method": "GET",
+    "host": "api.va.gov",
+    "path": "/v0/feature_toggles",
+    "query": [
+     "cookie_id"
+    ],
+    "resourceType": "fetch",
+    "contentType": "application/json",
+    "status": 200,
+    "bytes": null,
+    "hits": 1,
+    "example": "https://api.va.gov/v0/feature_toggles",
+    "sameSite": true
+   }
+  ],
+  "thirdPartyScriptHosts": [
+   {
+    "host": "prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com",
+    "count": 22
+   },
+   {
+    "host": "www.googletagmanager.com",
+    "count": 3
+   },
+   {
+    "host": "dap.digitalgov.gov",
+    "count": 2
+   }
+  ],
+  "truncated": false,
+  "inlineData": [],
+  "globalState": [
+   "dataLayer"
+  ],
+  "frameworkHints": [],
+  "forms": [
+   {
+    "action": "https://public.govdelivery.com/accounts/USVACHOOSE/subscribers/qualify",
+    "hasAction": true,
+    "method": "post",
+    "sameOrigin": false,
+    "fieldCount": 0,
+    "fieldNames": [],
+    "search": false
+   }
+  ],
+  "ariaLiveRegions": 1,
+  "triggers": [
+   {
+    "marker": "aria-haspopup",
+    "href": null
+   },
+   {
+    "marker": "aria-haspopup",
+    "href": null
+   }
+  ],
+  "mediaIds": [],
+  "summary": {
+   "sameSiteEndpoints": 3,
+   "thirdPartyEndpoints": 1,
+   "thirdPartyScriptHosts": 3,
+   "inlineDataBlobs": 0,
+   "forms": 1,
+   "searchForms": 0,
+   "hydrated": false
+  }
+ },
+ "screenshot": "assets/screenshots/index.png",
+ "renderedHtml": "pages/index.html",
+ "slots": {
+  "type": "landing",
+  "hero": "Let us help you get started",
+  "sections": [
+   "Search",
+   "Other search tools",
+   "Top pages",
+   "VA NEWS",
+   "Download the VA Health and Benefits App",
+   "Explore VA benefits and health care"
+  ]
+ }
+}

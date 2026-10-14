@@ -1,0 +1,719 @@
+{
+ "_provenance": {
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-13T16:09:29.390Z",
+  "waitMode": "medium",
+  "waitMs": 2500,
+  "httpStatus": 200
+ },
+ "slug": "housing-assistance",
+ "url": "https://www.va.gov/housing-assistance/",
+ "renderedBy": "playwright",
+ "fetchedAt": "2026-10-13T16:09:29.390Z",
+ "finalUrl": "https://www.va.gov/housing-assistance/",
+ "title": "VA Housing Assistance | Veterans Affairs",
+ "description": "VA housing assistance can help Veterans, service members, and their surviving spouses to buy a home or refinance a loan. We also offer benefits and services to help you build, improve, or keep your current home. Find out how to apply for and manage the Veterans housing assistance benefits you’ve earned.",
+ "og": {
+  "title": "VA housing assistance | Veterans Affairs",
+  "description": "VA housing assistance can help Veterans, service members, and their surviving spouses to buy a home or refinance a loan. We also offer benefits and services to help you build, improve, or keep your current home. Find out how to apply for and manage the Veterans housing assistance benefits you’ve earned.",
+  "image": "https://dsva-vagov-prod-cms-files.s3.us-gov-west-1.amazonaws.com/hub_promos/housing.png",
+  "type": "website"
+ },
+ "headings": [
+  {
+   "tag": "h1",
+   "text": "VA housing assistance"
+  },
+  {
+   "tag": "h2",
+   "text": "Information Alert Help for Veterans who are homeless or at risk of becoming homeless"
+  },
+  {
+   "tag": "h2",
+   "text": "Get VA home loan benefits"
+  },
+  {
+   "tag": "h2",
+   "text": "Get Veterans housing assistance grants"
+  },
+  {
+   "tag": "h2",
+   "text": "Other VA benefits and services"
+  },
+  {
+   "tag": "h3",
+   "text": "Message us"
+  },
+  {
+   "tag": "h3",
+   "text": "Call us"
+  },
+  {
+   "tag": "h3",
+   "text": "Get information for:"
+  },
+  {
+   "tag": "h3",
+   "text": "Get updates"
+  },
+  {
+   "tag": "h3",
+   "text": "Follow us"
+  },
+  {
+   "tag": "h2",
+   "text": "Veteran programs and services"
+  },
+  {
+   "tag": "h2",
+   "text": "More VA resources"
+  },
+  {
+   "tag": "h2",
+   "text": "Get VA updates"
+  },
+  {
+   "tag": "h2",
+   "text": "In crisis? Talk to someone now"
+  },
+  {
+   "tag": "h2",
+   "text": "Get answers"
+  },
+  {
+   "tag": "h2",
+   "text": "Call us"
+  },
+  {
+   "tag": "h2",
+   "text": "Visit a medical center or regional office"
+  },
+  {
+   "tag": "h2",
+   "text": "Language assistance"
+  }
+ ],
+ "body": [
+  "VA housing assistance can help Veterans, service members, and their surviving spouses to buy a home or refinance a loan. We also offer benefits and services to help you build, improve, or keep your current home. Find out how to apply for and manage the Veterans housing assistance benefits you’ve earned.",
+  "We can help you find safe shelter, support, and long-term housing.",
+  "Get help if you’re homeless or at risk of becoming homeless",
+  "Learn how VA direct and VA-backed home loans work—and find out which loan type may be right for you.",
+  "Learn how VA direct and VA-backed home loans work—and find out which loan type may be right for you.",
+  "Find out if you’re eligible for a VA direct or VA-backed home loan, based on your service history and duty status.",
+  "Find out if you’re eligible for a VA direct or VA-backed home loan, based on your service history and duty status.",
+  "Get instructions for how to request a VA home loan COE—and what to do next depending on your loan type.",
+  "Get instructions for how to request a VA home loan COE—and what to do next depending on your loan type.",
+  "Start your application for a VA home loan Certificate of Eligibility (COE) now.",
+  "Start your application for a VA home loan Certificate of Eligibility (COE) now.",
+  "Find out if you’re eligible and how to request a VA home loan COE as the surviving spouse of a Veteran or the spouse of a Veteran who is missing in action or being held as a prisoner of war.",
+  "Find out if you’re eligible and how to request a VA home loan COE as the surviving spouse of a Veteran or the spouse of a Veteran who is missing in action or being held as a prisoner of war.",
+  "Find out where your home loan COE request is in our process.",
+  "Find out where your home loan COE request is in our process.",
+  "If you disagree with a decision on your application for home loan benefits, you can request a decision review. You can also manage any review requests or appeals you already filed.",
+  "If you disagree with a decision on your application for home loan benefits, you can request a decision review. You can also manage any review requests or appeals you already filed.",
+  "Find out where your claim, decision review, or appeal is in our process.",
+  "Find out where your claim, decision review, or appeal is in our process.",
+  "Get help to avoid foreclosure if you’re struggling to make your monthly mortgage payments.",
+  "Get help to avoid foreclosure if you’re struggling to make your monthly mortgage payments.",
+  "Learn about the signs of misleading offers to refinance your VA-backed home loan, like claims that you can skip payments or get very low interest rates or other terms that sound too good to be true.",
+  "Learn about the signs of misleading offers to refinance your VA-backed home loan, like claims that you can skip payments or get very low interest rates or other terms that sound too good to be true.",
+  "Find out if you’ll need to pay this fee when using your home loan benefits.",
+  "Find out if you’ll need to pay this fee when using your home loan benefits.",
+  "Learn about basic entitlement for a VA home loan guaranty. And find out how to calculate remaining bonus entitlement using the county loan limit. This will help you determine how much you can borrow without a down payment.",
+  "Learn about basic entitlement for a VA home loan guaranty. And find out how to calculate remaining bonus entitlement using the county loan limit. This will help you determine how much you can borrow without a down payment.",
+  "Get more information about using your VA home loan benefit to buy a home.",
+  "Get more information about using your VA home loan benefit to buy a home.",
+  "Find out how to get help if you have a VA direct or VA-backed home loan or Specially Adapted Housing grant and your home was damaged by a natural disaster.",
+  "Find out how to get help if you have a VA direct or VA-backed home loan or Specially Adapted Housing grant and your home was damaged by a natural disaster.",
+  "Find out how to apply for a housing grant as a Veteran or service member with a service-connected disability.",
+  "Find out how to apply for a housing grant as a Veteran or service member with a service-connected disability.",
+  "Get financial help to make changes to your home to help you live more independently with a service-connected disability.",
+  "Get financial help to make changes to your home to help you live more independently with a service-connected disability.",
+  "Complete your application now.",
+  "Complete your application now.",
+  "Track the status of an open claim for a Specially Adapted Housing grant.",
+  "Track the status of an open claim for a Specially Adapted Housing grant.",
+  "If you disagree with a decision on your application for housing assistance grants, you can request a decision review. You can also manage any review requests or appeals you already filed.",
+  "If you disagree with a decision on your application for housing assistance grants, you can request a decision review. You can also manage any review requests or appeals you already filed.",
+  "Find out how to file a claim for compensation for conditions related to your military service.",
+  "Find out how to file a claim for compensation for conditions related to your military service.",
+  "See if you qualify for pension benefits as a wartime Veteran or a surviving spouse or child.",
+  "See if you qualify for pension benefits as a wartime Veteran or a surviving spouse or child.",
+  "If your service-connected disability limits your ability to work or prevents you from working, find out if you can get VR&E benefits and services—like help exploring employment options and getting more training if required.",
+  "If your service-connected disability limits your ability to work or prevents you from working, find out if you can get VR&E benefits and services—like help exploring employment options and getting more training if required.",
+  "Explore your life insurance options and find out how to apply as a service member, Veteran, or family member.",
+  "Explore your life insurance options and find out how to apply as a service member, Veteran, or family member.",
+  "Last updated: April 14, 2026",
+  "Find out how we can help you or a Veteran you care about connect with VA and local resources 24 hours a day, 7 days a week.",
+  "Contact us online through Ask VA",
+  "VA benefits hotline:800-827-1000",
+  "VA.gov technical support:866-279-3677",
+  "MyVA411 main information line:800-698-2411",
+  "Telecommunications Relay Services (using TTY):711"
+ ],
+ "codeBlocks": [],
+ "ctas": [
+  {
+   "label": "Skip to Content",
+   "href": "#content"
+  },
+  {
+   "label": "Here’s how you know",
+   "href": null
+  },
+  {
+   "label": "Talk to the Veterans Crisis Line now",
+   "href": null
+  },
+  {
+   "label": "Search",
+   "href": null
+  },
+  {
+   "label": "Contact us",
+   "href": "https://www.va.gov/contact-us/"
+  },
+  {
+   "label": "VA Benefits and Health Care",
+   "href": null
+  },
+  {
+   "label": "About VA",
+   "href": null
+  },
+  {
+   "label": "Find a VA Location",
+   "href": "https://www.va.gov/find-locations/"
+  },
+  {
+   "label": "My VA",
+   "href": "/my-va/"
+  },
+  {
+   "label": "My HealtheVet",
+   "href": "/my-health/"
+  },
+  {
+   "label": "Get help if you’re homeless or at risk of becoming homeless",
+   "href": "/resources/homeless-help"
+  },
+  {
+   "label": "Contact us online through Ask VA",
+   "href": "/contact-us/ask-va"
+  },
+  {
+   "label": "VA benefits hotline:800-827-1000",
+   "href": "tel:1-800-827-1000"
+  },
+  {
+   "label": "VA.gov technical support:866-279-3677",
+   "href": "tel:1-866-279-3677"
+  },
+  {
+   "label": "MyVA411 main information line:800-698-2411",
+   "href": "tel:1-800-698-2411"
+  },
+  {
+   "label": "Telecommunications Relay Services (using TTY):711",
+   "href": "tel:1+711"
+  },
+  {
+   "label": "Homeless Veterans",
+   "href": "https://department.va.gov/homeless/"
+  },
+  {
+   "label": "Women Veterans",
+   "href": "https://www.va.gov/womenvet/"
+  },
+  {
+   "label": "Minority Veterans",
+   "href": "https://www.va.gov/centerforminorityveterans/"
+  },
+  {
+   "label": "PTSD",
+   "href": "https://www.ptsd.va.gov/"
+  },
+  {
+   "label": "Mental health",
+   "href": "https://www.mentalhealth.va.gov/"
+  },
+  {
+   "label": "Adaptive sports and special events",
+   "href": "https://department.va.gov/veteran-sports/"
+  },
+  {
+   "label": "Small business programs",
+   "href": "https://www.va.gov/osdbu/"
+  },
+  {
+   "label": "VA outreach events",
+   "href": "https://www.va.gov/outreach-and-events/events/"
+  },
+  {
+   "label": "National Resource Directory",
+   "href": "https://www.nrd.gov/"
+  },
+  {
+   "label": "VA forms",
+   "href": "https://www.va.gov/forms/"
+  },
+  {
+   "label": "VA health care access and quality",
+   "href": "https://www.accesstocare.va.gov/"
+  },
+  {
+   "label": "Get help from an accredited representative or VSO",
+   "href": "https://www.va.gov/get-help-from-accredited-representative"
+  },
+  {
+   "label": "VA mobile apps",
+   "href": "https://www.mobile.va.gov/appstore/"
+  },
+  {
+   "label": "State Veterans Affairs offices",
+   "href": "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office"
+  },
+  {
+   "label": "Doing business with VA",
+   "href": "https://www.va.gov/opal/fo/dbwva.asp"
+  },
+  {
+   "label": "Careers at VA",
+   "href": "https://vacareers.va.gov/"
+  },
+  {
+   "label": "VA outreach materials",
+   "href": "https://www.va.gov/outreach-and-events/outreach-materials"
+  },
+  {
+   "label": "Your VA welcome kit",
+   "href": "https://www.va.gov/welcome-kit/"
+  },
+  {
+   "label": "VA news",
+   "href": "https://news.va.gov/"
+  },
+  {
+   "label": "Press releases",
+   "href": "https://news.va.gov/va-press-room/"
+  },
+  {
+   "label": "Email updates",
+   "href": "https://public.govdelivery.com/accounts/USVA/subscriber/new/"
+  },
+  {
+   "label": "Facebook",
+   "href": "https://www.facebook.com/VeteransAffairs"
+  },
+  {
+   "label": "Instagram",
+   "href": "https://www.instagram.com/deptvetaffairs/"
+  },
+  {
+   "label": "X",
+   "href": "https://x.com/DeptVetAffairs/"
+  },
+  {
+   "label": "Flickr",
+   "href": "https://www.flickr.com/photos/VeteransAffairs/"
+  },
+  {
+   "label": "YouTube",
+   "href": "https://www.youtube.com/user/DeptVetAffairs"
+  },
+  {
+   "label": "All VA social media",
+   "href": "https://discover.va.gov/social-media/"
+  },
+  {
+   "label": "Veterans Crisis Line",
+   "href": null
+  },
+  {
+   "label": "Resources and support",
+   "href": "https://www.va.gov/resources/"
+  },
+  {
+   "label": "Contact us",
+   "href": "https://www.va.gov/contact-us/"
+  },
+  {
+   "label": "800-698-2411",
+   "href": "tel:18006982411"
+  },
+  {
+   "label": "TTY: 711",
+   "href": "tel:+1711"
+  },
+  {
+   "label": "Find a VA location",
+   "href": "https://www.va.gov/find-locations/"
+  },
+  {
+   "label": "Español",
+   "href": "https://www.va.gov/asistencia-y-recursos-en-espanol"
+  },
+  {
+   "label": "Tagalog",
+   "href": "https://www.va.gov/tagalog-wika-mapagkukunan-at-tulong"
+  },
+  {
+   "label": "Other languages",
+   "href": "https://www.va.gov/resources/how-to-get-free-language-assistance-from-va/"
+  },
+  {
+   "label": "Accessibility",
+   "href": "https://www.va.gov/accessibility-at-va"
+  },
+  {
+   "label": "Civil Rights",
+   "href": "https://www.va.gov/resources/your-civil-rights-and-how-to-file-a-discrimination-complaint/"
+  },
+  {
+   "label": "Freedom of Information Act (FOIA)",
+   "href": "https://department.va.gov/foia/"
+  },
+  {
+   "label": "Harassment",
+   "href": "https://www.va.gov/report-harassment/"
+  },
+  {
+   "label": "Office of Inspector General",
+   "href": "https://www.va.gov/oig/"
+  },
+  {
+   "label": "Plain language",
+   "href": "https://www.va.gov/opa/Plain_Language.asp"
+  },
+  {
+   "label": "Privacy, terms, policies, and legal information",
+   "href": "https://www.va.gov/privacy-policy/"
+  },
+  {
+   "label": "VA Privacy Service",
+   "href": "https://department.va.gov/privacy/"
+  },
+  {
+   "label": "No FEAR Act Data",
+   "href": "https://department.va.gov/resolution-management/reports/"
+  },
+  {
+   "label": "USA.gov",
+   "href": "https://www.usa.gov/"
+  },
+  {
+   "label": "VA performance dashboard",
+   "href": "https://www.va.gov/performance-dashboard/"
+  },
+  {
+   "label": "Veterans Portrait Project",
+   "href": "https://www.va.gov/veterans-portrait-project/"
+  }
+ ],
+ "links": [
+  "https://www.va.gov/housing-assistance/#content",
+  "https://www.va.gov/",
+  "https://www.va.gov/contact-us/",
+  "https://www.va.gov/find-locations/",
+  "https://www.va.gov/my-va/",
+  "https://www.va.gov/my-health/",
+  "https://www.va.gov/resources/homeless-help",
+  "https://www.va.gov/contact-us/ask-va",
+  "tel:1-800-827-1000",
+  "tel:1-866-279-3677",
+  "tel:1-800-698-2411",
+  "tel:1+711",
+  "https://department.va.gov/homeless/",
+  "https://www.va.gov/womenvet/",
+  "https://www.va.gov/centerforminorityveterans/",
+  "https://www.ptsd.va.gov/",
+  "https://www.mentalhealth.va.gov/",
+  "https://department.va.gov/veteran-sports/",
+  "https://www.va.gov/osdbu/",
+  "https://www.va.gov/outreach-and-events/events/",
+  "https://www.nrd.gov/",
+  "https://www.va.gov/forms/",
+  "https://www.accesstocare.va.gov/",
+  "https://www.va.gov/get-help-from-accredited-representative",
+  "https://www.mobile.va.gov/appstore/",
+  "https://discover.va.gov/external-resources/?_resource_type=state-veterans-affairs-office",
+  "https://www.va.gov/opal/fo/dbwva.asp",
+  "https://vacareers.va.gov/",
+  "https://www.va.gov/outreach-and-events/outreach-materials",
+  "https://www.va.gov/welcome-kit/",
+  "https://news.va.gov/",
+  "https://news.va.gov/va-press-room/",
+  "https://public.govdelivery.com/accounts/USVA/subscriber/new/",
+  "https://www.facebook.com/VeteransAffairs",
+  "https://www.instagram.com/deptvetaffairs/",
+  "https://x.com/DeptVetAffairs/",
+  "https://www.flickr.com/photos/VeteransAffairs/",
+  "https://www.youtube.com/user/DeptVetAffairs",
+  "https://discover.va.gov/social-media/",
+  "https://www.va.gov/resources/",
+  "tel:18006982411",
+  "tel:+1711",
+  "https://www.va.gov/asistencia-y-recursos-en-espanol",
+  "https://www.va.gov/tagalog-wika-mapagkukunan-at-tulong",
+  "https://www.va.gov/resources/how-to-get-free-language-assistance-from-va/",
+  "https://www.va.gov/accessibility-at-va",
+  "https://www.va.gov/resources/your-civil-rights-and-how-to-file-a-discrimination-complaint/",
+  "https://department.va.gov/foia/",
+  "https://www.va.gov/report-harassment/",
+  "https://www.va.gov/oig/",
+  "https://www.va.gov/opa/Plain_Language.asp",
+  "https://www.va.gov/privacy-policy/",
+  "https://department.va.gov/privacy/",
+  "https://department.va.gov/resolution-management/reports/",
+  "https://www.usa.gov/",
+  "https://www.va.gov/performance-dashboard/",
+  "https://www.va.gov/veterans-portrait-project/",
+  "tel:988",
+  "sms:838255",
+  "https://www.veteranscrisisline.net/get-help-now/chat/",
+  "tel:711",
+  "https://www.veteranscrisisline.net/"
+ ],
+ "media": {
+  "imgs": [
+   {
+    "src": "https://www.va.gov/img/tiny-usa-flag.png",
+    "alt": "U.S. flag",
+    "w": 57,
+    "h": 57
+   },
+   {
+    "src": "https://www.va.gov/img/arrow-right-white.svg",
+    "alt": "",
+    "w": 445,
+    "h": 445
+   },
+   {
+    "src": "https://www.va.gov/img/header-logo.png",
+    "alt": "VA logo and Seal, U.S. Department of Veterans Affairs",
+    "w": 512,
+    "h": 114
+   },
+   {
+    "src": "https://dsva-vagov-prod-cms-files.s3.us-gov-west-1.amazonaws.com/styles/3_2_medium_thumbnail/public/hub_promos/housing.png",
+    "alt": "",
+    "w": 480,
+    "h": 320
+   },
+   {
+    "src": "https://s3-us-gov-west-1.amazonaws.com/content.www.va.gov/img/homepage/veterans-banner-desktop-2.png",
+    "alt": "Veteran portraits",
+    "w": 1440,
+    "h": 180
+   },
+   {
+    "src": "https://www.va.gov/img/homepage/va-logo-white.png",
+    "alt": "Go to VA.gov",
+    "w": 587,
+    "h": 145
+   }
+  ],
+  "allImgCount": 8,
+  "cssBackgrounds": [],
+  "modals": [],
+  "videos": [],
+  "iframes": []
+ },
+ "customProps": {},
+ "_signals": {
+  "filteredInterstitials": 0,
+  "distinctHeadings": 17,
+  "mainTextLen": 7981,
+  "realImageCount": 6,
+  "trackingOnlyMedia": false,
+  "spaShellSuspect": false,
+  "screenshotMode": "fullPage"
+ },
+ "dynamic": {
+  "endpoints": [
+   {
+    "method": "GET",
+    "host": "www.va.gov",
+    "path": "/img/sprite.svg",
+    "query": [],
+    "resourceType": "fetch",
+    "contentType": "image/svg+xml",
+    "status": 200,
+    "bytes": null,
+    "hits": 1,
+    "example": "https://www.va.gov/img/sprite.svg",
+    "sameSite": true
+   },
+   {
+    "method": "POST",
+    "host": "www.google-analytics.com",
+    "path": "/g/collect",
+    "query": [
+     "_ee",
+     "_fv",
+     "_nsi",
+     "_p",
+     "_s",
+     "_ss",
+     "_tu",
+     "cid",
+     "dl",
+     "dma",
+     "dr",
+     "dt",
+     "en",
+     "ep.agency",
+     "ep.hostname_dimension",
+     "ep.protocol",
+     "ep.script_source",
+     "ep.site_platform",
+     "ep.site_topic",
+     "ep.subagency",
+     "ep.using_parallel_tracker",
+     "ep.version",
+     "frm",
+     "gcd",
+     "gtm",
+     "ngs",
+     "npa",
+     "pscdl",
+     "rcb",
+     "sct",
+     "seg",
+     "sid",
+     "sr",
+     "tag_exp",
+     "tfd",
+     "tid",
+     "uaa",
+     "uab",
+     "uafvl",
+     "uam",
+     "uamb",
+     "uap",
+     "uapv",
+     "uaw",
+     "ul",
+     "v"
+    ],
+    "resourceType": "fetch",
+    "contentType": "text/plain",
+    "status": 204,
+    "bytes": null,
+    "hits": 2,
+    "example": "https://www.google-analytics.com/g/collect",
+    "sameSite": false
+   },
+   {
+    "method": "GET",
+    "host": "resource.digital.voice.va.gov",
+    "path": "/wdcvoice/{n}/onsite/onsiteData1791897796293.json",
+    "query": [],
+    "resourceType": "xhr",
+    "contentType": "application/json",
+    "status": 200,
+    "bytes": 72275,
+    "hits": 1,
+    "example": "https://resource.digital.voice.va.gov/wdcvoice/2/onsite/onsiteData1791897796293.json",
+    "sameSite": true
+   },
+   {
+    "method": "GET",
+    "host": "api.va.gov",
+    "path": "/v0/feature_toggles",
+    "query": [
+     "cookie_id"
+    ],
+    "resourceType": "fetch",
+    "contentType": "application/json",
+    "status": 200,
+    "bytes": null,
+    "hits": 1,
+    "example": "https://api.va.gov/v0/feature_toggles",
+    "sameSite": true
+   }
+  ],
+  "thirdPartyScriptHosts": [
+   {
+    "host": "prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com",
+    "count": 23
+   },
+   {
+    "host": "www.googletagmanager.com",
+    "count": 3
+   },
+   {
+    "host": "dap.digitalgov.gov",
+    "count": 1
+   },
+   {
+    "host": "siteimproveanalytics.com",
+    "count": 1
+   }
+  ],
+  "truncated": false,
+  "inlineData": [
+   {
+    "id": "__NEXT_DATA__",
+    "type": "application/json",
+    "bytes": 39154,
+    "topLevelKeys": [
+     "props",
+     "page",
+     "query",
+     "buildId",
+     "isFallback",
+     "dynamicIds",
+     "gsp",
+     "scriptLoader"
+    ]
+   }
+  ],
+  "globalState": [
+   "__NEXT_DATA__",
+   "dataLayer"
+  ],
+  "frameworkHints": [
+   "next"
+  ],
+  "forms": [],
+  "ariaLiveRegions": 2,
+  "triggers": [
+   {
+    "marker": "aria-haspopup",
+    "href": null
+   },
+   {
+    "marker": "aria-haspopup",
+    "href": null
+   }
+  ],
+  "mediaIds": [],
+  "summary": {
+   "sameSiteEndpoints": 3,
+   "thirdPartyEndpoints": 1,
+   "thirdPartyScriptHosts": 4,
+   "inlineDataBlobs": 1,
+   "forms": 0,
+   "searchForms": 0,
+   "hydrated": true
+  }
+ },
+ "screenshot": "assets/screenshots/housing-assistance.png",
+ "renderedHtml": "pages/housing-assistance.html",
+ "slots": {
+  "type": "program",
+  "program-headline": "VA housing assistance",
+  "summary": "VA housing assistance can help Veterans, service members, and their surviving spouses to buy a home or refinance a loan. We also offer benefits and services to help you build, improve, or keep your current home. Find out how to apply for and manage the Veterans housing assistance benefits you’ve earned.",
+  "feature-grid": [
+   "Get VA home loan benefits",
+   "Get Veterans housing assistance grants",
+   "Other VA benefits and services",
+   "Get information for:",
+   "Get updates",
+   "Get VA updates",
+   "Get answers"
+  ],
+  "cta-band": "Other VA benefits and services"
+ }
+}

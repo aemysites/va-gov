@@ -1,0 +1,307 @@
+{
+  "slug": "life-insurance",
+  "type": "program",
+  "renderBranch": "A'",
+  "template": "health-care",
+  "modules": [
+    "breadcrumbs",
+    "hub-title",
+    "on-this-page",
+    "link-list",
+    "rail-card",
+    "accordion",
+    "feedback",
+    "portraits"
+  ],
+  "slotsFilled": [
+    "interior"
+  ],
+  "canonShas": {
+    "header": "ad2f49f9d3f2",
+    "footer": "82ab3e70efd4",
+    "css": "178760ce5fdf"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "variance-budget",
+      "probe": "stardust/.work/migrate/siblings/program-variance.json",
+      "deltas": {
+        "hub-title": "bg →#6f7a41 → variant hub-title hub-life-insurance",
+        "alert": "absent on sibling → module dropped",
+        "on-this-page": "4 entries (content)",
+        "link-list": "29→19 items (content)",
+        "rail-card": "bg #fff→#f0f0f0, no border (va-card background) → variant rail-card background",
+        "accordion": "h 585→702: longer Call us list (content)"
+      }
+    }
+  ],
+  "metadata": {
+    "title": "VA Life Insurance | Veterans Affairs",
+    "description": "VA life insurance can offer financial security for Veterans, service members, and their spouses and dependent children. Explore your options, manage your policy, and file claims to get the insurance benefits you’ve earned.",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "VA Life Insurance | Veterans Affairs",
+    "description": "VA life insurance can offer financial security for Veterans, service members, and their spouses and dependent children. Explore your options, manage your policy, and file claims to get the insurance benefits you’ve earned.",
+    "url": "https://www.va.gov/life-insurance/"
+  },
+  "migratedAt": "2026-10-13T19:13:30Z",
+  "designMdSha": "a8cac2c8e817",
+  "designJsonSha": "56588c04536c",
+  "sourceCurrentSha": "4954661c1917",
+  "sourceProposedSha": "620119e6f4c2",
+  "fidelityTier": "sibling",
+  "archetypeSource": "health-care",
+  "archetypeSha": "455263cf5a73",
+  "variants": [
+    "hub-title hub-life-insurance",
+    "rail-card background"
+  ],
+  "gatesPassed": [
+    "variance-probe",
+    "content-count",
+    "content-fidelity",
+    "media-reconcile",
+    "delivery-lint",
+    "pixel-gate-1440",
+    "pixel-gate-360"
+  ],
+  "gateEvidence": {
+    "variance-probe": "stardust/.work/migrate/siblings/program-variance.json (sibling-variance exit 2; deltas budgeted: 2 variants + content, alert dropped)",
+    "content-count": "stardust/.work/migrate/siblings/life-insurance.content-diff.txt main: headings 10/10, CTAs 39/39, body+eyebrow 27/27, img 2/2, editable 26/26",
+    "content-fidelity": "verbatim from stardust/current/pages/life-insurance.flat.html via stardust/.work/migrate/probes/build-program-siblings.mjs (builder reproduces health-care prototype byte-identical from its own capture); main text nodes equal in content-diff; remaining main 🔴 = archetype-inherited (Expand/Collapse role, empty-svg capture ICON DIFF)",
+    "media-reconcile": "media-reconcile 4 hosted, exit 0 (stardust/.work/rollout/program/content/life-insurance.html)",
+    "delivery-lint": "delivery-lint 0 P0 / 0 P1",
+    "pixel-gate-1440": "gate-all preview host 3.48% Δh -1, clip 0, MISSING 0 / HIDDEN 0 PASS (stardust/replica/gates/all-1440/life-insurance)",
+    "pixel-gate-360": "gate-all preview host official 12.65% Δh -129, same-browser 8.4% Δh +21, clip 0, MISSING 0 / HIDDEN 0; documented override stardust/replica/gates/all-360/overrides.json"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 18,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.va.gov/sign-in/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/contact-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/sign-in/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/find-locations/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/my-va/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/my-health/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/life-insurance/options-eligibility/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/life-insurance/totally-disabled-or-terminally-ill/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/life-insurance/manage-your-policy/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/life-insurance/file-appeal-for-tsgli/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/resources/deciding-how-much-life-insurance-to-get/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/resources/life-insurance-if-you-have-preexisting-conditions/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/burials-memorials/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pension/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/life-insurance/options-eligibility/valife/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-us/ask-va",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/womenvet/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/centerforminorityveterans/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/osdbu/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/outreach-and-events/events/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/forms/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/get-help-from-accredited-representative",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/opal/fo/dbwva.asp",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/outreach-and-events/outreach-materials",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/welcome-kit/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/resources/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/contact-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/find-locations/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/resources/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/contact-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/find-locations/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/womenvet/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/centerforminorityveterans/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/osdbu/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/outreach-and-events/events/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/forms/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/get-help-from-accredited-representative",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/opal/fo/dbwva.asp",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/outreach-and-events/outreach-materials",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/welcome-kit/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/asistencia-y-recursos-en-espanol",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/tagalog-wika-mapagkukunan-at-tulong",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/resources/how-to-get-free-language-assistance-from-va/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/asistencia-y-recursos-en-espanol",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/tagalog-wika-mapagkukunan-at-tulong",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/resources/how-to-get-free-language-assistance-from-va/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/accessibility-at-va",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/resources/your-civil-rights-and-how-to-file-a-discrimination-complaint/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/report-harassment/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/oig/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/opa/Plain_Language.asp",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/privacy-policy/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/performance-dashboard/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/veterans-portrait-project/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "life-insurance/index.html",
+  "outputPathDefault": null,
+  "sidecar": "life-insurance/_meta.json",
+  "driverVersion": "1"
+}

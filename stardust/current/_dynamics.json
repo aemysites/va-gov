@@ -1,0 +1,866 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics detect",
+  "writtenAt": "2026-10-13T17:12:58.719Z",
+  "settleMs": 5000,
+  "width": 1440,
+  "urls": [
+   "https://www.va.gov/",
+   "https://www.va.gov/health-care/"
+  ],
+  "reachSource": "stardust/current/pages"
+ },
+ "pages": {
+  "/": {
+   "url": "https://www.va.gov/",
+   "status": 200,
+   "host": "www.va.gov",
+   "title": "VA.gov Home | Veterans Affairs",
+   "forms": [
+    {
+     "name": "email-signup-form",
+     "action": "https://public.govdelivery.com/accounts/USVACHOOSE/subscribers/qualify",
+     "method": "post",
+     "role": "",
+     "inChrome": false,
+     "fields": 0,
+     "signature": [],
+     "hidden": [
+      "utf8",
+      "category_id",
+      "email"
+     ],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Talk to the Veterans Crisis Line now",
+     "href": null,
+     "marker": "va-overlay-trigger",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "VA Benefits and Health Care",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 0,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "About VA",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 0,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Veterans Crisis Line",
+     "href": null,
+     "marker": "va-overlay-trigger",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Talk to the Veterans Crisis Line now",
+     "href": null,
+     "marker": "va-overlay-trigger",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 36,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "alertdialog",
+     "heading": "We’re here anytime, day or night – 24/7",
+     "textLen": 328,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "We’re here anytime, day or night – 24/7",
+     "textLen": 328,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 2,
+   "media": [],
+   "iframes": [],
+   "mounts": [
+    {
+     "cls": "template-module__JEykya__searchWidget",
+     "attrs": [
+      "data-widget-type"
+     ]
+    }
+   ],
+   "auth": [
+    "https://public.govdelivery.com/accounts/USVA/subscriber/new/",
+    "https://public.govdelivery.com/accounts/USVA/subscriber/new/"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": [
+     "https://www.va.gov/my-va/"
+    ]
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 8,
+   "inlineFetch": false,
+   "mainText": 2107,
+   "domAddedAfterLoad": 7,
+   "hosts": {
+    "www.va.gov": 18,
+    "dap.digitalgov.gov": 2,
+    "prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com": 32,
+    "s3-us-gov-west-1.amazonaws.com": 1,
+    "dsva-vagov-prod-cms-files.s3.us-gov-west-1.amazonaws.com": 1,
+    "www.googletagmanager.com": 4,
+    "www.google-analytics.com": 3,
+    "browser-intake-ddog-gov.com": 4,
+    "api.va.gov": 1
+   },
+   "thirdPartyHosts": [
+    "dap.digitalgov.gov",
+    "prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com",
+    "s3-us-gov-west-1.amazonaws.com",
+    "dsva-vagov-prod-cms-files.s3.us-gov-west-1.amazonaws.com",
+    "www.googletagmanager.com",
+    "www.google-analytics.com",
+    "browser-intake-ddog-gov.com"
+   ],
+   "scripts": [
+    "https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=VA",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/web-components.entry.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-2GSDAGIZ.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-LIHMNVQU.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-MFKFVC27.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-FBDEAKDP.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-PVB32MC4.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-BXBU7QYF.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-FIOZHDXW.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/static-pages.entry.js",
+    "https://www.va.gov/_next/static/chunks/2qkp1u0s-_l6t.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-GPTJUQ66.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-UL7VD4B3.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-SNV4CNOV.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-IT6U7JZR.js",
+    "https://www.va.gov/_next/static/chunks/3kc6yvrjmfovz.js",
+    "https://www.va.gov/_next/static/chunks/1micnlqlpd0eh.js",
+    "https://www.va.gov/_next/static/chunks/turbopack-2lv4953dmxadl.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-PN53JOUF.js",
+    "https://www.va.gov/_next/static/chunks/1586_5701bdsi.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-GBHW3PT3.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-IT6NZMNR.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-ZNAQPS27.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-VYGEZIZC.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-FTMLKLIV.js",
+    "https://www.va.gov/_next/static/chunks/090chghkz06vx.js",
+    "https://www.va.gov/generated/wc-chunk-manifest.js",
+    "https://www.va.gov/_next/static/chunks/23ipt5o3uz9mg.js",
+    "https://www.va.gov/_next/static/chunks/314fbdw7qjvq-.js",
+    "https://www.va.gov/_next/static/chunks/424pp0rjyqw-j.js",
+    "https://www.va.gov/_next/static/chunks/0tceeejn4kl-p.js",
+    "https://dap.digitalgov.gov/web-vitals/dist/web-vitals.attribution.iife.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-WFJWBD&gtm_auth=XWK-rHkcb1wp4DCOCzhPiQ&gtm_preview=env-1&gtm_cookies_win=x",
+    "https://www.googletagmanager.com/gtag/js?id=G-CSLL4ZEK4L",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-LACELI6H.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-2RR2H4WM.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-WQ3Q5KTL.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-YPB3FD0PQ9&cx=c&gtm=4e6ac0",
+    "https://www.googletagmanager.com/gtag/js?id=G-CSLL4ZEK4L&cx=c&gtm=4e6ac0"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.va.gov",
+     "path": "/img/sprite.svg",
+     "query": [],
+     "status": 200,
+     "contentType": "image/svg+xml",
+     "example": "https://www.va.gov/img/sprite.svg"
+    },
+    {
+     "method": "GET",
+     "host": "api.va.gov",
+     "path": "/v0/feature_toggles",
+     "query": [
+      "cookie_id"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://api.va.gov/v0/feature_toggles"
+    }
+   ],
+   "thirdPartyXhr": [
+    "POST www.google-analytics.com/g/collect",
+    "POST browser-intake-ddog-gov.com/api/v2/rum"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CSLL4ZEK4L&gtm=45je6ac0v9131934939za208zb72214120zd72214120xf1&_p=1791911579985&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=970088982.1791911581&frm=0&ngs=1&p",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-YPB3FD0PQ9&gtm=45je6ac0v9172728655z872214120za20gzb72214120zd72214120xf1&_p=1791911579985&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=970088982.1791911581&frm",
+     "body": ""
+    },
+    {
+     "url": "https://browser-intake-ddog-gov.com/api/v2/rum?ddsource=browser&dd-api-key=pube6808760cc4b1fe50945959d7d9f14a9&dd-evp-origin-version=6.25.0&dd-evp-origin=browser&dd-request-id=3cd17d85-24c6-49b7-818a-",
+     "body": "{\"type\":\"long_task\",\"_dd\":{\"format_version\":2,\"drift\":0,\"configuration\":{\"session_sample_rate\":10,\"session_replay_sample_rate\":0,\"profiling_sample_rate\":0,\"trace_sample_rate\":100,\"beta_encode_cookie_options\":false},\"sdk_name\":\"rum\",\"discarded\":false},\"application\":{\"id\":\"8845ff93-4fad-4547-86f0-b8ce1ad6bf3b\\n\"},\"date\":1791911579267,\"source\":\"browser\",\"view\":{\"url\":\"https://www.va.gov/\",\"referrer\":"
+    },
+    {
+     "url": "https://browser-intake-ddog-gov.com/api/v2/rum?ddsource=browser&dd-api-key=pube6808760cc4b1fe50945959d7d9f14a9&dd-evp-origin-version=6.25.0&dd-evp-origin=browser&dd-request-id=6a6ab5c4-eee1-4a93-b0ed-",
+     "body": "{\"type\":\"resource\",\"_dd\":{\"format_version\":2,\"drift\":0,\"configuration\":{\"session_sample_rate\":10,\"session_replay_sample_rate\":0,\"profiling_sample_rate\":0,\"trace_sample_rate\":100,\"beta_encode_cookie_options\":false},\"sdk_name\":\"rum\",\"discarded\":false},\"application\":{\"id\":\"8845ff93-4fad-4547-86f0-b8ce1ad6bf3b\\n\"},\"date\":1791911579263,\"source\":\"browser\",\"view\":{\"url\":\"https://www.va.gov/\",\"referrer\":\""
+    },
+    {
+     "url": "https://browser-intake-ddog-gov.com/api/v2/rum?ddsource=browser&dd-api-key=pube6808760cc4b1fe50945959d7d9f14a9&dd-evp-origin-version=6.25.0&dd-evp-origin=browser&dd-request-id=a7ba94dd-a671-46f3-9f94-",
+     "body": "{\"type\":\"resource\",\"_dd\":{\"format_version\":2,\"drift\":1,\"configuration\":{\"session_sample_rate\":10,\"session_replay_sample_rate\":0,\"profiling_sample_rate\":0,\"trace_sample_rate\":100,\"beta_encode_cookie_options\":false},\"sdk_name\":\"rum\",\"discarded\":false},\"application\":{\"id\":\"8845ff93-4fad-4547-86f0-b8ce1ad6bf3b\\n\"},\"date\":1791911579265,\"source\":\"browser\",\"view\":{\"url\":\"https://www.va.gov/\",\"referrer\":\""
+    },
+    {
+     "url": "https://browser-intake-ddog-gov.com/api/v2/rum?ddsource=browser&dd-api-key=pube6808760cc4b1fe50945959d7d9f14a9&dd-evp-origin-version=6.25.0&dd-evp-origin=browser&dd-request-id=16944401-4c28-4004-abfd-",
+     "body": "{\"type\":\"resource\",\"_dd\":{\"format_version\":2,\"drift\":0,\"configuration\":{\"session_sample_rate\":10,\"session_replay_sample_rate\":0,\"profiling_sample_rate\":0,\"trace_sample_rate\":100,\"beta_encode_cookie_options\":false},\"sdk_name\":\"rum\",\"discarded\":false},\"application\":{\"id\":\"8845ff93-4fad-4547-86f0-b8ce1ad6bf3b\\n\"},\"date\":1791911579624,\"source\":\"browser\",\"view\":{\"url\":\"https://www.va.gov/\",\"referrer\":\""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CSLL4ZEK4L&gtm=45je6ac0v9131934939za200zb72214120zd72214120xf1&_p=1791911579985&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=970088982.1791911581&f",
+     "body": "en=FCP&_ee=1&ep.agency=VA&ep.subagency=VA.GOV&ep.site_topic=unspecified%3Ava.gov&ep.site_platform=unspecified%3Ava.gov&ep.script_source=https%3A%2F%2Fdap.digitalgov.gov%2Funiversal-federated-analytics-min.js&ep.version=20260107%20v8.8%20-%20ga4&ep.protocol=https%3A&ep.using_parallel_tracker=no&ep.hostname_dimension=va.gov&epn.value=748&ep.metric_id=v4-1791911580380-4681208361339&epn.metric_value=7"
+    }
+   ],
+   "textAtLoad": 2013,
+   "mainEmptyAtLoad": false
+  },
+  "/health-care/": {
+   "url": "https://www.va.gov/health-care/",
+   "status": 200,
+   "host": "www.va.gov",
+   "title": "VA Health Care | Veterans Affairs",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Talk to the Veterans Crisis Line now",
+     "href": null,
+     "marker": "va-overlay-trigger",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "VA Benefits and Health Care",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 0,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "About VA",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "div",
+      "heading": "",
+      "textLen": 0,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Veterans Crisis Line",
+     "href": null,
+     "marker": "va-overlay-trigger",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Talk to the Veterans Crisis Line now",
+     "href": null,
+     "marker": "va-overlay-trigger",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 36,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "alertdialog",
+     "heading": "We’re here anytime, day or night – 24/7",
+     "textLen": 328,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "We’re here anytime, day or night – 24/7",
+     "textLen": 328,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 2,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [
+    "https://public.govdelivery.com/accounts/USVA/subscriber/new/",
+    "https://public.govdelivery.com/accounts/USVA/subscriber/new/"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": [
+     "https://www.va.gov/my-va/"
+    ]
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "push"
+    ],
+    "__NEXT_DATA__": [
+     "props",
+     "page",
+     "query",
+     "buildId",
+     "isFallback",
+     "dynamicIds",
+     "gsp",
+     "scriptLoader"
+    ]
+   },
+   "framework": "next",
+   "globals": [
+    "google_tag_manager"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 2,
+   "inlineFetch": false,
+   "mainText": 4116,
+   "domAddedAfterLoad": 6,
+   "hosts": {
+    "www.va.gov": 28,
+    "prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com": 34,
+    "s3-us-gov-west-1.amazonaws.com": 1,
+    "dsva-vagov-prod-cms-files.s3.us-gov-west-1.amazonaws.com": 1,
+    "siteimproveanalytics.com": 1,
+    "dap.digitalgov.gov": 1,
+    "www.googletagmanager.com": 3,
+    "6319010.global.r2.siteimproveanalytics.io": 1,
+    "www.google-analytics.com": 2,
+    "resource.digital.voice.va.gov": 3,
+    "api.va.gov": 2
+   },
+   "thirdPartyHosts": [
+    "prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com",
+    "s3-us-gov-west-1.amazonaws.com",
+    "dsva-vagov-prod-cms-files.s3.us-gov-west-1.amazonaws.com",
+    "siteimproveanalytics.com",
+    "dap.digitalgov.gov",
+    "www.googletagmanager.com",
+    "6319010.global.r2.siteimproveanalytics.io",
+    "www.google-analytics.com"
+   ],
+   "scripts": [
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/web-components.entry.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-2GSDAGIZ.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-FIOZHDXW.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-BXBU7QYF.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-MFKFVC27.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-PVB32MC4.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-FBDEAKDP.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-LIHMNVQU.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-UL7VD4B3.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-GPTJUQ66.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-SNV4CNOV.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-IT6U7JZR.js",
+    "https://www.va.gov/_next/static/chunks/34_c6ijge3cud.js",
+    "https://www.va.gov/_next/static/chunks/251xklthyljuu.js",
+    "https://www.va.gov/_next/static/chunks/01n3hqgbvomqy.js",
+    "https://www.va.gov/_next/static/chunks/3lgx-sfe6x8wh.js",
+    "https://www.va.gov/_next/static/chunks/1vqr81g51tbdr.js",
+    "https://www.va.gov/_next/static/chunks/2v48gxagjboyg.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-AWN4G75E.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-VYGEZIZC.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-U54TVSNL.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-6EFXJYSU.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-JAUSCJIE.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-IT6NZMNR.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-ZNAQPS27.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-FTMLKLIV.js",
+    "https://www.va.gov/_next/static/chunks/3qiu3j6jvctcy.js",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-F42YXMFG.js",
+    "https://www.va.gov/_next/static/chunks/turbopack-0l4vy8-75m8qn.js",
+    "https://www.va.gov/_next/static/chunks/0w4scbui8kyo3.js",
+    "https://www.va.gov/_next/static/chunks/1_j06oi1k78r8.js",
+    "https://www.va.gov/_next/static/chunks/2vkm6yms1vsc2.js",
+    "https://www.va.gov/_next/static/chunks/3k5v_pw-bff3e.js",
+    "https://www.va.gov/_next/static/chunks/3racolixttt08.js",
+    "https://www.va.gov/_next/static/chunks/turbopack-40zdx3viqiy4a.js",
+    "https://www.va.gov/_next/static/chunks/1vi8lmo0b4len.js",
+    "https://www.va.gov/_next/static/chunks/26cy8gjatabe5.js",
+    "https://www.va.gov/_next/static/vagovprod/_buildManifest.js",
+    "https://siteimproveanalytics.com/js/siteanalyze_6319010.js",
+    "https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=VA",
+    "https://www.va.gov/_next/static/vagovprod/_clientMiddlewareManifest.js",
+    "https://www.va.gov/_next/static/vagovprod/_ssgManifest.js",
+    "https://www.va.gov/generated/wc-chunk-manifest.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-CSLL4ZEK4L",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-WFJWBD&gtm_auth=XWK-rHkcb1wp4DCOCzhPiQ&gtm_preview=env-1&gtm_cookies_win=x",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/static-pages.entry.js",
+    "https://resource.digital.voice.va.gov/wdcvoice/2/onsite/embed.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-YPB3FD0PQ9&cx=c&gtm=4e6ac1h2",
+    "https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/wc-chunk-2RR2H4WM.js",
+    "https://resource.digital.voice.va.gov/wdcvoice/2/onsite/generic1791897404157.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.va.gov",
+     "path": "/img/sprite.svg",
+     "query": [],
+     "status": 200,
+     "contentType": "image/svg+xml",
+     "example": "https://www.va.gov/img/sprite.svg"
+    },
+    {
+     "method": "GET",
+     "host": "api.va.gov",
+     "path": "/v0/banners/",
+     "query": [
+      "path"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://api.va.gov/v0/banners/"
+    },
+    {
+     "method": "GET",
+     "host": "api.va.gov",
+     "path": "/v0/feature_toggles",
+     "query": [
+      "cookie_id"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://api.va.gov/v0/feature_toggles"
+    },
+    {
+     "method": "GET",
+     "host": "resource.digital.voice.va.gov",
+     "path": "/wdcvoice/{n}/onsite/onsiteData1791897796293.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://resource.digital.voice.va.gov/wdcvoice/2/onsite/onsiteData1791897796293.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "POST www.google-analytics.com/g/collect"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-CSLL4ZEK4L&gtm=45je6ac0v9131934939za208zd9131934939xf1&_p=1791911591469&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1891430778.1791911592&frm=0&ngs=1&pscdl=no",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-YPB3FD0PQ9&gtm=45je6ac1h2v9172728655z872214120za20gzb72214120zd72214120xf1&_p=1791911591469&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1891430778.1791911592&",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 4083,
+   "mainEmptyAtLoad": false
+  }
+ },
+ "findings": [
+  {
+   "id": "a-first-party-api-get-v0-feature-toggles",
+   "class": "A",
+   "feature": "first-party API GET /v0/feature_toggles",
+   "api": {
+    "method": "GET",
+    "path": "/v0/feature_toggles"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /v0/feature_toggles?cookie_id → 200"
+   ],
+   "pages": [
+    "/",
+    "/health-care/"
+   ],
+   "reach": {
+    "pages": 5,
+    "of": 5
+   }
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/",
+    "/health-care/"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-browser-intake-ddog-gov-com",
+   "class": "A",
+   "feature": "unknown third-party host browser-intake-ddog-gov.com",
+   "hint": "inspect",
+   "evidence": [
+    "browser-intake-ddog-gov.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-v0-banners",
+   "class": "A",
+   "feature": "first-party API GET /v0/banners/",
+   "api": {
+    "method": "GET",
+    "path": "/v0/banners/"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /v0/banners/?path → 200"
+   ],
+   "pages": [
+    "/health-care/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 5
+   }
+  },
+  {
+   "id": "a-cms-app-settings-object-next-data",
+   "class": "A",
+   "feature": "CMS / app settings object __NEXT_DATA__",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/health-care/"
+   ]
+  },
+  {
+   "id": "cr-client-framework-next",
+   "class": "CR",
+   "feature": "client framework next",
+   "hint": "framework",
+   "evidence": [],
+   "pages": [
+    "/health-care/"
+   ]
+  },
+  {
+   "id": "d-first-party-data-file-get-wdcvoice-n-onsite-onsitedata1791",
+   "class": "D",
+   "feature": "first-party data file GET /wdcvoice/{n}/onsite/onsiteData1791897796293.json",
+   "api": {
+    "method": "GET",
+    "path": "/wdcvoice/{n}/onsite/onsiteData1791897796293.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /wdcvoice/{n}/onsite/onsiteData1791897796293.json → 200"
+   ],
+   "pages": [
+    "/health-care/"
+   ],
+   "reach": {
+    "pages": 5,
+    "of": 5
+   }
+  },
+  {
+   "id": "i18n-locale-variants-my-va",
+   "class": "I18N",
+   "feature": "locale variants my-va",
+   "hint": "locale",
+   "evidence": [
+    "https://www.va.gov/my-va/"
+   ],
+   "pages": [
+    "/",
+    "/health-care/"
+   ]
+  },
+  {
+   "id": "m-modal-trigger-va-overlay-trigger-chrome-only-button-conten",
+   "class": "M",
+   "feature": "modal trigger va-overlay-trigger (chrome only) → button:content",
+   "hint": "chrome-interaction",
+   "evidence": [
+    "Talk to the Veterans Crisis Line now",
+    "Veterans Crisis Line"
+   ],
+   "pages": [
+    "/",
+    "/health-care/"
+   ]
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-chrome-only-div-content",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup (chrome only) → div:content",
+   "hint": "chrome-interaction",
+   "evidence": [
+    "VA Benefits and Health Care",
+    "About VA"
+   ],
+   "pages": [
+    "/",
+    "/health-care/"
+   ],
+   "reach": {
+    "pages": 10,
+    "of": 5
+   }
+  },
+  {
+   "id": "t-unknown-third-party-host-dap-digitalgov-gov",
+   "class": "T",
+   "feature": "unknown third-party host dap.digitalgov.gov",
+   "hint": "inspect",
+   "evidence": [
+    "dap.digitalgov.gov"
+   ],
+   "pages": [
+    "/",
+    "/health-care/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-prod-va-gov-assets-s3-us-gov-west",
+   "class": "T",
+   "feature": "unknown third-party host prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com",
+   "hint": "inspect",
+   "evidence": [
+    "prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com"
+   ],
+   "pages": [
+    "/",
+    "/health-care/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-s3-us-gov-west-1-amazonaws-com",
+   "class": "T",
+   "feature": "unknown third-party host s3-us-gov-west-1.amazonaws.com",
+   "hint": "inspect",
+   "evidence": [
+    "s3-us-gov-west-1.amazonaws.com"
+   ],
+   "pages": [
+    "/",
+    "/health-care/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-dsva-vagov-prod-cms-files-s3-us-g",
+   "class": "T",
+   "feature": "unknown third-party host dsva-vagov-prod-cms-files.s3.us-gov-west-1.amazonaws.com",
+   "hint": "inspect",
+   "evidence": [
+    "dsva-vagov-prod-cms-files.s3.us-gov-west-1.amazonaws.com"
+   ],
+   "pages": [
+    "/",
+    "/health-care/"
+   ]
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "role": "tag manager: Google Tag Manager",
+   "hint": "tags",
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pages": [
+    "/",
+    "/health-care/"
+   ]
+  },
+  {
+   "id": "t-analytics-google-analytics-ads",
+   "class": "T",
+   "feature": "analytics: Google Analytics / Ads",
+   "role": "analytics: Google Analytics / Ads",
+   "hint": "tags",
+   "evidence": [
+    "www.google-analytics.com"
+   ],
+   "pages": [
+    "/",
+    "/health-care/"
+   ]
+  },
+  {
+   "id": "t-third-party-mount-div-data-widget-type-tag-manager-injecte",
+   "class": "T",
+   "feature": "third-party mount <div data-widget-type> (tag-manager-injected widget)",
+   "hint": "tags",
+   "evidence": [
+    "data-widget-type"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-siteimproveanalytics-com",
+   "class": "T",
+   "feature": "unknown third-party host siteimproveanalytics.com",
+   "hint": "inspect",
+   "evidence": [
+    "siteimproveanalytics.com"
+   ],
+   "pages": [
+    "/health-care/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-6319010-global-r2-siteimproveanal",
+   "class": "T",
+   "feature": "unknown third-party host 6319010.global.r2.siteimproveanalytics.io",
+   "hint": "inspect",
+   "evidence": [
+    "6319010.global.r2.siteimproveanalytics.io"
+   ],
+   "pages": [
+    "/health-care/"
+   ]
+  },
+  {
+   "id": "x-sign-in-account-links",
+   "class": "X",
+   "feature": "sign-in / account links",
+   "hint": "decided-out",
+   "evidence": [
+    "https://public.govdelivery.com/accounts/USVA/subscriber/new/"
+   ],
+   "pages": [
+    "/",
+    "/health-care/"
+   ]
+  }
+ ],
+ "reach": {
+  "pagesWithEvidence": 5,
+  "of": 5,
+  "endpoints": {
+   "GET www.va.gov/img/sprite.svg": 5,
+   "GET resource.digital.voice.va.gov/wdcvoice/{n}/onsite/onsiteData1791897796293.json": 5,
+   "GET api.va.gov/v0/feature_toggles": 5,
+   "POST www.google-analytics.com/g/collect": 5,
+   "GET api.va.gov/v0/banners/": 1,
+   "GET resource.digital.voice.va.gov/wdcvoice/{n}/forms/{n}/invitationData1791897793480_en.json": 1,
+   "GET resource.digital.voice.va.gov/wdcvoice/{n}/onsite/domains-configuration.json": 1
+  },
+  "searchFormPages": 0,
+  "formPages": 1,
+  "triggerPages": {
+   "aria-haspopup": 10
+  }
+ }
+}

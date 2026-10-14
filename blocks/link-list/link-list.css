@@ -1,0 +1,70 @@
+/* Link list — values lifted from the gated prototype (hub.css .hub-section, .link-list,
+   .related). */
+.link-list .link-list-body :is(h2, h3) {
+  font-size: 24px;
+  line-height: 31.2px;
+  margin: 36px 0 12px;
+}
+
+.link-list .link-list-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 16.96px;
+  line-height: 25.44px;
+}
+
+.link-list .link-list-items li {
+  margin: 16px 0;
+}
+
+.link-list .link-list-items p {
+  margin: 0;
+  color: var(--va-ink-2);
+}
+
+.link-list .link-list-items .lh {
+  font-weight: 700;
+}
+
+.link-list .link-list-items .lh a::after {
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  vertical-align: -3px;
+  background-color: currentcolor;
+  mask: url("../../icons/va-chevron-right.svg") center / 17px no-repeat;
+}
+
+.link-list.related {
+  background: var(--va-gray-lightest);
+  padding: 1px 16px;
+  margin: 26px 0 0;
+}
+
+.link-list.related .link-list-body :is(h2, h3) {
+  padding: 16px 0 4px;
+  margin: 0;
+  border-bottom: 1px solid #dfe1e2;
+}
+
+.link-list.related .link-list-items .lh a::after {
+  content: none;
+}
+
+@media (width >= 768px) {
+  .link-list .link-list-body :is(h2, h3) {
+    font-size: 32px;
+    line-height: 41.6px;
+    margin: 48px 0 16px;
+  }
+
+  .link-list.related {
+    margin: 26px 0 40px;
+  }
+
+  .link-list.related .link-list-body :is(h2, h3) {
+    margin: 0;
+  }
+}

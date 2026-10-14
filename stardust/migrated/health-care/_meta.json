@@ -1,0 +1,372 @@
+{
+  "slug": "health-care",
+  "type": "program",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "breadcrumbs",
+    "hub-title",
+    "on-this-page",
+    "alert",
+    "link-list",
+    "rail-card",
+    "accordion",
+    "feedback",
+    "portraits"
+  ],
+  "slotsFilled": [
+    "interior"
+  ],
+  "canonShas": {
+    "header": "ad2f49f9d3f2",
+    "footer": "82ab3e70efd4",
+    "css": "178760ce5fdf"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "VA Health Care | Veterans Affairs",
+    "description": "With VA health care, you’re covered for regular checkups with your primary care provider and appointments with specialists (like cardiologists, gynecologists, and mental health providers). You can access services like home health and geriatric (elder) care. And you can get medical equipment, prosthetics, and prescriptions. Apply for and manage the health care benefits you’ve earned.",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "VA Health Care | Veterans Affairs",
+    "description": "With VA health care, you’re covered for regular checkups with your primary care provider and appointments with specialists (like cardiologists, gynecologists, and mental health providers). You can access services like home health and geriatric (elder) care. And you can get medical equipment, prosthetics, and prescriptions. Apply for and manage the health care benefits you’ve earned.",
+    "url": "https://www.va.gov/health-care/"
+  },
+  "migratedAt": "2026-10-13T17:11:45Z",
+  "designMdSha": "a8cac2c8e817",
+  "designJsonSha": "56588c04536c",
+  "sourceCurrentSha": "fb0e7e3468e6",
+  "sourceProposedSha": "455263cf5a73",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 18,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.va.gov/sign-in/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/contact-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/sign-in/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/find-locations/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/my-va/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/my-health/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/resources/homeless-help",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-care/about-va-health-benefits/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-care/eligibility/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-care/how-to-apply/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/health-care/apply-for-health-care-form-10-10ez/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-care/after-you-apply/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-care/foreign-medical-program/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-care/family-caregiver-benefits/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-care/about-va-health-benefits/dental-care/dental-insurance/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-care/manage-health/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-care/manage-appointments/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-care/manage-prescriptions-medications/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-care/review-medical-records/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-care/send-receive-messages/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-care/file-travel-pay-reimbursement/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-care/order-medical-supplies/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-care/get-health-id-card/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-care/pay-copay-bill/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-care/update-health-information/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-care/copay-rates/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-care/health-needs-conditions/mental-health/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-care/health-needs-conditions/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-care/health-needs-conditions/chemical-hazardous-materials-exposure/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-care/wellness-programs/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/COMMUNITYCARE/programs/veterans/index.asp",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/health-care/income-limits/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/resources/the-affordable-care-act-aca-and-your-va-health-care-coverage/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/disability/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/life-insurance/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/pension/aid-attendance-housebound/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/burials-memorials/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/education/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/resources/veterans-turning-65-va-healthcare-medicare-and-tricare-for-life/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-us/ask-va",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/womenvet/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/centerforminorityveterans/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/osdbu/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/outreach-and-events/events/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/forms/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/get-help-from-accredited-representative",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/opal/fo/dbwva.asp",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/outreach-and-events/outreach-materials",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/welcome-kit/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/resources/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/contact-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/find-locations/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/resources/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/contact-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/find-locations/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/womenvet/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/centerforminorityveterans/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/osdbu/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/outreach-and-events/events/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/forms/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/get-help-from-accredited-representative",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/opal/fo/dbwva.asp",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/outreach-and-events/outreach-materials",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/welcome-kit/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/asistencia-y-recursos-en-espanol",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/tagalog-wika-mapagkukunan-at-tulong",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/resources/how-to-get-free-language-assistance-from-va/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/asistencia-y-recursos-en-espanol",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/tagalog-wika-mapagkukunan-at-tulong",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/resources/how-to-get-free-language-assistance-from-va/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/accessibility-at-va",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/resources/your-civil-rights-and-how-to-file-a-discrimination-complaint/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/report-harassment/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/oig/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/opa/Plain_Language.asp",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/privacy-policy/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/performance-dashboard/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/veterans-portrait-project/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "health-care/index.html",
+  "outputPathDefault": null,
+  "sidecar": "health-care/_meta.json",
+  "driverVersion": "1"
+}

@@ -1,0 +1,32 @@
+{
+  "frozenAt": "2026-10-13T19:50:58.588Z",
+  "root": ".",
+  "paths": [
+    "styles/",
+    "fonts/",
+    "blocks/header/",
+    "blocks/footer/",
+    "head.html",
+    "scripts/"
+  ],
+  "files": {
+    "blocks/footer/footer.css": "f0e99f5f70bcf52a4feabdf1da0f7d5292ed893d28a596b9870b0290be5c31cb",
+    "blocks/footer/footer.js": "fcb775a00741b8254acbaeeef1329a1023db99c90d6158170c05256861d28b52",
+    "blocks/header/header.css": "0c3bc49eeacaf12c394e19be6053902dea1542a41c22b625f44678c3ad04c89b",
+    "blocks/header/header.js": "4111943b1a1a9d1ec61dee89d5da63c309618a7503d0e458e390e6bd00fa1e18",
+    "fonts/bitter-bold-GMUGIFN6.woff2": "4f3532375faac00cd7acb2261f13205427546c561be531757af3df7a2b9e0f16",
+    "fonts/bitter-regular-6ETIX3HM.woff2": "1a7a91e7a7636eb2e60540c8760df2ecae98845634e0c00b2a92b1ca96dc1610",
+    "fonts/sourcesanspro-bold-webfont-SCSOYK7L.woff2": "83f67df68dac5c435d964be278d39f70ad8605265b6b99918a46451b77552e92",
+    "fonts/sourcesanspro-bolditalic-webfont-4ZT7N24T.woff2": "a33113771d3c777aac563e996042ba93dd85265f39eb2dfe79dc9b925f29fec2",
+    "fonts/sourcesanspro-italic-webfont-X2X3YPXD.woff2": "8a6e1d4b336524d25462b8f966760a40624f8416d5fdc6c226db2edbf67443e8",
+    "fonts/sourcesanspro-regular-webfont-TJXUUIWO.woff2": "8792619becd8b285e78f14bfcf1ad66e2adbae0f5ec8ad131246621f806ac535",
+    "head.html": "febf320b5244a1634f688726999064ba4b95335ec71ef14628d4806501baca65",
+    "scripts/aem.js": "786e8019b14b4c0bee9df38a3162f129c04310d9d00e7a6dd326c7e5830c84ae",
+    "scripts/consent-check.js": "ac21f825288cfc82c52a6acd9c57bbb76a2017ee1b06319d493244f32751249a",
+    "scripts/consented.js": "8a0ec7239cfab36c9bbfd8e7cde178c6c9061f68da8539879411ee9fa09b18ab",
+    "scripts/scripts.js": "4f8cec7cde8ec98bc036e183af76642efadbdb6cfb8c302b89fc93230974321a",
+    "styles/fonts.css": "178251989508a142cf6021f04c6ec5b81a9547d780b85ab34c29e3743dfcb83d",
+    "styles/lazy-styles.css": "391d6721991eb169fa04d7c71d9b597361d76c24ab8a3d5f1dcb47457d8ca2d6",
+    "styles/styles.css": "16a21d3bb9a612a783489a04dd422070e88f572358b1a93441844a09fe5e5a6a"
+  }
+}

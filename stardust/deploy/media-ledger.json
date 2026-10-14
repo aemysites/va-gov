@@ -1,0 +1,98 @@
+{
+  "media/health-care/hub-promo-health-care.png": {
+    "status": "uploaded",
+    "file": "stardust/current/assets/media/hub-promo-health-care.png",
+    "size": 87385,
+    "sha256": "6191d8dfe5168006b25dfcf27cda26729f53c95e13c30e2098d61fd5bf3fb190",
+    "contentType": "image/png",
+    "source": "https://dsva-vagov-prod-cms-files.s3.us-gov-west-1.amazonaws.com/styles/3_2_medium_thumbnail/public/hub_promos/health-care.png",
+    "contentUrl": "https://content.da.live/aemcoder/cd6de7e5/media/health-care/hub-promo-health-care.png",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-13T18:43:27.821Z"
+  },
+  "media/portraits/veterans-banner-desktop-1.png": {
+    "status": "uploaded",
+    "file": "stardust/current/assets/media/veterans-banner-desktop-1.png",
+    "size": 81831,
+    "sha256": "de97d823e54fb903fd5b455f3e872bdece55aa28b3aa8fe20e841330b4581ce9",
+    "contentType": "image/png",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/cd6de7e5/media/portraits/veterans-banner-desktop-1.png",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-13T18:43:28.593Z"
+  },
+  "media/portraits/veterans-banner-mobile-1.png": {
+    "status": "uploaded",
+    "file": "stardust/current/assets/media/veterans-banner-mobile-1.png",
+    "size": 44405,
+    "sha256": "7abcea834893cbbc29827611f2779763a6abb00825f860865f3c57c8d2d5bf8e",
+    "contentType": "image/png",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/cd6de7e5/media/portraits/veterans-banner-mobile-1.png",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-13T18:43:29.188Z"
+  },
+  "media/portraits/veterans-banner-tablet-1.png": {
+    "status": "uploaded",
+    "file": "stardust/current/assets/media/veterans-banner-tablet-1.png",
+    "size": 68319,
+    "sha256": "b8fab90e518334178cb2212e439475b7254fc3bbd4800d8c316585eaed03ea36",
+    "contentType": "image/png",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/cd6de7e5/media/portraits/veterans-banner-tablet-1.png",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-13T18:43:29.250Z"
+  },
+  "media/home/Health-and-benefits-distro-graphics_sq.jpg": {
+    "status": "uploaded",
+    "file": "stardust/current/assets/media/Health-and-benefits-distro-graphics_sq.jpg",
+    "size": 28078,
+    "sha256": "02c1b2166ad1486bc91d62388a42b6ac84eba15d6002cdf4d6090067fb2daccf",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/cd6de7e5/media/home/Health-and-benefits-distro-graphics_sq.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-13T19:12:19.230Z"
+  },
+  "media/housing-assistance/hub-promo-housing.png": {
+    "status": "uploaded",
+    "file": "stardust/current/assets/media/hub-promo-housing.png",
+    "size": 95037,
+    "sha256": "4acf9e8a70591bca132a94aa9e4f00d0131eb10a41deed848ef2677a38536dfb",
+    "contentType": "image/png",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/cd6de7e5/media/housing-assistance/hub-promo-housing.png",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-13T19:18:49.374Z"
+  },
+  "media/life-insurance/hub-promo-life-insurance.png": {
+    "status": "uploaded",
+    "file": "stardust/current/assets/media/hub-promo-life-insurance.png",
+    "size": 83135,
+    "sha256": "fb677b866080f88db1366bb278b3e792ccecdd516b2df98f6cf53d4bc0715194",
+    "contentType": "image/png",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/cd6de7e5/media/life-insurance/hub-promo-life-insurance.png",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-13T19:18:50.279Z"
+  },
+  "media/family-and-caregiver-benefits/family-caregiver.png": {
+    "status": "uploaded",
+    "file": "stardust/current/assets/media/family-caregiver.png",
+    "size": 69400,
+    "sha256": "992b90215a373f2eadb9dd8df473b9b5ebc67b36e7d14116d721437062b04384",
+    "contentType": "image/png",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/cd6de7e5/media/family-and-caregiver-benefits/family-caregiver.png",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-13T19:18:51.389Z"
+  }
+}

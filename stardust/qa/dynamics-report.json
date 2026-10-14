@@ -1,0 +1,202 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-10-13T20:09:24.899Z",
+  "origin": "https://main--cd6de7e5--aemcoder.aem.live",
+  "parity": "stardust/dynamics/parity.json"
+ },
+ "results": [
+  {
+   "feature": "header mega menu",
+   "id": "chrome-menu",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "2 × header .lvl1 (min 1)",
+   "thirdParty": "",
+   "ms": 1966,
+   "environmentLimit": null
+  },
+  {
+   "feature": "header mega menu",
+   "id": "chrome-menu",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "9 × header .vetnav-level2 (min 9)",
+   "thirdParty": "",
+   "ms": 1854,
+   "environmentLimit": null
+  },
+  {
+   "feature": "mobile menu drawer",
+   "id": "chrome-drawer",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × header .m-menu-btn (min 1)",
+   "thirdParty": "",
+   "ms": 1852,
+   "environmentLimit": null
+  },
+  {
+   "feature": "mobile menu drawer",
+   "id": "chrome-drawer",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "12 × header .m-hub (min 9)",
+   "thirdParty": "",
+   "ms": 1851,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Veterans Crisis Line overlay",
+   "id": "m-modal-trigger-va-overlay-trigger-chrome-only-button-conten",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "2 × header .crisis-open (min 2)",
+   "thirdParty": "",
+   "ms": 1926,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Veterans Crisis Line overlay",
+   "id": "m-modal-trigger-va-overlay-trigger-chrome-only-button-conten",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × #crisis-modal[role=dialog] #crisis-title (min 1)",
+   "thirdParty": "",
+   "ms": 1906,
+   "environmentLimit": null
+  },
+  {
+   "feature": "gov banner \"Here’s how you know\" accordion",
+   "id": "m-modal-trigger-aria-haspopup-chrome-only-div-content",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "2 × header .gov-toggle[aria-controls] (min 2)",
+   "thirdParty": "",
+   "ms": 1868,
+   "environmentLimit": null
+  },
+  {
+   "feature": "header search + home search box",
+   "id": "chrome-search",
+   "class": "S",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × form.d-search-form[action=\"https://www.va.gov/search/\"] (min 1)",
+   "thirdParty": "",
+   "ms": 1853,
+   "environmentLimit": null
+  },
+  {
+   "feature": "header search + home search box",
+   "id": "chrome-search",
+   "class": "S",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × form.home-tasks-search[action=\"https://www.va.gov/search/\"] (min 1)",
+   "thirdParty": "",
+   "ms": 1860,
+   "environmentLimit": null
+  },
+  {
+   "feature": "home email signup (GovDelivery USVACHOOSE)",
+   "id": "form-email-signup",
+   "class": "F",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × form.email-signup-form[action*=\"govdelivery.com/accounts/USVACHOOSE/subscribers/qualify\"][method=post] input[name=email][required] (min 1)",
+   "thirdParty": "",
+   "ms": 1884,
+   "environmentLimit": null
+  },
+  {
+   "feature": "sign in / My VA",
+   "id": "x-sign-in-account-links",
+   "class": "X",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "3 × a[href=\"https://www.va.gov/sign-in\"] (min 1)",
+   "thirdParty": "",
+   "ms": 1868,
+   "environmentLimit": null
+  },
+  {
+   "feature": "language assistance links",
+   "id": "i18n-locale-variants-my-va",
+   "class": "I18N",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "2 × a[href=\"https://www.va.gov/asistencia-y-recursos-en-espanol\"] (min 1)",
+   "thirdParty": "",
+   "ms": 1870,
+   "environmentLimit": null
+  },
+  {
+   "feature": "/v0/banners (site alert)",
+   "id": "a-first-party-api-get-v0-banners",
+   "class": "A",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × .site-alert (min 1)",
+   "thirdParty": "",
+   "ms": 1881,
+   "environmentLimit": null
+  },
+  {
+   "feature": "tags + analytics (GTM, GA/Ads, DAP, Siteimprove, Datadog intake, tag-manager widget mount, S3 asset hosts — 10 detect rows)",
+   "id": "t-tags-analytics",
+   "class": "T",
+   "status": "scaffolded-awaiting-owner",
+   "type": "consent-gate",
+   "pass": true,
+   "detail": "no request to 14 gated host pattern(s) before consent",
+   "thirdParty": "",
+   "ms": 5911,
+   "environmentLimit": null
+  },
+  {
+   "feature": "tags + analytics (GTM, GA/Ads, DAP, Siteimprove, Datadog intake, tag-manager widget mount, S3 asset hosts — 10 detect rows)",
+   "id": "t-tags-analytics",
+   "class": "T",
+   "status": "scaffolded-awaiting-owner",
+   "type": "consent-gate",
+   "pass": true,
+   "detail": "no request to 14 gated host pattern(s) before consent",
+   "thirdParty": "",
+   "ms": 5863,
+   "environmentLimit": null
+  },
+  {
+   "feature": "all 5 pages boot without uncaught exceptions",
+   "id": "no-page-errors",
+   "class": "CR",
+   "status": "done",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 5 page(s)",
+   "thirdParty": "",
+   "ms": 9323,
+   "environmentLimit": null
+  }
+ ]
+}

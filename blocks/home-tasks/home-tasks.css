@@ -1,0 +1,186 @@
+/* Home tasks — values lifted from the gated prototype (stardust/prototypes/assets/home.css,
+   .home-tasks, .home-search, .action-list, .top-pages). */
+.home-tasks {
+  overflow-x: clip;
+}
+
+.home-tasks .home-tasks-container {
+  max-width: var(--va-container);
+  margin: 0 auto;
+  padding: 0 var(--va-container-pad);
+}
+
+.home-tasks .home-tasks-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -24px;
+}
+
+.home-tasks .home-tasks-col {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 0 24px;
+}
+
+.home-tasks .home-tasks-left {
+  background: #fff;
+}
+
+.home-tasks .home-tasks-right {
+  background: #e1f3f8;
+}
+
+.home-tasks .home-tasks-inner {
+  padding-bottom: 40px;
+}
+
+.home-tasks .home-tasks-inner::before {
+  content: "";
+  display: table;
+}
+
+.home-tasks .home-tasks-inner h2 {
+  color: #3d4551;
+  font-size: 24px;
+  line-height: 31.2px;
+  margin: 36px 0 12px;
+}
+
+.home-tasks .home-tasks-inner h3 {
+  color: #3d4551;
+  font-size: 20px;
+  line-height: 26px;
+  margin: 30px 0 10px;
+}
+
+.home-tasks .home-tasks-search {
+  display: flex;
+  max-width: 384px;
+  height: 32px;
+}
+
+.home-tasks .home-tasks-search input {
+  flex: 1 1 auto;
+  min-width: 0;
+  height: 32px;
+  margin: 0;
+  padding: 0 12px;
+  border: 1px solid #565c65;
+  border-right: 0;
+  border-radius: 0;
+  font: 400 16px/21.6px Arial, sans-serif;
+  background: #fff;
+}
+
+.home-tasks .home-tasks-search button {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  margin: 0;
+  padding: 0 8px;
+  border: 0;
+  border-radius: 0 4px 4px 0;
+  background: var(--va-link);
+  color: #fff;
+  font-size: 16.96px;
+  line-height: 15.264px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.home-tasks .home-tasks-search-text {
+  display: none;
+}
+
+.home-tasks .home-tasks-search-icon {
+  width: 24px;
+  height: 24px;
+  fill: currentcolor;
+}
+
+.home-tasks :is(.home-tasks-actions, .home-tasks-top) ul {
+  list-style: none;
+  margin: 16.96px 0 -4.24px;
+  padding: 0;
+  font-size: 16.96px;
+  line-height: 25.44px;
+}
+
+.home-tasks :is(.home-tasks-actions, .home-tasks-top) li {
+  margin-bottom: 4.24px;
+}
+
+.home-tasks .home-tasks-top li {
+  break-inside: avoid;
+}
+
+.home-tasks .home-tasks-top a {
+  display: inline-block;
+}
+
+.home-tasks .home-tasks-actions a {
+  display: inline-flex;
+  align-items: flex-start;
+  padding: 8px 0;
+  color: var(--va-link);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.home-tasks .home-tasks-actions a::before {
+  content: "";
+  flex: none;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  border-radius: 50%;
+  background: var(--va-link) url("../../icons/home-chevron-white.svg") center / 24px 24px
+    no-repeat;
+}
+
+@media (width >= 481px) {
+  .home-tasks .home-tasks-search button {
+    padding: 0 16px;
+  }
+
+  .home-tasks .home-tasks-search-text {
+    display: inline;
+  }
+
+  .home-tasks .home-tasks-search-icon {
+    display: none;
+  }
+}
+
+@media (width >= 768px) {
+  .home-tasks .home-tasks-top ul {
+    columns: 2;
+    column-gap: 16.96px;
+  }
+}
+
+@media (width >= 880px) {
+  .home-tasks {
+    background: linear-gradient(to right, #fff 0 50%, #e1f3f8 50% 100%);
+  }
+
+  .home-tasks .home-tasks-col {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .home-tasks .home-tasks-left,
+  .home-tasks .home-tasks-right {
+    background: transparent;
+  }
+}
+
+@media (width >= 1024px) {
+  .home-tasks .home-tasks-inner h2 {
+    font-size: 32px;
+    line-height: 41.6px;
+    margin: 48px 0 16px;
+  }
+}

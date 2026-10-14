@@ -1,0 +1,474 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/measure.mjs",
+    "writtenAt": "2026-10-13T16:30:55.560Z",
+    "urls": [
+      "https://www.va.gov/health-care/"
+    ],
+    "widths": [
+      360
+    ],
+    "selectors": [
+      "#header-v2",
+      "#header-v2 header",
+      "#header-v2 a[href='/']",
+      "#header-v2 svg",
+      "#header-v2 button",
+      "#header-v2 .va-crisis-line",
+      "#header-v2 .usa-banner",
+      "va-breadcrumbs"
+    ],
+    "props": [
+      "display",
+      "position",
+      "boxSizing",
+      "width",
+      "height",
+      "maxWidth",
+      "margin",
+      "padding",
+      "gap",
+      "backgroundColor",
+      "backgroundImage",
+      "color",
+      "fontFamily",
+      "fontSize",
+      "fontWeight",
+      "lineHeight",
+      "letterSpacing",
+      "textTransform",
+      "textAlign",
+      "borderRadius",
+      "border",
+      "boxShadow",
+      "opacity",
+      "objectFit"
+    ],
+    "allMatches": true,
+    "failed": [],
+    "warnings": []
+  },
+  "widths": [
+    360
+  ],
+  "selectors": [
+    "#header-v2",
+    "#header-v2 header",
+    "#header-v2 a[href='/']",
+    "#header-v2 svg",
+    "#header-v2 button",
+    "#header-v2 .va-crisis-line",
+    "#header-v2 .usa-banner",
+    "va-breadcrumbs"
+  ],
+  "root": {
+    "https://www.va.gov/health-care/": {
+      "360": {
+        "viewport": 360,
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "scrollHeight": 8222,
+        "overflowX": 0
+      }
+    }
+  },
+  "pages": {
+    "https://www.va.gov/health-care/": {
+      "360": {
+        "#header-v2": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 360,
+              "h": 126
+            },
+            "visible": true,
+            "text": "An official website of the United State…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "126.375px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(27, 27, 27)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#header-v2 header": [],
+        "#header-v2 a[href='/']": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 12,
+              "y": 82,
+              "w": 40,
+              "h": 24
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "40px",
+              "height": "24.4375px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 94, 162)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Arial, sans",
+              "fontSize": "16.96px",
+              "fontWeight": "500",
+              "lineHeight": "25.44px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 94, 162)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#header-v2 svg": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 321,
+              "y": 8,
+              "w": 12,
+              "h": 12
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "12px",
+              "height": "12px",
+              "maxWidth": "none",
+              "margin": "0px 0px 0px 4px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 94, 162)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Arial, sans",
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "lineHeight": "18px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 94, 162)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          },
+          {
+            "index": 1,
+            "of": 4,
+            "rect": {
+              "x": 309,
+              "y": 34,
+              "w": 16,
+              "h": 16
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "16px",
+              "height": "16px",
+              "maxWidth": "none",
+              "margin": "0px 0px 0px 8px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Arial, sans",
+              "fontSize": "16.96px",
+              "fontWeight": "400",
+              "lineHeight": "25.44px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          },
+          {
+            "index": 2,
+            "of": 4,
+            "rect": {
+              "x": 12,
+              "y": 82,
+              "w": 40,
+              "h": 24
+            },
+            "visible": true,
+            "text": "VA",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "40px",
+              "height": "24.4375px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 94, 162)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Arial, sans",
+              "fontSize": "16.96px",
+              "fontWeight": "500",
+              "lineHeight": "25.44px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 94, 162)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          },
+          {
+            "index": 3,
+            "of": 4,
+            "rect": {
+              "x": 324,
+              "y": 85,
+              "w": 16,
+              "h": 17
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "16px",
+              "height": "16.9531px",
+              "maxWidth": "none",
+              "margin": "0px 0px 0px 4px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 94, 162)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16.96px",
+              "fontWeight": "700",
+              "lineHeight": "16.96px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 94, 162)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#header-v2 button": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 56,
+              "y": 5,
+              "w": 277,
+              "h": 18
+            },
+            "visible": true,
+            "text": "An official website of the United State…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "277px",
+              "height": "18px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 94, 162)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Arial, sans",
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "lineHeight": "18px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 94, 162)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          },
+          {
+            "index": 1,
+            "of": 3,
+            "rect": {
+              "x": 36,
+              "y": 32,
+              "w": 289,
+              "h": 25
+            },
+            "visible": true,
+            "text": "Talk to the Veterans Crisis Line now",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "289px",
+              "height": "25.4219px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Arial, sans",
+              "fontSize": "16.96px",
+              "fontWeight": "400",
+              "lineHeight": "25.44px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          },
+          {
+            "index": 2,
+            "of": 3,
+            "rect": {
+              "x": 266,
+              "y": 73,
+              "w": 86,
+              "h": 41
+            },
+            "visible": true,
+            "text": "Menu",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "86px",
+              "height": "40.9531px",
+              "maxWidth": "none",
+              "margin": "0px 0px 0px 16px",
+              "padding": "12px",
+              "gap": "normal",
+              "backgroundColor": "rgb(240, 240, 240)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 94, 162)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16.96px",
+              "fontWeight": "700",
+              "lineHeight": "16.96px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "5px",
+              "border": "0px none rgb(0, 94, 162)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#header-v2 .va-crisis-line": [],
+        "#header-v2 .usa-banner": [],
+        "va-breadcrumbs": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 16,
+              "y": 126,
+              "w": 328,
+              "h": 82
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "328px",
+              "height": "82.0312px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(27, 27, 27)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

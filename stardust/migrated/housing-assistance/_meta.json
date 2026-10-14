@@ -1,0 +1,357 @@
+{
+  "slug": "housing-assistance",
+  "type": "program",
+  "renderBranch": "A'",
+  "template": "health-care",
+  "modules": [
+    "breadcrumbs",
+    "hub-title",
+    "on-this-page",
+    "alert",
+    "link-list",
+    "rail-card",
+    "accordion",
+    "feedback",
+    "portraits"
+  ],
+  "slotsFilled": [
+    "interior"
+  ],
+  "canonShas": {
+    "header": "ad2f49f9d3f2",
+    "footer": "82ab3e70efd4",
+    "css": "178760ce5fdf"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "variance-budget",
+      "probe": "stardust/.work/migrate/siblings/program-variance.json",
+      "deltas": {
+        "hub-title": "bg #3f57a6→#8e704f → variant hub-title hub-housing",
+        "on-this-page": "h 301→260: 4 vs 5 entries (content)",
+        "link-list": "29→19 items, row h 51→76 (content: longer descriptions)",
+        "accordion": "2→3 items (+ Not a Veteran or family member?) → extra accordion item, same block (content)"
+      }
+    }
+  ],
+  "metadata": {
+    "title": "VA Housing Assistance | Veterans Affairs",
+    "description": "VA housing assistance can help Veterans, service members, and their surviving spouses to buy a home or refinance a loan. We also offer benefits and services to help you build, improve, or keep your current home. Find out how to apply for and manage the Veterans housing assistance benefits you’ve earned.",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "VA Housing Assistance | Veterans Affairs",
+    "description": "VA housing assistance can help Veterans, service members, and their surviving spouses to buy a home or refinance a loan. We also offer benefits and services to help you build, improve, or keep your current home. Find out how to apply for and manage the Veterans housing assistance benefits you’ve earned.",
+    "url": "https://www.va.gov/housing-assistance/"
+  },
+  "migratedAt": "2026-10-13T19:13:30Z",
+  "designMdSha": "a8cac2c8e817",
+  "designJsonSha": "56588c04536c",
+  "sourceCurrentSha": "069fad16507b",
+  "sourceProposedSha": "8007295ccc72",
+  "fidelityTier": "sibling",
+  "archetypeSource": "health-care",
+  "archetypeSha": "455263cf5a73",
+  "variants": [
+    "hub-title hub-housing"
+  ],
+  "gatesPassed": [
+    "variance-probe",
+    "content-count",
+    "content-fidelity",
+    "media-reconcile",
+    "delivery-lint",
+    "pixel-gate-1440",
+    "pixel-gate-360"
+  ],
+  "gateEvidence": {
+    "variance-probe": "stardust/.work/migrate/siblings/program-variance.json (sibling-variance exit 2; deltas budgeted: 1 variant + content)",
+    "content-count": "stardust/.work/migrate/siblings/housing-assistance.content-diff.txt main: headings 11/11, CTAs 43/43, body+eyebrow 38/38, img 2/2, editable 30/30",
+    "content-fidelity": "verbatim from stardust/current/pages/housing-assistance.flat.html via stardust/.work/migrate/probes/build-program-siblings.mjs (builder reproduces health-care prototype byte-identical from its own capture); main text nodes equal in content-diff; remaining main 🔴 = archetype-inherited (Expand/Collapse role, empty-svg capture ICON DIFF)",
+    "media-reconcile": "media-reconcile 4 hosted, exit 0 (stardust/.work/rollout/program/content/housing-assistance.html)",
+    "delivery-lint": "delivery-lint 0 P0 / 0 P1",
+    "pixel-gate-1440": "gate-all preview host 3.77% Δh -1, clip 0, MISSING 0 / HIDDEN 0 PASS (stardust/replica/gates/all-1440/housing-assistance)",
+    "pixel-gate-360": "gate-all preview host official 11.95% Δh -86, same-browser 4.79% Δh -6, clip 0, MISSING 0 / HIDDEN 0; documented override stardust/replica/gates/all-360/overrides.json"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 30,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.va.gov/sign-in/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/contact-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/sign-in/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/find-locations/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/my-va/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/my-health/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/resources/homeless-help",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/housing-assistance/home-loans/loan-types/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/housing-assistance/home-loans/eligibility/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/housing-assistance/home-loans/how-to-request-coe/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/housing-assistance/home-loans/request-coe-form-26-1880",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/family-and-caregiver-benefits/housing-assistance/surviving-spouse-home-loan/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/housing-assistance/home-loans/check-coe-status/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/decision-reviews/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/claim-or-appeal-status/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/housing-assistance/home-loans/trouble-making-payments/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/housing-assistance/home-loans/funding-fee-and-closing-costs/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/housing-assistance/home-loans/loan-limits/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/housing-assistance/home-loans/home-buying-process/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/housing-assistance/disability-housing-grants/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/housing-assistance/disability-housing-grants/how-to-apply/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/housing-assistance/disability-housing-grants/apply-for-grant-form-26-4555/introduction",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/claim-or-appeal-status/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/decision-reviews/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/disability/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/pension/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/careers-employment/vocational-rehabilitation/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/homeless/nationalcallcenter.asp",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-us/ask-va",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/womenvet/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/centerforminorityveterans/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/osdbu/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/outreach-and-events/events/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/forms/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/get-help-from-accredited-representative",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/opal/fo/dbwva.asp",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/outreach-and-events/outreach-materials",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/welcome-kit/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/resources/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/contact-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/find-locations/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/resources/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/contact-us/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/find-locations/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/womenvet/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/centerforminorityveterans/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/osdbu/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/outreach-and-events/events/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/forms/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/get-help-from-accredited-representative",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/opal/fo/dbwva.asp",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/outreach-and-events/outreach-materials",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/welcome-kit/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/asistencia-y-recursos-en-espanol",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/tagalog-wika-mapagkukunan-at-tulong",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/resources/how-to-get-free-language-assistance-from-va/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/asistencia-y-recursos-en-espanol",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/tagalog-wika-mapagkukunan-at-tulong",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/resources/how-to-get-free-language-assistance-from-va/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/accessibility-at-va",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/resources/your-civil-rights-and-how-to-file-a-discrimination-complaint/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/report-harassment/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/oig/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/opa/Plain_Language.asp",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/privacy-policy/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/performance-dashboard/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.va.gov/veterans-portrait-project/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "housing-assistance/index.html",
+  "outputPathDefault": null,
+  "sidecar": "housing-assistance/_meta.json",
+  "driverVersion": "1"
+}

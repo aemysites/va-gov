@@ -1,0 +1,2736 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/measure.mjs",
+    "writtenAt": "2026-10-13T16:29:51.024Z",
+    "urls": [
+      "https://www.va.gov/health-care/"
+    ],
+    "widths": [
+      1440,
+      360
+    ],
+    "selectors": [
+      ".usa-banner-header",
+      ".usa-banner-header p",
+      ".usa-banner-button",
+      ".va-crisis-line",
+      ".va-crisis-line-text",
+      "#va-header-logo-menu",
+      ".va-header-logo img",
+      "#vetnav",
+      "#vetnav-menu .vetnav-level1",
+      ".menu-rule",
+      ".sign-in-nav button",
+      ".sitewide-search-drop-down-panel-button",
+      "header a[href*=contact-us]",
+      "va-breadcrumbs",
+      "h1",
+      ".va-introtext",
+      "va-on-this-page",
+      "va-alert",
+      ".va-h-ruled--stars",
+      "#get-va-health-care",
+      ".hub-page-link-list__item",
+      ".hub-page-link-list__header a",
+      ".va-nav-linkslist-description",
+      ".va-nav-linkslist--related",
+      "#other-va-benefits-and-services",
+      ".last-updated",
+      "#mdFormButton button",
+      "#hub-rail",
+      "va-card",
+      "va-accordion",
+      ".usa-accordion__button",
+      "footer",
+      ".footer-inner",
+      ".va-footer-linkgroup-title",
+      ".va-footer-links a",
+      ".template-module__94GnKa__container img"
+    ],
+    "props": [
+      "display",
+      "position",
+      "boxSizing",
+      "width",
+      "height",
+      "maxWidth",
+      "margin",
+      "padding",
+      "gap",
+      "backgroundColor",
+      "backgroundImage",
+      "color",
+      "fontFamily",
+      "fontSize",
+      "fontWeight",
+      "lineHeight",
+      "letterSpacing",
+      "textTransform",
+      "textAlign",
+      "borderRadius",
+      "border",
+      "boxShadow",
+      "opacity",
+      "objectFit"
+    ],
+    "allMatches": false,
+    "failed": [],
+    "warnings": []
+  },
+  "widths": [
+    1440,
+    360
+  ],
+  "selectors": [
+    ".usa-banner-header",
+    ".usa-banner-header p",
+    ".usa-banner-button",
+    ".va-crisis-line",
+    ".va-crisis-line-text",
+    "#va-header-logo-menu",
+    ".va-header-logo img",
+    "#vetnav",
+    "#vetnav-menu .vetnav-level1",
+    ".menu-rule",
+    ".sign-in-nav button",
+    ".sitewide-search-drop-down-panel-button",
+    "header a[href*=contact-us]",
+    "va-breadcrumbs",
+    "h1",
+    ".va-introtext",
+    "va-on-this-page",
+    "va-alert",
+    ".va-h-ruled--stars",
+    "#get-va-health-care",
+    ".hub-page-link-list__item",
+    ".hub-page-link-list__header a",
+    ".va-nav-linkslist-description",
+    ".va-nav-linkslist--related",
+    "#other-va-benefits-and-services",
+    ".last-updated",
+    "#mdFormButton button",
+    "#hub-rail",
+    "va-card",
+    "va-accordion",
+    ".usa-accordion__button",
+    "footer",
+    ".footer-inner",
+    ".va-footer-linkgroup-title",
+    ".va-footer-links a",
+    ".template-module__94GnKa__container img"
+  ],
+  "root": {
+    "https://www.va.gov/health-care/": {
+      "360": {
+        "viewport": 360,
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "scrollHeight": 8222,
+        "overflowX": 0
+      },
+      "1440": {
+        "viewport": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 5589,
+        "overflowX": 0
+      }
+    }
+  },
+  "pages": {
+    "https://www.va.gov/health-care/": {
+      "360": {
+        ".usa-banner-header": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "An official website of the United State…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "5.5px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "lineHeight": "18px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".usa-banner-header p": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "An official website of the United State…",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Arial, sans",
+              "fontSize": "16.96px",
+              "fontWeight": "400",
+              "lineHeight": "25.44px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".usa-banner-button": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Here’s how you know",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "100%",
+              "height": "43px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "13px 0px 0px 48px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 94, 162)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "lineHeight": "18px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 94, 162)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".va-crisis-line": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Talk to the Veterans Crisis Line now",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "100%",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(139, 10, 3)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Arial, sans",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".va-crisis-line-text": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Talk to the Veterans Crisis Line now",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "8px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Arial, sans",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "16px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#va-header-logo-menu": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "HomeVA Benefits and Health CareAbout VA…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "1024px",
+              "margin": "0px auto",
+              "padding": "16px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(27, 27, 27)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".va-header-logo img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "100%",
+              "height": "auto",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgba(0, 0, 0, 0)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Arial, sans",
+              "fontSize": "16.96px",
+              "fontWeight": "500",
+              "lineHeight": "25.44px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgba(0, 0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            },
+            "img": {
+              "naturalWidth": 512,
+              "naturalHeight": 114,
+              "currentSrc": "https://www.va.gov/img/header-logo.png"
+            }
+          }
+        ],
+        "#vetnav": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "HomeVA Benefits and Health CareAbout VA…",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "100%",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(22, 46, 81)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 94, 162)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 94, 162)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#vetnav-menu .vetnav-level1": [
+          {
+            "index": 0,
+            "of": 6,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Home",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "100%",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "16px",
+              "gap": "normal",
+              "backgroundColor": "rgb(26, 68, 128)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Arial, sans",
+              "fontSize": "16.96px",
+              "fontWeight": "700",
+              "lineHeight": "16.96px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".menu-rule": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px 0px 0px -8.8px",
+              "padding": "0px 19.2px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(27, 27, 27)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".sign-in-nav button": [],
+        ".sitewide-search-drop-down-panel-button": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Search",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "8px 30px 8px 8px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "url(\"data:image/svg+xml,<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"20\\\" height=\\\"20\\\" viewBox=\\\"0 0 444.8 444.8\\\" style=\\\"pointer-events:none;\\\"><path fill=\\\"%23ffffff\\\" d=\\\"M248.1 352L434 165.9c7.2-6.9 10.8-15.4 10.8-25.7 0-10.3-3.6-18.8-10.8-25.7l-21.4-21.7c-7-7-15.6-10.6-25.7-10.6-9.9 0-18.6 3.5-26 10.6L222.4 231.5 83.7 92.8c-7-7-15.6-10.6-25.7-10.6-9.9 0-18.6 3.5-26 10.6l-21.4 21.7c-7 7-10.6 15.6-10.6 25.7s3.5 18.7 10.6 25.7L196.4 352c7.4 7 16.1 10.6 26 10.6 10.1 0 18.7-3.5 25.7-10.6z\\\"/></svg>\")",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Arial, sans",
+              "fontSize": "16.96px",
+              "fontWeight": "600",
+              "lineHeight": "25.44px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "header a[href*=contact-us]": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Contact us",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 8px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Arial, sans",
+              "fontSize": "16.96px",
+              "fontWeight": "700",
+              "lineHeight": "25.44px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "va-breadcrumbs": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 16,
+              "y": 126,
+              "w": 328,
+              "h": 82
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "328px",
+              "height": "82.0312px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(27, 27, 27)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "h1": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 16,
+              "y": 264,
+              "w": 328,
+              "h": 39
+            },
+            "visible": true,
+            "text": "VA health care",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "328px",
+              "height": "39px",
+              "maxWidth": "none",
+              "margin": "8px 0px 15px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "Bitter, Georgia, Cambria, \"Times New Roman\", Times, serif",
+              "fontSize": "30px",
+              "fontWeight": "700",
+              "lineHeight": "39px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(27, 27, 27)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".va-introtext": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 16,
+              "y": 319,
+              "w": 328,
+              "h": 299
+            },
+            "visible": true,
+            "text": "With VA health care, you’re covered for…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "328px",
+              "height": "299.062px",
+              "maxWidth": "770px",
+              "margin": "16px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "Bitter, Georgia, Cambria, \"Times New Roman\", Times, serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(27, 27, 27)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "va-on-this-page": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 16,
+              "y": 634,
+              "w": 328,
+              "h": 354
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "328px",
+              "height": "353.953px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "16px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "4px",
+              "border": "1px solid rgb(169, 174, 177)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "va-alert": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 16,
+              "y": 1012,
+              "w": 328,
+              "h": 276
+            },
+            "visible": true,
+            "text": "Information Alert Help for Veterans who…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "328px",
+              "height": "275.688px",
+              "maxWidth": "none",
+              "margin": "24px 0px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(27, 27, 27)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".va-h-ruled--stars": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 48,
+              "y": 1336,
+              "w": 264,
+              "h": 41
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "264px",
+              "height": "41px",
+              "maxWidth": "none",
+              "margin": "16px 0px 0px",
+              "padding": "20px 8px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "url(\"https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/stars-E7HVB7EU.png\")",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(27, 27, 27)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#get-va-health-care": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 16,
+              "y": 1425,
+              "w": 328,
+              "h": 31
+            },
+            "visible": true,
+            "text": "Get VA health care",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "328px",
+              "height": "31.1875px",
+              "maxWidth": "none",
+              "margin": "36px 0px 12px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "Bitter, Georgia, Cambria, \"Times New Roman\", Times, serif",
+              "fontSize": "24px",
+              "fontWeight": "700",
+              "lineHeight": "31.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(27, 27, 27)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".hub-page-link-list__item": [
+          {
+            "index": 0,
+            "of": 29,
+            "rect": {
+              "x": 16,
+              "y": 1472,
+              "w": 328,
+              "h": 76
+            },
+            "visible": true,
+            "text": "Learn how VA health care works and whic…",
+            "props": {
+              "display": "list-item",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "328px",
+              "height": "76.2656px",
+              "maxWidth": "none",
+              "margin": "16px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Arial, sans",
+              "fontSize": "16.96px",
+              "fontWeight": "500",
+              "lineHeight": "25.44px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(27, 27, 27)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".hub-page-link-list__header a": [],
+        ".va-nav-linkslist-description": [
+          {
+            "index": 0,
+            "of": 24,
+            "rect": {
+              "x": 16,
+              "y": 1498,
+              "w": 328,
+              "h": 51
+            },
+            "visible": true,
+            "text": "Learn how VA health care works and whic…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "328px",
+              "height": "50.8438px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 33, 33)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Arial, sans",
+              "fontSize": "16.96px",
+              "fontWeight": "500",
+              "lineHeight": "25.44px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 33, 33)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".va-nav-linkslist--related": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 16,
+              "y": 4836,
+              "w": 328,
+              "h": 715
+            },
+            "visible": true,
+            "text": "Other VA benefits and services Learn ho…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "328px",
+              "height": "715.234px",
+              "maxWidth": "none",
+              "margin": "26px 0px 0px",
+              "padding": "1px 16px",
+              "gap": "normal",
+              "backgroundColor": "rgb(241, 241, 241)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(27, 27, 27)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#other-va-benefits-and-services": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 32,
+              "y": 4837,
+              "w": 296,
+              "h": 83
+            },
+            "visible": true,
+            "text": "Other VA benefits and services",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "296px",
+              "height": "83.375px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "16px 0px 4px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "Bitter, Georgia, Cambria, \"Times New Roman\", Times, serif",
+              "fontSize": "24px",
+              "fontWeight": "700",
+              "lineHeight": "31.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".last-updated": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Last updated: June 25, 2026",
+            "props": {
+              "display": "none",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "12.5px 0px 16px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#mdFormButton button": [],
+        "#hub-rail": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 16,
+              "y": 5624,
+              "w": 328,
+              "h": 1496
+            },
+            "visible": true,
+            "text": "Turning 65? Learn how VA healthcare, Me…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "328px",
+              "height": "1495.64px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 8px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(27, 27, 27)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "va-card": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 24,
+              "y": 5624,
+              "w": 312,
+              "h": 420
+            },
+            "visible": true,
+            "text": "Turning 65? Learn how VA healthcare, Me…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "312px",
+              "height": "420.469px",
+              "maxWidth": "none",
+              "margin": "0px 0px 16px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "1px solid rgb(117, 117, 117)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "va-accordion": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 24,
+              "y": 6068,
+              "w": 312,
+              "h": 1046
+            },
+            "visible": true,
+            "text": "Message us Contact us online through As…",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(27, 27, 27)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".usa-accordion__button": [],
+        "footer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 7392,
+              "w": 360,
+              "h": 830
+            },
+            "visible": true,
+            "text": "Talk to the Veterans Crisis Line now Co…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "830.125px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(22, 46, 81)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "rgb(22, 46, 81) 0px 450px 0px 450px",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".footer-inner": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 7392,
+              "w": 360,
+              "h": 830
+            },
+            "visible": true,
+            "text": "Talk to the Veterans Crisis Line now Co…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "830.125px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 0px 20px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".va-footer-linkgroup-title": [
+          {
+            "index": 0,
+            "of": 11,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Veteran programs and services",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 0px 16px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Bitter, Georgia, Cambria, \"Times New Roman\", Times, serif",
+              "fontSize": "17.6px",
+              "fontWeight": "700",
+              "lineHeight": "22.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".va-footer-links a": [
+          {
+            "index": 0,
+            "of": 64,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Homeless Veterans",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "4.24px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Arial, sans",
+              "fontSize": "16.96px",
+              "fontWeight": "400",
+              "lineHeight": "25.44px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".template-module__94GnKa__container img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 7306,
+              "w": 360,
+              "h": 86
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "86.0625px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(27, 27, 27)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            },
+            "img": {
+              "naturalWidth": 360,
+              "naturalHeight": 86,
+              "currentSrc": "https://s3-us-gov-west-1.amazonaws.com/content.www.va.gov/img/homepage/veterans-banner-mobile-1.png"
+            }
+          }
+        ]
+      },
+      "1440": {
+        ".usa-banner-header": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 220,
+              "y": 0,
+              "w": 1000,
+              "h": 22
+            },
+            "visible": true,
+            "text": "An official website of the United State…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1000px",
+              "height": "22px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "lineHeight": "18px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".usa-banner-header p": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 262,
+              "y": 2,
+              "w": 258,
+              "h": 18
+            },
+            "visible": true,
+            "text": "An official website of the United State…",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "258px",
+              "height": "18px",
+              "maxWidth": "none",
+              "margin": "2px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Arial, sans",
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "lineHeight": "18px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".usa-banner-button": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 523,
+              "y": 2,
+              "w": 116,
+              "h": 18
+            },
+            "visible": true,
+            "text": "Here’s how you know",
+            "props": {
+              "display": "inline",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "116px",
+              "height": "18px",
+              "maxWidth": "none",
+              "margin": "0px 0px 0px 3px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 94, 162)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "lineHeight": "18px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 94, 162)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".va-crisis-line": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 870,
+              "y": 2,
+              "w": 338,
+              "h": 32
+            },
+            "visible": true,
+            "text": "Talk to the Veterans Crisis Line now",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "338px",
+              "height": "32px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(139, 10, 3)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Arial, sans",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px 0px 3.2px 3.2px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "rgb(27, 27, 27) 0px 2px 5px 0px",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".va-crisis-line-text": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 910,
+              "y": 2,
+              "w": 269,
+              "h": 32
+            },
+            "visible": true,
+            "text": "Talk to the Veterans Crisis Line now",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "269px",
+              "height": "32px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "8px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Arial, sans",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "16px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#va-header-logo-menu": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 208,
+              "y": 34,
+              "w": 1024,
+              "h": 75
+            },
+            "visible": true,
+            "text": "Search Contact us",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1024px",
+              "height": "75px",
+              "maxWidth": "1024px",
+              "margin": "0px 208px",
+              "padding": "16px 12px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(27, 27, 27)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".va-header-logo img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 232,
+              "y": 50,
+              "w": 264,
+              "h": 59
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "264px",
+              "height": "59px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgba(0, 0, 0, 0)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Arial, sans",
+              "fontSize": "16.96px",
+              "fontWeight": "500",
+              "lineHeight": "25.44px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgba(0, 0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            },
+            "img": {
+              "naturalWidth": 512,
+              "naturalHeight": 114,
+              "currentSrc": "https://www.va.gov/img/header-logo.png"
+            }
+          }
+        ],
+        "#vetnav": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 220,
+              "y": 126,
+              "w": 1000,
+              "h": 52
+            },
+            "visible": true,
+            "text": "VA Benefits and Health Care About VA Fi…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1000px",
+              "height": "51.9531px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(22, 46, 81)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 94, 162)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 94, 162)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#vetnav-menu .vetnav-level1": [
+          {
+            "index": 0,
+            "of": 6,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Home",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "100%",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "16px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Arial, sans",
+              "fontSize": "16.96px",
+              "fontWeight": "700",
+              "lineHeight": "16.96px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".menu-rule": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px 0px 0px -8.8px",
+              "padding": "0px 19.2px 16px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".sign-in-nav button": [],
+        ".sitewide-search-drop-down-panel-button": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 883,
+              "y": 62,
+              "w": 110,
+              "h": 41
+            },
+            "visible": true,
+            "text": "Search",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "110px",
+              "height": "41.4219px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "8px 30px 8px 8px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "url(\"data:image/svg+xml,<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"20\\\" height=\\\"20\\\" viewBox=\\\"0 0 444.8 444.8\\\" style=\\\"pointer-events:none;\\\"><path fill=\\\"%23ffffff\\\" d=\\\"M248.1 352L434 165.9c7.2-6.9 10.8-15.4 10.8-25.7 0-10.3-3.6-18.8-10.8-25.7l-21.4-21.7c-7-7-15.6-10.6-25.7-10.6-9.9 0-18.6 3.5-26 10.6L222.4 231.5 83.7 92.8c-7-7-15.6-10.6-25.7-10.6-9.9 0-18.6 3.5-26 10.6l-21.4 21.7c-7 7-10.6 15.6-10.6 25.7s3.5 18.7 10.6 25.7L196.4 352c7.4 7 16.1 10.6 26 10.6 10.1 0 18.7-3.5 25.7-10.6z\\\"/></svg>\")",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Arial, sans",
+              "fontSize": "16.96px",
+              "fontWeight": "600",
+              "lineHeight": "25.44px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "header a[href*=contact-us]": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 993,
+              "y": 70,
+              "w": 100,
+              "h": 25
+            },
+            "visible": true,
+            "text": "Contact us",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "100px",
+              "height": "25.4219px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 8px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Arial, sans",
+              "fontSize": "16.96px",
+              "fontWeight": "700",
+              "lineHeight": "25.44px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "va-breadcrumbs": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 240,
+              "y": 178,
+              "w": 960,
+              "h": 100
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "960px",
+              "height": "99.7344px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(27, 27, 27)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "h1": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 288,
+              "y": 286,
+              "w": 298,
+              "h": 52
+            },
+            "visible": true,
+            "text": "VA health care",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "298px",
+              "height": "52px",
+              "maxWidth": "none",
+              "margin": "0px 0px 0px 8px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "Bitter, Georgia, Cambria, \"Times New Roman\", Times, serif",
+              "fontSize": "40px",
+              "fontWeight": "700",
+              "lineHeight": "52px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(27, 27, 27)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".va-introtext": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 240,
+              "y": 358,
+              "w": 608,
+              "h": 238
+            },
+            "visible": true,
+            "text": "With VA health care, you’re covered for…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "607.984px",
+              "height": "238px",
+              "maxWidth": "770px",
+              "margin": "20px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "Bitter, Georgia, Cambria, \"Times New Roman\", Times, serif",
+              "fontSize": "20px",
+              "fontWeight": "400",
+              "lineHeight": "34px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(27, 27, 27)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "va-on-this-page": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 240,
+              "y": 616,
+              "w": 608,
+              "h": 301
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "607.984px",
+              "height": "301.109px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "16px 16px 16px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "4px",
+              "border": "0px none rgb(27, 27, 27)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "va-alert": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 240,
+              "y": 941,
+              "w": 608,
+              "h": 177
+            },
+            "visible": true,
+            "text": "Information Alert Help for Veterans who…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "607.984px",
+              "height": "176.844px",
+              "maxWidth": "none",
+              "margin": "24px 0px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(27, 27, 27)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".va-h-ruled--stars": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 272,
+              "y": 1166,
+              "w": 544,
+              "h": 41
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "543.984px",
+              "height": "41px",
+              "maxWidth": "none",
+              "margin": "16px 0px 0px",
+              "padding": "20px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "url(\"https://prod-va-gov-assets.s3-us-gov-west-1.amazonaws.com/generated/stars-E7HVB7EU.png\")",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(27, 27, 27)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#get-va-health-care": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 240,
+              "y": 1255,
+              "w": 608,
+              "h": 42
+            },
+            "visible": true,
+            "text": "Get VA health care",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "607.984px",
+              "height": "41.5938px",
+              "maxWidth": "none",
+              "margin": "48px 0px 16px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "Bitter, Georgia, Cambria, \"Times New Roman\", Times, serif",
+              "fontSize": "32px",
+              "fontWeight": "700",
+              "lineHeight": "41.6px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(27, 27, 27)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".hub-page-link-list__item": [
+          {
+            "index": 0,
+            "of": 29,
+            "rect": {
+              "x": 240,
+              "y": 1312,
+              "w": 608,
+              "h": 51
+            },
+            "visible": true,
+            "text": "Learn how VA health care works and whic…",
+            "props": {
+              "display": "list-item",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "607.984px",
+              "height": "50.8438px",
+              "maxWidth": "none",
+              "margin": "16px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Arial, sans",
+              "fontSize": "16.96px",
+              "fontWeight": "500",
+              "lineHeight": "25.44px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(27, 27, 27)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".hub-page-link-list__header a": [],
+        ".va-nav-linkslist-description": [
+          {
+            "index": 0,
+            "of": 24,
+            "rect": {
+              "x": 240,
+              "y": 1338,
+              "w": 608,
+              "h": 25
+            },
+            "visible": true,
+            "text": "Learn how VA health care works and whic…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "607.984px",
+              "height": "25.4219px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 33, 33)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Arial, sans",
+              "fontSize": "16.96px",
+              "fontWeight": "500",
+              "lineHeight": "25.44px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 33, 33)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".va-nav-linkslist--related": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 240,
+              "y": 3821,
+              "w": 608,
+              "h": 542
+            },
+            "visible": true,
+            "text": "Other VA benefits and services Learn ho…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "607.984px",
+              "height": "541.922px",
+              "maxWidth": "none",
+              "margin": "26px 0px 40px",
+              "padding": "1px 16px",
+              "gap": "normal",
+              "backgroundColor": "rgb(241, 241, 241)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(27, 27, 27)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#other-va-benefits-and-services": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 256,
+              "y": 3822,
+              "w": 576,
+              "h": 63
+            },
+            "visible": true,
+            "text": "Other VA benefits and services",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "575.984px",
+              "height": "62.5938px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "16px 0px 4px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "Bitter, Georgia, Cambria, \"Times New Roman\", Times, serif",
+              "fontSize": "32px",
+              "fontWeight": "700",
+              "lineHeight": "41.6px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".last-updated": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 240,
+              "y": 4403,
+              "w": 608,
+              "h": 115
+            },
+            "visible": true,
+            "text": "Last updated: June 25, 2026",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "607.984px",
+              "height": "114.828px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "12.5px 0px 16px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#mdFormButton button": [],
+        "#hub-rail": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 880,
+              "y": 278,
+              "w": 320,
+              "h": 4312
+            },
+            "visible": true,
+            "text": "Turning 65? Learn how VA healthcare, Me…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "319.984px",
+              "height": "4312.33px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "100.8px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(27, 27, 27)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "va-card": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 880,
+              "y": 378,
+              "w": 320,
+              "h": 426
+            },
+            "visible": true,
+            "text": "Turning 65? Learn how VA healthcare, Me…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "319.984px",
+              "height": "425.797px",
+              "maxWidth": "none",
+              "margin": "0px 0px 16px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "1px solid rgb(117, 117, 117)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "va-accordion": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 880,
+              "y": 828,
+              "w": 320,
+              "h": 1046
+            },
+            "visible": true,
+            "text": "Message us Contact us online through As…",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(27, 27, 27)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".usa-accordion__button": [],
+        "footer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 4783,
+              "w": 1440,
+              "h": 806
+            },
+            "visible": true,
+            "text": "Veteran programs and services Homeless …",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "806.406px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(22, 46, 81)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "rgb(22, 46, 81) 0px 450px 0px 450px",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".footer-inner": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 4783,
+              "w": 1440,
+              "h": 806
+            },
+            "visible": true,
+            "text": "Veteran programs and services Homeless …",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "806.406px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "20px 10px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".va-footer-linkgroup-title": [
+          {
+            "index": 0,
+            "of": 12,
+            "rect": {
+              "x": 220,
+              "y": 4835,
+              "w": 238,
+              "h": 62
+            },
+            "visible": true,
+            "text": "Veteran programs and services",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "238px",
+              "height": "61.7188px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 0px 16px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Bitter, Georgia, Cambria, \"Times New Roman\", Times, serif",
+              "fontSize": "17.6px",
+              "fontWeight": "700",
+              "lineHeight": "22.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".va-footer-links a": [
+          {
+            "index": 0,
+            "of": 64,
+            "rect": {
+              "x": 220,
+              "y": 4901,
+              "w": 139,
+              "h": 25
+            },
+            "visible": true,
+            "text": "Homeless Veterans",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "139px",
+              "height": "25.4219px",
+              "maxWidth": "none",
+              "margin": "4.24px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Arial, sans",
+              "fontSize": "16.96px",
+              "fontWeight": "400",
+              "lineHeight": "25.44px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".template-module__94GnKa__container img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 80,
+              "y": 4622,
+              "w": 1280,
+              "h": 161
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1280px",
+              "height": "160.641px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(27, 27, 27)",
+              "fontFamily": "\"Source Sans Pro Web\", \"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "500",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(27, 27, 27)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            },
+            "img": {
+              "naturalWidth": 1440,
+              "naturalHeight": 180,
+              "currentSrc": "https://s3-us-gov-west-1.amazonaws.com/content.www.va.gov/img/homepage/veterans-banner-desktop-2.png"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
